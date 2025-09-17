@@ -1,0 +1,2896 @@
+1
+00:00:00,000 --> 00:00:04,400
+ Did you think Python was going to get popular from the beginning, or...
+
+2
+00:00:04,400 --> 00:00:05,200
+ [LAUGHS]
+
+3
+00:00:05,200 --> 00:00:14,720
+ [MUSIC]
+
+4
+00:00:14,720 --> 00:00:21,280
+ Python has contributed to making critical thinking a little more approachable by more people.
+
+5
+00:00:21,280 --> 00:00:25,600
+ You could spend one to two hours learning programming fundamentals,
+
+6
+00:00:25,600 --> 00:00:29,560
+ and then you can write like 10 to 20 lines of code that do something interesting.
+
+7
+00:00:29,560 --> 00:00:33,320
+ The language, the community, the ecosystem, the market,
+
+8
+00:00:33,320 --> 00:00:37,320
+ the whole thing has had such an impact on humanity.
+
+9
+00:00:37,320 --> 00:00:42,200
+ Today I think it's safe to say that almost anywhere there's a computer, there's probably some Python.
+
+10
+00:00:42,200 --> 00:00:45,280
+ It's literally on Mars.
+
+11
+00:00:45,280 --> 00:00:49,360
+ The impact of AI, I think we're still seeing what that's going to be.
+
+12
+00:00:49,360 --> 00:00:52,120
+ Python is incredibly important for that.
+
+13
+00:00:52,120 --> 00:00:56,480
+ To fully understand how Python got so big, we have to go back in time.
+
+14
+00:00:56,480 --> 00:00:59,760
+ [MUSIC]
+
+15
+00:00:59,760 --> 00:01:02,640
+ Maybe not that far back.
+
+16
+00:01:02,640 --> 00:01:08,720
+ Everything started back in Amsterdam in the '80s during my time at CWI, a Dutch research facility.
+
+17
+00:01:08,720 --> 00:01:11,360
+ [MUSIC]
+
+18
+00:01:11,360 --> 00:01:17,560
+ The CWI had been behind a lot of major programming language development,
+
+19
+00:01:17,560 --> 00:01:20,800
+ Algos 60 and Algos 68, for instance.
+
+20
+00:01:20,800 --> 00:01:29,200
+ And Lombair Miertens had tried teaching programming to artists and discovered things about programming
+
+21
+00:01:29,200 --> 00:01:32,240
+ that are easy if you're a scientist or a geek.
+
+22
+00:01:32,240 --> 00:01:39,600
+ But for somebody like an artist, those things weren't obvious because you had to know something about the computer.
+
+23
+00:01:39,600 --> 00:01:44,320
+ The course of the frustration was the low level of the languages that were available.
+
+24
+00:01:44,320 --> 00:01:48,800
+ The computers were immensely expensive and compared with that,
+
+25
+00:01:48,800 --> 00:01:51,600
+ a programmer was really, really cheap.
+
+26
+00:01:51,600 --> 00:01:57,440
+ And so programming languages were designed with that economic relationship in mind.
+
+27
+00:01:57,440 --> 00:02:01,120
+ It didn't matter if it took a long time to program,
+
+28
+00:02:01,120 --> 00:02:06,800
+ as long as it didn't demand too much of the computer because that's where the cost was.
+
+29
+00:02:06,800 --> 00:02:09,440
+ We looked at each other and said, can't we do a better job?
+
+30
+00:02:09,440 --> 00:02:15,600
+ Can't we design a language that is easy to learn, easy to teach, but also easy to use?
+
+31
+00:02:15,600 --> 00:02:22,240
+ So that beginners could understand how to program without having to go into all those messy hardware details?
+
+32
+00:02:22,240 --> 00:02:25,040
+ And that's how the ABC project was born.
+
+33
+00:02:25,040 --> 00:02:31,200
+ One of the members of that team was Rido van Rossen.
+
+34
+00:02:31,200 --> 00:02:44,880
+ I was hired to work on ABC, for which there was a small prototype.
+
+35
+00:02:45,600 --> 00:02:50,960
+ But every part of the prototype had to be expanded to fully working according to the spec.
+
+36
+00:02:50,960 --> 00:02:57,920
+ In 1985, we made a release of ABC.
+
+37
+00:02:57,920 --> 00:03:04,480
+ And then we hit the problem, how to make the world know that there was ABC.
+
+38
+00:03:04,480 --> 00:03:10,960
+ We did not have a good way of reaching our intended audience.
+
+39
+00:03:10,960 --> 00:03:17,520
+ The internet did not exist. Most people had never heard of a computer or even seen one.
+
+40
+00:03:17,520 --> 00:03:22,640
+ If anybody wanted a copy, they had to send us a letter and we'd send them a floppy disk.
+
+41
+00:03:22,640 --> 00:03:30,880
+ So I'm afraid ABC reached very few people and at some point the directors for reason that I still
+
+42
+00:03:30,880 --> 00:03:39,840
+ don't understand killed that project. I had spent well three and a half years of hard work on this
+
+43
+00:03:39,840 --> 00:03:45,600
+ this language and the implementation to make it as good as we could. So it was disappointing.
+
+44
+00:03:45,600 --> 00:03:56,480
+ Rido was transferred to another project on a distributed operating system, the amoeba system.
+
+45
+00:03:58,880 --> 00:04:05,680
+ One of my jobs at that project as the programmer, not the researcher, was to write or help write
+
+46
+00:04:05,680 --> 00:04:14,000
+ a large number of user applications. And I didn't actually think that for many of those utilities,
+
+47
+00:04:14,000 --> 00:04:24,640
+ C was a very good language. And I thought, well, oh man, if we just could program ABC instead of C,
+
+48
+00:04:24,640 --> 00:04:29,840
+ each of those utilities would be like half a page of code and I could write the entire suite of
+
+49
+00:04:29,840 --> 00:04:35,120
+ utilities in a couple of weeks instead of the years that it looked like it was going to take us.
+
+50
+00:04:35,120 --> 00:04:45,120
+ Except that ABC was so high and abstract, it wasn't a good language to talk to servers and
+
+51
+00:04:45,120 --> 00:04:53,200
+ file systems and processes and it's sort of the whole operating system thing was abstracted away
+
+52
+00:04:53,200 --> 00:04:59,120
+ from ABC. So I thought, well, there really ought to be a language that sort of bridges the gap
+
+53
+00:04:59,120 --> 00:05:06,640
+ between C and shell. And we looked at Pearl and we didn't think it was any good as a programming
+
+54
+00:05:06,640 --> 00:05:14,880
+ language. It was about as bad as basic, although in different ways. So Python was also in a part
+
+55
+00:05:14,880 --> 00:05:22,160
+ built as an alternative to Pearl. That's where I decided, oh well, I'm going to see if I can make
+
+56
+00:05:22,160 --> 00:05:23,760
+ my own programming language.
+
+57
+00:05:23,760 --> 00:05:34,800
+ One Christmas holiday, I believe, he decided to spend his time designing and building a new
+
+58
+00:05:34,800 --> 00:05:39,840
+ programming language for the operating system based on the principles that he'd learned while
+
+59
+00:05:39,840 --> 00:05:47,440
+ on the ABC project. I was logical that I would start with ABC as an example. The most prominent
+
+60
+00:05:47,440 --> 00:05:55,360
+ feature that Python borrowed from ABC is actually the use of indentation for statement grouping.
+
+61
+00:05:55,360 --> 00:06:01,360
+ But there was also logical that I sort of dropped the things from ABC that I didn't particularly
+
+62
+00:06:01,360 --> 00:06:04,080
+ like. That's how we ended up with Python.
+
+63
+00:06:10,160 --> 00:06:19,200
+ Okay. I finally was confident enough of the interpreter was complete enough that I showed
+
+64
+00:06:19,200 --> 00:06:26,160
+ it to Lumber. He showed me a language he had developed stealthily, which he calls Python,
+
+65
+00:06:26,160 --> 00:06:33,600
+ named after Monty Python. I said, look what I made. It was clear to me that it had some resemblance
+
+66
+00:06:33,600 --> 00:06:40,640
+ to ABC. The command line prompt is even the same. So Lumber watched me type a few things.
+
+67
+00:06:40,640 --> 00:06:46,720
+ And he was excited about it and he apparently thought I would be excited as well. At some
+
+68
+00:06:46,720 --> 00:06:51,520
+ point he had seen enough and he said, can I try something? And he types one very short line of
+
+69
+00:06:51,520 --> 00:07:00,880
+ code and it crashes the interpreter. And he knew that that it would. The point escaped me. I didn't
+
+70
+00:07:00,880 --> 00:07:07,360
+ know why he thought this was better than ABC and why he had done this whole project.
+
+71
+00:07:07,360 --> 00:07:21,600
+ I went back and the next day I had a fix for it. But it was a pretty crushing experience to be honest.
+
+72
+00:07:28,400 --> 00:07:33,040
+ It must have been at least half a year later that I first got acquainted with Python.
+
+73
+00:07:33,040 --> 00:07:40,000
+ So this is the office where Greedo and I were holed up when he created Python.
+
+74
+00:07:40,000 --> 00:07:44,720
+ There were two important users. Short was one of them and the other was Jack Johnson.
+
+75
+00:07:44,720 --> 00:07:54,560
+ Greedo was sitting over there and I was sitting over there. If you want to prototype a program,
+
+76
+00:07:54,560 --> 00:08:01,360
+ you sort of write the outlines of the program but it doesn't actually work. When you do this in
+
+77
+00:08:01,360 --> 00:08:08,480
+ Python it actually works. It's readable, it's very easy to program and the indentation is totally
+
+78
+00:08:08,480 --> 00:08:15,040
+ natural as far as I'm concerned anyway. Short and Jack were the most active in using Python.
+
+79
+00:08:15,040 --> 00:08:20,320
+ You find bugs, you find things that you want to extend. And then telling me about it because
+
+80
+00:08:20,320 --> 00:08:27,360
+ all they had to do was say hey Greedo. It was the first real interactive systems programming
+
+81
+00:08:27,360 --> 00:08:31,520
+ language so you could just sit and write and run it immediately without any compilation.
+
+82
+00:08:31,520 --> 00:08:36,000
+ So it was much more fun to use than the old programming languages but slower.
+
+83
+00:08:36,000 --> 00:08:44,560
+ I think it was mostly Jack's idea in the end while we all worked on it to make an open source
+
+84
+00:08:44,560 --> 00:08:52,080
+ release. CDBI allowed Greedo to distribute Python to the world as long as it's copyright notice is
+
+85
+00:08:52,080 --> 00:08:58,080
+ there. They would have held back if they had known it would be such an incredible success
+
+86
+00:08:58,080 --> 00:09:03,840
+ which is good that they didn't know nobody knew either because if they had held back it would
+
+87
+00:09:03,840 --> 00:09:12,160
+ never have become an incredible success. Then we had to actually physically do the release which
+
+88
+00:09:12,160 --> 00:09:17,280
+ turned out to be an incredible pain because if Usenet was the only thing we had to release it.
+
+89
+00:09:17,280 --> 00:09:30,240
+ Usenet was a network of you could say bulletin boards. People would write messages they would
+
+90
+00:09:30,240 --> 00:09:36,000
+ get distributed over the world and then there were the groups for all the different computer languages.
+
+91
+00:09:38,320 --> 00:09:45,440
+ Usenet had a very strict limit on the size of a single post. First put your entire source tree
+
+92
+00:09:45,440 --> 00:09:52,560
+ in a tar bottle. Then compress it. Then you have to do another step where you turn the binary data
+
+93
+00:09:52,560 --> 00:10:00,320
+ into ASCII encoding. Today I have this huge file with gobbledygook but it's at least
+
+94
+00:10:00,320 --> 00:10:05,520
+ printable gobbledygook. Then you apply another tool that snips it into pieces.
+
+95
+00:10:07,280 --> 00:10:14,240
+ Then there is a script where if you have downloaded all 21 parts you can undo all those operations
+
+96
+00:10:14,240 --> 00:10:21,040
+ in reverse. That was what people put up with so we did all the work on our side and plenty of
+
+97
+00:10:21,040 --> 00:10:26,640
+ people did all the work on their side to unpack this because I had apparently written a very good
+
+98
+00:10:26,640 --> 00:10:28,080
+ teaser upon what this was.
+
+99
+00:10:35,840 --> 00:10:42,560
+ Very quickly I started getting feedback via email or Usenet from people who have done something
+
+100
+00:10:42,560 --> 00:10:47,680
+ exciting with it or who had found a bug and that just kept coming.
+
+101
+00:10:47,680 --> 00:10:57,680
+ We worked at Johnson Space Center so our interest was putting together flight simulations and tools
+
+102
+00:10:57,680 --> 00:11:01,920
+ for the design engineers that would be used for a shuttle program at the time.
+
+103
+00:11:04,640 --> 00:11:11,200
+ I remember needing a scripting language to control a C++ library project we were
+
+104
+00:11:11,200 --> 00:11:19,280
+ working on at the time. Not too long into that search. I found Guido's Python distribution at
+
+105
+00:11:19,280 --> 00:11:31,360
+ CWI. I was able to FTP that down, unpack it, compile it and run it in a matter of 10 minutes or so.
+
+106
+00:11:32,640 --> 00:11:36,720
+ That was my first impressive experience with Python.
+
+107
+00:11:36,720 --> 00:11:42,560
+ 20 years ago a computer that cost a million dollars and filled an entire room had less
+
+108
+00:11:42,560 --> 00:11:49,760
+ capability than an 11 pound desktop computer today. With costs going down and capabilities going up
+
+109
+00:11:49,760 --> 00:11:53,040
+ the computer has entered our lives quickly and unobtrusively.
+
+110
+00:11:53,040 --> 00:11:58,720
+ There were lots of things changing in a major way that made computing particularly exciting to
+
+111
+00:11:58,720 --> 00:12:03,200
+ be in at that time. Computers suddenly were coming out of the machine room and
+
+112
+00:12:03,200 --> 00:12:07,120
+ landing up on your desk and then of course the web happened then it all exploded.
+
+113
+00:12:07,120 --> 00:12:13,680
+ After the internet came to Europe it was much easier for software to be distributed.
+
+114
+00:12:13,680 --> 00:12:21,200
+ Python very slowly took off. Then there was a growing Python community which was very supportive
+
+115
+00:12:21,200 --> 00:12:24,000
+ like a big family you could almost say.
+
+116
+00:12:29,600 --> 00:12:36,320
+ Part of the benefit of this is that I don't I'm like there's no strain on my body at all.
+
+117
+00:12:36,320 --> 00:12:45,760
+ I was working on developing a kind of distributed equipment database and a colleague at the lab
+
+118
+00:12:45,760 --> 00:12:51,280
+ Michael McClay knew that I was looking for a what was called a scripting language that was
+
+119
+00:12:51,280 --> 00:12:56,880
+ also sophisticated that would enable you to build substantial things and not get bogged down in
+
+120
+00:12:56,880 --> 00:13:03,600
+ the ragged edges. Scripting languages were designed to glue things together to connect
+
+121
+00:13:03,600 --> 00:13:09,520
+ things that already work that already existed. Immediately on trying it I was just amazed and
+
+122
+00:13:09,520 --> 00:13:17,840
+ thought this can't be as good as it is and it was. Mike was interested in bringing Guido over
+
+123
+00:13:17,840 --> 00:13:24,800
+ and Guido was interested in coming over. 99% of the people that I got in touch with were in the
+
+124
+00:13:24,800 --> 00:13:32,640
+ United States. So Guido ended up coming and then Mike and Guido and I wanted to arrange a workshop
+
+125
+00:13:32,640 --> 00:13:38,160
+ so people who were interested in Python could gather and talk about what they were working on
+
+126
+00:13:38,160 --> 00:13:44,320
+ and what they felt was needed. This is the t-shirt for the first conference and so this
+
+127
+00:13:44,320 --> 00:13:54,480
+ yeah that that was just sort of flowy writing and on the back it gave the date of the conference.
+
+128
+00:13:54,480 --> 00:14:01,600
+ Spum, spum, spum, spum. It's such a fantastic song. That workshop really is for me in the
+
+129
+00:14:01,600 --> 00:14:08,160
+ beginning of the Python community November 1994. Kathersburg, Maryland in this windowless government
+
+130
+00:14:08,160 --> 00:14:14,800
+ office building at NIST. That was a great experience. It was about two days. We had 20 people. I still
+
+131
+00:14:14,800 --> 00:14:20,320
+ have the t-shirt from that workshop. There was just kind of this feel of hey there's something
+
+132
+00:14:20,320 --> 00:14:25,840
+ happening. This will be fun to hang out with the people that I chat with online. To actually
+
+133
+00:14:25,840 --> 00:14:30,960
+ see Guido in person and actually make decisions and we knew that if you impressed him with the
+
+134
+00:14:30,960 --> 00:14:35,120
+ feature and it was an easy thing to install he would add it to the language right there so that
+
+135
+00:14:35,120 --> 00:14:39,200
+ we can at least try it out in beta form. It was like a whole room of people who knew what you
+
+136
+00:14:39,200 --> 00:14:46,720
+ were talking about because they had all studied Python deeply or almost all. One of the people was
+
+137
+00:14:46,720 --> 00:15:01,760
+ Barry Warsaw. Around 1994 I joined a company CNRI, Corporation for National Research Initiatives,
+
+138
+00:15:01,760 --> 00:15:07,920
+ and we were building these software agents. Little programs that can move around to different
+
+139
+00:15:07,920 --> 00:15:12,880
+ computers on a network and they pickle themselves up and move around to another place and reconstitute
+
+140
+00:15:12,880 --> 00:15:19,520
+ themselves and do some more work. A friend of mine from NIST sent me an email and said hey we've got
+
+141
+00:15:19,520 --> 00:15:23,440
+ this guy coming over from the Netherlands and he's going to talk about his language. Do you want
+
+142
+00:15:23,440 --> 00:15:30,000
+ to come? And so we went to the workshop and just absolutely fell in love with of course Python
+
+143
+00:15:30,000 --> 00:15:37,760
+ and of course Guido. Even then it had the feeling that there was a there there. That there was
+
+144
+00:15:37,760 --> 00:15:43,120
+ something that was going to happen that there was potential. I remember coming back to CNRI and
+
+145
+00:15:43,120 --> 00:15:48,880
+ saying oh this is great we're going to use Python for sure in our project. And one of our colleagues
+
+146
+00:15:48,880 --> 00:15:53,600
+ at CNRI said well what do you think? Why don't we just hire Guido?
+
+147
+00:16:04,400 --> 00:16:09,440
+ CNRI was set up to sort of promote information for structured foster research,
+
+148
+00:16:09,440 --> 00:16:16,880
+ help build pilot projects, take the results and put them out into the public so that others could
+
+149
+00:16:16,880 --> 00:16:22,640
+ then leverage it. Part of CNRI's mission was to cultivate internet-based things. That's why
+
+150
+00:16:22,640 --> 00:16:28,320
+ our name Corporation for National Research Initiatives has brought initiatives in there.
+
+151
+00:16:32,640 --> 00:16:39,920
+ We had a need for a language that would be easier for people to deal with than any
+
+152
+00:16:39,920 --> 00:16:45,600
+ other traditional languages that were around at the time. I ran across a photograph that was a
+
+153
+00:16:45,600 --> 00:16:55,040
+ party at CNRI years ago. It was probably I think 1996 and it's a Guido Renaissance.
+
+154
+00:16:55,040 --> 00:17:00,720
+ Yeah I used to say Guido. Many people say Guido but I said Guido and I'm sure I don't pronounce it.
+
+155
+00:17:02,240 --> 00:17:07,680
+ Oh he was a very stylish person and he was a very strong fellow. And introduced to him and it just
+
+156
+00:17:07,680 --> 00:17:13,600
+ seemed like it was a good fit and so I made the job offer. For me it was fantastic that there's no
+
+157
+00:17:13,600 --> 00:17:18,480
+ doubt about that. One of the things he insists on if you want to get him to work for you is that
+
+158
+00:17:18,480 --> 00:17:24,800
+ he has some fraction of his time, preferably as much as halftime if not more, to work on the
+
+159
+00:17:24,800 --> 00:17:30,720
+ language itself. The fact that they could work full-time on Python because it turned out that the
+
+160
+00:17:30,720 --> 00:17:39,520
+ NoBots project was almost more an excuse to hire me than I did much for that. I kind of feel like
+
+161
+00:17:39,520 --> 00:17:45,120
+ our work on Python was a little subversive. You know we tended to spend a lot more time on Python
+
+162
+00:17:45,120 --> 00:17:51,600
+ than maybe we should have. I went to CNRI and since I had been a systems person I was responsible
+
+163
+00:17:51,600 --> 00:17:57,440
+ for setting up Python.org. We should have also grabbed Python.com even though we didn't think of
+
+164
+00:17:57,440 --> 00:18:03,760
+ Python as a commercial enterprise because someone else got it and used it to host a stupid porn
+
+165
+00:18:03,760 --> 00:18:16,080
+ site. For years we had to warn people go to Python.org.com. It really was the perfect home I think for
+
+166
+00:18:16,080 --> 00:18:21,440
+ doing all of that early Python development and develop a lot of the infrastructure around Python.
+
+167
+00:18:21,440 --> 00:18:27,200
+ We had a meeting discussing making some kind of user group or software organization. We're the
+
+168
+00:18:27,200 --> 00:18:32,320
+ Python software activity was proposed. We need a little bit of governance, a little bit of
+
+169
+00:18:32,320 --> 00:18:37,520
+ organization but we don't want too much because I don't think any of us really like to bureaucracy.
+
+170
+00:18:37,520 --> 00:18:42,480
+ And then the question came up about what we should call Gredo as part of that. I think it was
+
+171
+00:18:42,480 --> 00:18:49,680
+ me who suggested that Gredo be called the benevolent dictator and then Barry suggested
+
+172
+00:18:49,680 --> 00:18:57,200
+ benevolent dictator for life. And that became an internet meme or actually a software meme
+
+173
+00:18:57,200 --> 00:19:01,760
+ benevolent dictator for life was you can find it on Wikipedia.
+
+174
+00:19:01,760 --> 00:19:10,960
+ Ultimately you know Gredo was the inventor of the language and the final decider about yes this is
+
+175
+00:19:10,960 --> 00:19:16,720
+ going to make it in or this is not going to make it in. I think I developed my own style during
+
+176
+00:19:16,720 --> 00:19:25,920
+ those first years. All ideas are welcome but I will choose which ideas I believe are right to add
+
+177
+00:19:25,920 --> 00:19:35,280
+ to the language. There's dozens and dozens of aspects of Python today where somebody had a vision
+
+178
+00:19:36,080 --> 00:19:41,760
+ for if you just add this to Python look at all these amazing things that I can do.
+
+179
+00:19:41,760 --> 00:19:52,480
+ I'm one of the many people that came to Python that is a programmer but as a scientist.
+
+180
+00:19:52,480 --> 00:19:57,280
+ Python wasn't the first language I used for science. I was doing satellite data processing
+
+181
+00:19:57,280 --> 00:20:00,800
+ and I used Pearl to do it and then a year later I would come back and try to figure out what
+
+182
+00:20:00,800 --> 00:20:06,960
+ I've done I had no idea. Python had the opposite experience. I first started using Python in 1997.
+
+183
+00:20:06,960 --> 00:20:11,520
+ I just used it to do some scripting do some data processing with symmetrical imaging data
+
+184
+00:20:11,520 --> 00:20:17,040
+ and I was like hey this is nice this is pretty cool. A year later so 1998 I came back to look at
+
+185
+00:20:17,040 --> 00:20:21,760
+ the code I'd written and I could read it I understood what I did and that was kind of for me the
+
+186
+00:20:21,760 --> 00:20:27,280
+ convincing data that said oh I need to dig in on this language. And there were a few really
+
+187
+00:20:27,280 --> 00:20:31,920
+ key people at that time who were published here talking about how to use Python for science.
+
+188
+00:20:31,920 --> 00:20:37,920
+ Not very many but a few. Conrad Hinson was one of them I remember David Asher and Jim Hugenin.
+
+189
+00:20:37,920 --> 00:20:45,760
+ There's been a number of stages in the life cycle of Python when it just grew from a core
+
+190
+00:20:45,760 --> 00:20:51,760
+ language capability to a platform with a number of different specialty modules and packages that
+
+191
+00:20:51,760 --> 00:20:59,040
+ made it very very useful for certain user communities. The first one was probably the numeric community
+
+192
+00:20:59,040 --> 00:21:03,520
+ the science and engineering folks that wanted high performance matrix operations to be done.
+
+193
+00:21:03,520 --> 00:21:08,800
+ Even though Guido wasn't a scientist himself wasn't necessarily deeply concerned with the
+
+194
+00:21:08,800 --> 00:21:13,440
+ same things that we were concerned with as scientists he was open to the suggestions.
+
+195
+00:21:13,440 --> 00:21:19,920
+ I think one of the things that people don't appreciate about the Python language as much now
+
+196
+00:21:19,920 --> 00:21:27,440
+ that it's so popular and mainstream is how important it was that Guido was open to new ideas and open
+
+197
+00:21:27,440 --> 00:21:34,880
+ to the needs of people who are not traditional programmers. I think he had a very clear-eyed
+
+198
+00:21:34,880 --> 00:21:42,720
+ quiet focus on understanding some things about the future that he built into the language. It
+
+199
+00:21:42,720 --> 00:21:47,840
+ was uniquely suited to its environment. One of the reasons I use Python and I think a lot of people
+
+200
+00:21:47,840 --> 00:21:52,720
+ use Python at a time is that in the early 2000s the world was almost divided into
+
+201
+00:21:52,720 --> 00:21:57,920
+ here's an open source ecosystem or you can go and use Java which is actually a paid thing.
+
+202
+00:21:57,920 --> 00:22:02,000
+ I was using MATLAB. I really didn't like the fact that when I wrote code and I wanted to share
+
+203
+00:22:02,000 --> 00:22:06,480
+ that code with others I was essentially telling people to have to go buy a license for a software
+
+204
+00:22:06,480 --> 00:22:10,160
+ package before they could even look at my code or use my code. These are the days where you have to
+
+205
+00:22:10,160 --> 00:22:17,200
+ buy the developer tools or spend a couple hundred bucks to get Visual Studio 6.0 and then Python and
+
+206
+00:22:17,200 --> 00:22:22,160
+ then all of these libraries were open source and then could be used in a commercial project.
+
+207
+00:22:22,160 --> 00:22:28,000
+ I was sort of early on convinced by community members that Python being open source
+
+208
+00:22:28,000 --> 00:22:34,560
+ and the particular way it was open source was very important so that people would feel comfortable
+
+209
+00:22:34,560 --> 00:22:46,960
+ using Python to make great things that they would then be able to sell.
+
+210
+00:22:46,960 --> 00:22:58,560
+ In '98 Blender was published on the internet. The software was free and then you could buy
+
+211
+00:22:58,560 --> 00:23:05,840
+ some things around it. We were restricted to use open source so you didn't have a lot of options.
+
+212
+00:23:05,840 --> 00:23:12,160
+ We were doing a call on our website like what is the most popular scripting language that we
+
+213
+00:23:12,160 --> 00:23:19,520
+ should add in 'lander'? Well it was really big and Python was upcoming and there were some others
+
+214
+00:23:19,520 --> 00:23:27,200
+ and it was interesting to see that everybody was advising us to use Perl as scripting language
+
+215
+00:23:27,200 --> 00:23:34,880
+ but they only advertised how great Perl is and the people who came up from the Python
+
+216
+00:23:34,880 --> 00:23:40,800
+ background, which said well I think Python is a bad choice, they came with a balanced opinion
+
+217
+00:23:40,800 --> 00:23:46,240
+ and they said okay Perl will give you this and this and Python will give you other things
+
+218
+00:23:46,240 --> 00:23:52,240
+ and by asking all of it I would recommend you to do Python and only for that region
+
+219
+00:23:52,240 --> 00:23:57,920
+ I should have picked it by them. That's because the people are nicer.
+
+220
+00:23:57,920 --> 00:24:09,280
+ It was honestly just a lot of enthusiasts. It was a lot of people who just enjoyed the language,
+
+221
+00:24:09,280 --> 00:24:12,720
+ enjoyed the people involved with the language and it would just happen to be
+
+222
+00:24:12,720 --> 00:24:16,880
+ typically motivated enough for people to want to help out. Ultimately there's a sense of fun
+
+223
+00:24:17,680 --> 00:24:22,240
+ that comes across and Guido coded that into the name of the language
+
+224
+00:24:22,240 --> 00:24:27,520
+ influenced by Monty Python. It creates a sense of community to have your little jokes.
+
+225
+00:24:27,520 --> 00:24:36,240
+ Tim Peters is a famous early example and blending both like the the Aztecs of Python
+
+226
+00:24:36,240 --> 00:24:43,120
+ and humor. Tim Peters was this mythical creature in the world of Python and no one had met him.
+
+227
+00:24:44,960 --> 00:24:50,480
+ He was out there in the ether as a wise one to give us advice on what to do with numerical processing.
+
+228
+00:24:50,480 --> 00:24:58,320
+ Steve Majeski sent me some email telling me about Python. So I started a email correspondence with
+
+229
+00:24:58,320 --> 00:25:02,960
+ Guido about the language and about the design and I got some of the pre-release code and played
+
+230
+00:25:02,960 --> 00:25:10,640
+ with it and talked to him about design decisions and liked it very much. Tim Peters was a Python
+
+231
+00:25:10,640 --> 00:25:19,040
+ contributor and community member and mentor to me from very early on. Tim was a chamler of Guido.
+
+232
+00:25:19,040 --> 00:25:24,800
+ He had a really unique way of saying I think Guido is going to like this or I don't think Guido is
+
+233
+00:25:24,800 --> 00:25:30,000
+ going to like that. There's a poem called the Zen of Python which is a partially humorous,
+
+234
+00:25:30,000 --> 00:25:38,000
+ partially serious poem about the the aesthetics of of Python. I'm actually looking at the Usenet
+
+235
+00:25:38,000 --> 00:25:46,560
+ post where Tim posted his first version of the Zen of Python. Although he called it the way of Python
+
+236
+00:25:46,560 --> 00:25:55,120
+ and it was in response to some discussion where people were complaining that they didn't understand
+
+237
+00:25:55,120 --> 00:26:00,880
+ what was Python's philosophy. They couldn't figure me out and Tim had figured me out and he put it
+
+238
+00:26:00,880 --> 00:26:10,480
+ basically in poetry. Here is the way of Python by Tim Peters from 1999. Beautiful is better than
+
+239
+00:26:10,480 --> 00:26:18,000
+ ugly. The explicit is better than implicit. Simple is better than complex. Complex is better than
+
+240
+00:26:18,000 --> 00:26:24,720
+ complicated. I love that distinction. Flat is better than nested. Sparse is better than dense.
+
+241
+00:26:24,720 --> 00:26:31,520
+ Readability counts and we'll say it counts for a lot. Special cases aren't special enough to break
+
+242
+00:26:31,520 --> 00:26:38,320
+ the rules. Although practicality beats purity, errors should never pass silently unless explicitly
+
+243
+00:26:38,320 --> 00:26:46,320
+ silenced. In the face of ambiguity, refuse the temptation to guess. I did not follow that in a very
+
+244
+00:26:46,320 --> 00:26:54,160
+ key piece of NumPy and it's still a mess. There should be one and preferably only one obvious
+
+245
+00:26:54,160 --> 00:27:00,960
+ way to do it. That's a direct reference to Pearl's motto. There's more than one way to do it, by the way.
+
+246
+00:27:00,960 --> 00:27:06,560
+ Although that may not be obvious at first unless you're Dutch. That was better than never. Although
+
+247
+00:27:06,560 --> 00:27:11,920
+ never is often better than right now. If the implementation is hard to explain, it's a bad idea.
+
+248
+00:27:11,920 --> 00:27:18,080
+ That's a really good one. Here's the implementation. It's easy to explain. It may be a good idea.
+
+249
+00:27:18,080 --> 00:27:26,560
+ Name spaces are one honking great idea. Let's do more of those. This is so Tim. Normally import
+
+250
+00:27:26,560 --> 00:27:33,360
+ this print and import some useful library which is very serious business. Having an import this
+
+251
+00:27:33,360 --> 00:27:40,640
+ that was just a joke was a bit of lightness that we like to add. This is from a small hobbyist
+
+252
+00:27:40,640 --> 00:27:45,520
+ community, right? Because if you're a corporate behemoth, making a programming language like someone's
+
+253
+00:27:45,520 --> 00:27:49,280
+ probably going to tell you that you can't put a silly poem in your programming language. But
+
+254
+00:27:49,280 --> 00:27:54,720
+ Python is just made by dogs on the internet so they can put poems in their software.
+
+255
+00:27:54,720 --> 00:28:02,160
+ The different ways to make money on the internet are just beginning to emerge.
+
+256
+00:28:02,160 --> 00:28:06,720
+ Entrepreneurs are putting their faith in a new medium to deliver the big payoff.
+
+257
+00:28:06,720 --> 00:28:12,720
+ It's the dot-com bubble. All this money pumping into Silicon Valley software and internet stuff.
+
+258
+00:28:12,720 --> 00:28:20,880
+ Early 2000, I decided to leave C&Ri and with a few co-workers, a joined-level startup named
+
+259
+00:28:20,880 --> 00:28:26,880
+ BeOpen. While C&Ri I think was an amazing home for Python in the early days,
+
+260
+00:28:26,880 --> 00:28:31,120
+ and everything changes and everything evolves and thinking, "Well, if we're going to strike
+
+261
+00:28:31,120 --> 00:28:37,600
+ out on our own, this is probably the right time to do that." That didn't work out. I'd say within
+
+262
+00:28:37,600 --> 00:28:44,000
+ maybe a year or something. BeOpen was completely incompetent. We spent the summer in blissful
+
+263
+00:28:44,000 --> 00:28:51,520
+ ignorance working full-time on Python. We built and released Python 2 and within five months,
+
+264
+00:28:51,520 --> 00:28:58,560
+ it was over. We were paid our salaries every two weeks and then suddenly in late October we weren't.
+
+265
+00:28:58,560 --> 00:29:07,280
+ It was a moment where the shit could have hit the fan. If all the Python guys went their separate
+
+266
+00:29:07,280 --> 00:29:13,760
+ ways, Python wasn't big enough to survive that at the time. That was when I had a company,
+
+267
+00:29:13,760 --> 00:29:18,080
+ Digital Creations, that later became dope. Which is an application server, database server,
+
+268
+00:29:18,080 --> 00:29:24,560
+ index server, web server, etc. Very large-scale commercial quality application written in Python.
+
+269
+00:29:24,560 --> 00:29:31,120
+ And if Python died, you know who else would die? We'd die. The whole platform was built on Python,
+
+270
+00:29:31,120 --> 00:29:38,000
+ so they were Python experts. We need to go and make sure that Python is secure for the future
+
+271
+00:29:38,000 --> 00:29:46,880
+ and that the team stays together. So we negotiated an agreement with them to join my company.
+
+272
+00:29:46,880 --> 00:29:52,800
+ That was an incredibly lucky rescue. We felt like we really trusted them and we believed in what
+
+273
+00:29:52,800 --> 00:29:58,720
+ they were doing and what they wanted to do with Python and for Python. This is a place that I'm
+
+274
+00:29:58,720 --> 00:30:04,000
+ proud of. In hindsight it was a really critical point in Python's life. I think if we had chosen
+
+275
+00:30:04,000 --> 00:30:10,880
+ wrong or tried to say, "Oh, we'll just strike out on our own anyway," you never know, but I'm not
+
+276
+00:30:10,880 --> 00:30:16,080
+ so sure that Python would have survived that juncture in its life. Yeah.
+
+277
+00:30:28,880 --> 00:30:33,840
+ [Music]
+
+278
+00:30:33,840 --> 00:30:41,440
+ Python just kept sort of growing and the community kept self-organizing. One of the, I think, underlying
+
+279
+00:30:41,440 --> 00:30:50,640
+ themes of Python, if you take it in its totality, is this sense of grassroots movements. Things
+
+280
+00:30:50,640 --> 00:30:57,680
+ grow from the bottom up and evolve to the point where everybody sort of realizes, "Oh, we need a
+
+281
+00:30:57,680 --> 00:31:04,160
+ little bit more structure." Oh, the Python Software Foundation. In my opinion, the PSF, that damn
+
+282
+00:31:04,160 --> 00:31:11,600
+ thing was a success from day one. That came out of one of the concerns we had had with Be Open,
+
+283
+00:31:11,600 --> 00:31:20,400
+ actually. So C and I had written a license for Python and put his name on it. And Be Open had
+
+284
+00:31:20,400 --> 00:31:27,120
+ copied a version of that license and put the Be Open name on it. There was a concern that at some
+
+285
+00:31:27,120 --> 00:31:33,760
+ point I might accidentally end up working for a company that started to grab ownership of Python.
+
+286
+00:31:33,760 --> 00:31:41,840
+ We realized that we really need an organization that will be independent, will not be beholden to
+
+287
+00:31:41,840 --> 00:31:51,520
+ any company and their whims and their lawyers, and will really keep Python users as their first and
+
+288
+00:31:51,520 --> 00:32:02,800
+ foremost customer to speak in mind. And then the magic happened when we got into Python,
+
+289
+00:32:02,800 --> 00:32:07,200
+ which is maybe the third stool of the miracle of Python.
+
+290
+00:32:17,760 --> 00:32:23,520
+ What has been your takeaway from Python U.S. this year? It feels like people are still
+
+291
+00:32:23,520 --> 00:32:28,960
+ willing to go do hard things, work on things together, you know. The stool do have the passion
+
+292
+00:32:28,960 --> 00:32:35,040
+ to be honest. So what was it for you? For me, most definitely like meeting people. I haven't met
+
+293
+00:32:35,040 --> 00:32:40,080
+ in a while. That's cool. Yeah, I just take too much hanging out with them. You try to walk
+
+294
+00:32:40,080 --> 00:32:45,920
+ to the other side. There's like 10 people that you want to see in between. Like, "Stop, I want to talk
+
+295
+00:32:45,920 --> 00:32:52,880
+ about you." Oh, I know. Pablo and Yuri presented as bananas. And then Lukas asked the question,
+
+296
+00:32:52,880 --> 00:32:57,840
+ "Just as a banana." And then Guido came in just as a banana as well. Thank you for what you do
+
+297
+00:32:57,840 --> 00:33:09,280
+ for the PSR. Please don't step down. Just keep doing it forever. Raise your hand if you have done
+
+298
+00:33:09,280 --> 00:33:19,920
+ React for it. Raise your hand if you would like to come back. Go come back to my phone. All right,
+
+299
+00:33:19,920 --> 00:33:29,520
+ good. For the record, 100%. I begged my mother to take me to PyCon and I met all my online heroes.
+
+300
+00:33:29,520 --> 00:33:34,880
+ He was this distant benevolent dictator for a life who I'd been talking to over the internet,
+
+301
+00:33:34,880 --> 00:33:41,520
+ but here he was in person. And so I was thrilled to be able to finally meet him. Then I think everyone
+
+302
+00:33:41,520 --> 00:33:48,320
+ was aware that he was a 15-year-old kid on the other end of that terminal. When PyCon was held
+
+303
+00:33:48,320 --> 00:33:55,040
+ in Montreal, the organizer asked me if I'd be willing to give an opening address to the conference.
+
+304
+00:33:55,040 --> 00:34:01,520
+ Well, I'm a slightly fast talker and I had some spare time. And I just use it as an opportunity
+
+305
+00:34:01,520 --> 00:34:05,840
+ to say thank you. I like to think of it as I came for the language, but I stayed for the community.
+
+306
+00:34:05,840 --> 00:34:10,880
+ So I want to personally thank all of you for making this such a wonderful place to be and such a
+
+307
+00:34:10,880 --> 00:34:16,400
+ wonderful group of people to be around. So thank you. Luckily it came off well because people still
+
+308
+00:34:16,400 --> 00:34:23,680
+ quoted. I think it kind of speaks to the core ethos of Python. We try to develop this tool that
+
+309
+00:34:23,680 --> 00:34:30,640
+ people can use for their needs to get their work done. But the community is the true strength of
+
+310
+00:34:30,640 --> 00:34:33,600
+ Python. It's not just the language. It's the people.
+
+311
+00:34:33,600 --> 00:34:44,480
+ It was steadily growing every single year. It was getting more and more downloads, more and more
+
+312
+00:34:44,480 --> 00:34:52,160
+ people making use of it. It became a more sophisticated language that was fit the purpose for this new
+
+313
+00:34:52,160 --> 00:34:59,280
+ emerging programming paradigm where the web itself is the platform. He told me an interesting
+
+314
+00:34:59,280 --> 00:35:06,320
+ number that made me realize that the Python user community was already much bigger than I had estimated
+
+315
+00:35:06,320 --> 00:35:14,080
+ because he said Guido, you don't know the sales numbers for Python books. But I am Tim O'Reilly.
+
+316
+00:35:14,080 --> 00:35:20,720
+ I publish the two most important ones and I do know the sales numbers and they are fantastic.
+
+317
+00:35:20,720 --> 00:35:27,600
+ I don't know if he had that much enthusiasm in his voice then, but he was sharing this new to me
+
+318
+00:35:27,600 --> 00:35:36,080
+ important fact which made me realize, oh my gosh, Python tends to get spikes when certain
+
+319
+00:35:36,080 --> 00:35:41,840
+ specialties, I guess you could say, pick the language up and decide that this is a thing that
+
+320
+00:35:41,840 --> 00:35:48,720
+ they want to use in their area. Everybody wanted to do things with the World Wide Web and Python
+
+321
+00:35:48,720 --> 00:35:55,680
+ actually became a really powerful platform for doing not just web pages, but web servers and
+
+322
+00:35:55,680 --> 00:36:00,000
+ services and suddenly we had an increase of people coming in from the web world.
+
+323
+00:36:00,000 --> 00:36:12,160
+ I think Dropbox was one of their early companies to start building in Python and reaching millions of
+
+324
+00:36:12,160 --> 00:36:18,160
+ users. My name's Drew and I'll be showing you a quick tour of Dropbox which is a new way to store
+
+325
+00:36:18,160 --> 00:36:23,200
+ and share files online. Python had been largely viewed as scripting language you run on the
+
+326
+00:36:23,200 --> 00:36:28,240
+ back end or maybe in an academic setting or in a scientific setting, but not really for like
+
+327
+00:36:28,240 --> 00:36:33,120
+ production desktop software that you'd ship to millions of people. But I just started writing in
+
+328
+00:36:33,120 --> 00:36:37,440
+ Python and hoping that none of the roadblocks would completely blow me up. You can develop
+
+329
+00:36:37,440 --> 00:36:42,320
+ programs much faster in Python because it's a higher level language and it's a very clean,
+
+330
+00:36:42,320 --> 00:36:48,160
+ easy language and so we could be a lot more competitive than other companies who were writing
+
+331
+00:36:48,160 --> 00:36:54,240
+ with Java or C++ or Perl. Even back then we were competing against the Googles and Microsofts
+
+332
+00:36:54,240 --> 00:36:59,440
+ of the world and you know our odds didn't seem very good so we needed all the help we can get.
+
+333
+00:36:59,440 --> 00:37:05,760
+ Google had this big team like a hundred people C++ programmers trying to do a video hosting site
+
+334
+00:37:05,760 --> 00:37:10,000
+ and they could never keep up with this little thing over there called YouTube and they wouldn't
+
+335
+00:37:10,000 --> 00:37:16,000
+ look there was just a couple of people writing Python. Python ended up being a big force multiplier
+
+336
+00:37:16,000 --> 00:37:22,080
+ on our effort and no other language that we considered had anything close to that kind of capability.
+
+337
+00:37:22,080 --> 00:37:33,040
+ The fact that data science suddenly became a thing that you had to do combined with the fact
+
+338
+00:37:33,040 --> 00:37:41,600
+ that Python was sort of well positioned to do data science stuff meant a huge amount of new
+
+339
+00:37:41,600 --> 00:37:56,240
+ Python users flowed in. What was starting to happen in the 2009-2010 time frame we were seeing
+
+340
+00:37:56,240 --> 00:38:02,400
+ more and more of our consulting deals tied to using Python not as really a replacement for MATLAB
+
+341
+00:38:02,400 --> 00:38:09,040
+ or engineering type things but using Python for doing data processing. We didn't call it data
+
+342
+00:38:09,040 --> 00:38:12,560
+ science at the time but it was that kind of work right it was modeling predictive analytics things
+
+343
+00:38:12,560 --> 00:38:17,600
+ like that. This is the time of Hadoop the time of Big Data the time of Spark and people were doing
+
+344
+00:38:17,600 --> 00:38:23,360
+ Java at scale. We were starting to do much more consulting work in the financial industry and we'd
+
+345
+00:38:23,360 --> 00:38:27,760
+ walk into these these large very well capitalized firms and they were using Python to do business
+
+346
+00:38:27,760 --> 00:38:32,720
+ data processing. I realized okay if it's a research group over here doing some science research and
+
+347
+00:38:32,720 --> 00:38:38,480
+ they don't have money and they use an open source thing I get it but if you have JP Morgan right which
+
+348
+00:38:38,480 --> 00:38:43,440
+ has a lot of money and they're picking up and using these scientific tools and they're loving it I
+
+349
+00:38:43,440 --> 00:38:48,960
+ realized that we didn't just have a cheap free alternative we actually had something that was
+
+350
+00:38:48,960 --> 00:38:54,080
+ innovative and that was doing something fairly unique. Peter and I ended up leaving and thought
+
+351
+00:38:54,080 --> 00:39:02,080
+ and starting another company. We started as continuum analytics actually and its vision was to scale
+
+352
+00:39:02,080 --> 00:39:08,880
+ numpy and pandas to large data sets and large clusters. We quickly ran into a simple problem very
+
+353
+00:39:08,880 --> 00:39:13,760
+ quickly in but a very annoying problem. People just couldn't even install the software needed to run
+
+354
+00:39:13,760 --> 00:39:20,320
+ all this Python stuff. The thing about the Python scientific and data stack is that all of these
+
+355
+00:39:20,320 --> 00:39:24,320
+ different libraries they're very different than the web development libraries because these data
+
+356
+00:39:24,320 --> 00:39:29,120
+ libraries are often backed by a very large amount of complex C++, Fortran, other kinds of software
+
+357
+00:39:29,120 --> 00:39:35,520
+ modules and to build those correctly takes some work. To build them correctly on every operating
+
+358
+00:39:35,520 --> 00:39:40,720
+ system takes even more work and then to build them so that they can actually be connected together
+
+359
+00:39:40,720 --> 00:39:45,920
+ that requires you to have this entire build system rationalized. And so the very first thing we did
+
+360
+00:39:45,920 --> 00:39:50,000
+ was like make a distribution of Python to make it easy to get that installed. A lot of the data
+
+361
+00:39:50,000 --> 00:39:54,400
+ science Python people they didn't even use normal Python they use this anaconda Python distribution.
+
+362
+00:39:54,400 --> 00:39:58,320
+ Sort of a dumb joke that I came up with at one point I was basically Python for big data
+
+363
+00:39:58,320 --> 00:40:05,280
+ so it's a big snake so anaconda. After like a few years we kept going to conferences and going to
+
+364
+00:40:05,280 --> 00:40:10,240
+ places and people wouldn't know who we were but the instant that we mentioned that we make anaconda
+
+365
+00:40:10,240 --> 00:40:14,480
+ they would say oh yeah of course I love anaconda it uses all the time right so after that happened
+
+366
+00:40:14,480 --> 00:40:19,680
+ like a thousandth time we said okay maybe we should rename the company anaconda. Data engineering became
+
+367
+00:40:19,680 --> 00:40:27,760
+ a discipline where Python was incredibly entrenched. It was Python and R and over time Python's data
+
+368
+00:40:27,760 --> 00:40:32,640
+ analysis library is caught up in plotting library stuff started to catch up to what R had and then
+
+369
+00:40:32,640 --> 00:40:39,120
+ people realized oh well with Python I can work and to end with my data versus R being very good at
+
+370
+00:40:39,120 --> 00:40:44,240
+ data analysis but not sort of like with the data collection stage and various other stages.
+
+371
+00:40:44,240 --> 00:40:47,840
+ I remember going to a Python conference at one point I was like there's so many
+
+372
+00:40:47,840 --> 00:40:52,880
+ sciencey people here like where all the web developers this is all data data pipelines and stuff.
+
+373
+00:40:52,880 --> 00:40:56,400
+ I don't want to be a modest about this because it was a collective effort for the whole community
+
+374
+00:40:56,400 --> 00:41:01,520
+ but I think that what we did at anaconda not only making the software installer that made it one
+
+375
+00:41:01,520 --> 00:41:05,920
+ click for people to just run but also shepherding the conferences and building that community and
+
+376
+00:41:05,920 --> 00:41:12,880
+ whatnot was really critical. They were incredibly important contributions. I think we actually
+
+377
+00:41:12,880 --> 00:41:15,760
+ made Python super popular I think we did.
+
+378
+00:41:24,400 --> 00:41:29,360
+ Well I remember hearing from a friend of mine that Guido van Rossum was just working at Google
+
+379
+00:41:29,360 --> 00:41:37,520
+ and that when I thought about it I'm like wait yeah Guido I guess works at a normal company and
+
+380
+00:41:37,520 --> 00:41:42,880
+ I can't remember the exact circumstances but I think either I got an introduction to him or I
+
+381
+00:41:42,880 --> 00:41:49,200
+ just maybe I think me just sent him an email saying hey big fan of your work and it's like fan mail
+
+382
+00:41:49,200 --> 00:41:55,680
+ basically and he responded and we got lunch I mean he's a hero of mine and he was totally friendly
+
+383
+00:41:55,680 --> 00:42:02,960
+ and approachable and at that talk was revealed that Dropbox was entirely written in Python both
+
+384
+00:42:02,960 --> 00:42:07,920
+ the client and the server and that was exciting. He was interested in what we were doing with Python
+
+385
+00:42:07,920 --> 00:42:13,760
+ and I think we were stretching the language and the runtime in interesting ways. He approached me
+
+386
+00:42:13,760 --> 00:42:20,720
+ again and said hey we would really like you to work for us and then to my surprise and delight he
+
+387
+00:42:20,720 --> 00:42:26,960
+ ended up joining the Dropbox team which was super exciting for all of us. I stayed there for seven
+
+388
+00:42:26,960 --> 00:42:33,440
+ years we did more important stuff for Python than I did during seven years at Google I think.
+
+389
+00:42:33,440 --> 00:42:38,400
+ I think he had a big impact on the rest of the team you know here's someone who's one of the
+
+390
+00:42:38,400 --> 00:42:44,880
+ icons of computing but you would never know it just from his you know how he badges in to the office
+
+391
+00:42:44,880 --> 00:42:51,680
+ every day and I think set a really great example in terms of being super humble and curious and
+
+392
+00:42:51,680 --> 00:42:58,000
+ friendly you know it's hard for me to think of someone who has had more impact with lower ego.
+
+393
+00:43:00,240 --> 00:43:09,120
+ Let's start with the first Python license plate. Sorry that was my car where I lived in Virginia
+
+394
+00:43:09,120 --> 00:43:15,120
+ and there was a box on the application sorry just where I went the other one too.
+
+395
+00:43:15,120 --> 00:43:23,360
+ Do you want custom license plate? So I managed to get Python in Virginia and in California Python
+
+396
+00:43:23,360 --> 00:43:31,120
+ was long taken like someone in Silicon Valley probably has a Python license plate somewhere
+
+397
+00:43:31,120 --> 00:43:36,960
+ so the best I could get was Py3k which I thought was pretty pretty cute anyway.
+
+398
+00:43:36,960 --> 00:43:46,960
+ It became ever more popular and people started thinking about flaws in the language.
+
+399
+00:43:46,960 --> 00:43:51,840
+ There were a lot of ideas floating around the core development community changes you could
+
+400
+00:43:51,840 --> 00:43:55,920
+ make to the language that people thought would be major improvements. The only problem with them
+
+401
+00:43:55,920 --> 00:44:01,680
+ was that they would break old Python code that currently existed. Some of that probably got away
+
+402
+00:44:01,680 --> 00:44:14,400
+ from us a little bit in hindsight. We released Python 3.0 in December of 2007. I remember because
+
+403
+00:44:14,400 --> 00:44:20,560
+ I was actually entering under Guido at the time. We were giving people roughly five years I think
+
+404
+00:44:20,560 --> 00:44:25,520
+ to do the transition and everyone thought that was just extraordinarily generous the world would
+
+405
+00:44:25,520 --> 00:44:30,720
+ totally be on Python 3 in just a few years. This is best for the language long term we're going to
+
+406
+00:44:30,720 --> 00:44:34,080
+ make these changes the community's always come along with us we think they'll come along on
+
+407
+00:44:34,080 --> 00:44:38,880
+ this journey as well. We were very naive about that and they made us know it.
+
+408
+00:44:38,880 --> 00:44:47,520
+ The community said no not worth it. Kill it don't do it it's not going to work.
+
+409
+00:44:48,720 --> 00:44:52,480
+ This included some very notable individuals in the community.
+
+410
+00:44:52,480 --> 00:45:14,160
+ Hi my name is Armin. You might be familiar with some of the Python libraries that I wrote
+
+411
+00:45:14,160 --> 00:45:20,080
+ and you might even maybe use some of them. The Python 2 to Python 3 transition. Initially it happened
+
+412
+00:45:20,080 --> 00:45:24,080
+ very gradually over many years. There was the version that everybody used and there was sort of
+
+413
+00:45:24,080 --> 00:45:28,160
+ the version that decided to build that nobody used. People didn't want to put in the effort
+
+414
+00:45:28,160 --> 00:45:34,480
+ because their code worked you know why rewrite it. It's very hard to mix Python 2 and 3.
+
+415
+00:45:37,920 --> 00:45:44,560
+ Sure. So I just didn't move and a lot of people didn't move. It felt there's a likelihood that
+
+416
+00:45:44,560 --> 00:45:51,360
+ it will not go anywhere. It felt much more like a top-down decision than any of the things in the
+
+417
+00:45:51,360 --> 00:45:58,720
+ past and that top-down decision I think for some people felt like it was not inclusive of the real
+
+418
+00:45:58,720 --> 00:46:06,480
+ pains of people who had a long tail of use cases. I think I severely underestimated how
+
+419
+00:46:06,480 --> 00:46:15,520
+ successful Python already was. How many people had written so much code in Python 2 that it would be
+
+420
+00:46:15,520 --> 00:46:21,840
+ hard for them to sort of put the effort into translate it to Python 3. I thought most controversial
+
+421
+00:46:21,840 --> 00:46:27,760
+ thing by far was that we wanted to change the way Unicode was handled. A way to say these things
+
+422
+00:46:27,760 --> 00:46:32,800
+ are strings and they're human consumable. They're words that people want to read and write and these
+
+423
+00:46:32,800 --> 00:46:36,320
+ things are bytes. These are things that computers want to read and write.
+
+424
+00:46:36,320 --> 00:46:44,640
+ We basically made all strings Unicode and we made you use new prefix B for bytes.
+
+425
+00:46:44,640 --> 00:46:50,000
+ And this was incredibly disturbing. I was implementing a WSTI library at the time
+
+426
+00:46:50,000 --> 00:46:53,680
+ and one of the things that you do when you implement WSTI is that you have to parse
+
+427
+00:46:53,680 --> 00:46:59,440
+ HTTP data. You have to parse cookie data and there that was always a mixture of bytes and Unicode
+
+428
+00:46:59,440 --> 00:47:04,400
+ and it was very easy to work with on Python 2 and it was incredibly annoying to work on Python 3 at
+
+429
+00:47:04,400 --> 00:47:11,920
+ least initially. There really wasn't a way to convert your Python 2 code to Python 3. The tools
+
+430
+00:47:11,920 --> 00:47:17,840
+ didn't exist. I started writing a blog post about it. Why I think that in a way which Python 3 works
+
+431
+00:47:17,840 --> 00:47:35,600
+ right now, I just cannot see the move. He was a valued community member and at the time I was
+
+432
+00:47:35,600 --> 00:47:43,680
+ actually quite surprised that he was so viciously attacking Python 3. I was probably even more
+
+433
+00:47:43,680 --> 00:47:48,720
+ negative on it than appropriate but Python is such a good run and I put so much energy into it.
+
+434
+00:47:48,720 --> 00:47:54,560
+ I was part of like building out web frameworks and all these libraries. I felt like why are we
+
+435
+00:47:54,560 --> 00:48:01,440
+ ruining all of this with this move that didn't even have that many benefits? I had not appreciated
+
+436
+00:48:01,440 --> 00:48:08,160
+ how many people already had enormous code bases or were on their way to building up
+
+437
+00:48:08,160 --> 00:48:14,800
+ enormous code bases. The payback for that was that I had to initiate the project in Dropbox.
+
+438
+00:48:14,800 --> 00:48:22,880
+ We had a pretty long road to migrate many millions of lines of Python 2 code. Five million lines
+
+439
+00:48:22,880 --> 00:48:29,280
+ of code in the server alone and another million for the client. That is a very large pile of code
+
+440
+00:48:29,280 --> 00:48:38,720
+ to transform and so we had to invent ways of sort of doing it in pieces.
+
+441
+00:48:56,000 --> 00:49:02,480
+ A funny sticker I found in my pocket. There's a bill tool called Basil. It's sort of a frozen
+
+442
+00:49:02,480 --> 00:49:10,640
+ version of Python 2. So here the sticker says, "After re-education, enemy of the people Python
+
+443
+00:49:10,640 --> 00:49:16,160
+ denounced their bourgeois class, renounced formalist notions like Turing completeness
+
+444
+00:49:16,160 --> 00:49:24,560
+ and began a new life as citizen star mark." This is especially an example of Benjamin Peterson's humor.
+
+445
+00:49:26,800 --> 00:49:33,120
+ I had the fortune of the misfortune depending on how you see it to be the Python 2.7 release
+
+446
+00:49:33,120 --> 00:49:41,280
+ manager for an entire decade. We had to adjust our plans for Python 3 and for Python 2 so that
+
+447
+00:49:41,280 --> 00:49:47,760
+ there was a longer series of releases where they were both new Python 2 versions and new Python 3
+
+448
+00:49:47,760 --> 00:49:53,120
+ versions. What ended up happening is that the community was like maintaining 2 and 3 and that
+
+449
+00:49:53,120 --> 00:49:58,400
+ created a lot of burden and so this is happening all during the growth of NumPy. We made it work
+
+450
+00:49:58,400 --> 00:50:05,040
+ for Python 2 and then I think Python 3, 1 I think or 3, 2 we also made it work there but saw no
+
+451
+00:50:05,040 --> 00:50:17,680
+ adoption. We knew it was going to take a long time. We knew it was going to be painful but there
+
+452
+00:50:17,680 --> 00:50:22,720
+ is light at the end of the tunnel. The community contributed stuff like lib 2 to 3 and other
+
+453
+00:50:23,120 --> 00:50:29,200
+ migration tools came out. Benjamin Peterson wrote 6 that really helped that transition. The
+
+454
+00:50:29,200 --> 00:50:35,120
+ language itself became a little more backwards compatible. I eventually advocated to bring back
+
+455
+00:50:35,120 --> 00:50:39,680
+ the U prefix on the strings and that actually made it easier to write unified code bases to
+
+456
+00:50:39,680 --> 00:50:44,160
+ target both Python 2 and Python 3. There was a point in time where we made a very strong
+
+457
+00:50:44,880 --> 00:50:54,560
+ declaration. There will never be a Python 2.8 and Python 3 is the future. Python 3 just
+
+458
+00:50:54,560 --> 00:51:02,000
+ is a better language and it is getting better over time. Python 2 on the other hand is a fine
+
+459
+00:51:02,000 --> 00:51:08,720
+ language and it will remain exactly what it is. For a long time there was a lot of measurement
+
+460
+00:51:08,720 --> 00:51:13,200
+ of how much Python 2 usage is there, how much Python 3 usage is there. I think it was when Python
+
+461
+00:51:13,200 --> 00:51:19,440
+ was in Portland. It was roughly when we started to see like 50/50. Once 3.4 came out it actually
+
+462
+00:51:19,440 --> 00:51:24,000
+ added some features that were interesting to people like oh I want that paper capability.
+
+463
+00:51:24,000 --> 00:51:31,760
+ So to me Python 3.4 was really Python 3.0 and then 3.5 was even bigger milestone. That was the one
+
+464
+00:51:31,760 --> 00:51:37,360
+ that got widespread adoption of Python 3 and by the time Python 3.5 came out then it was clear
+
+465
+00:51:37,360 --> 00:51:41,920
+ that Python 3 would work. And then you started to have companies come out and give talks like
+
+466
+00:51:41,920 --> 00:51:44,960
+ Instagram's talk which I believe is also important it was a big deal.
+
+467
+00:51:44,960 --> 00:51:53,840
+ Yes you heard it right. Instagram has been running fully on Python 3 for a few months.
+
+468
+00:51:53,840 --> 00:51:59,840
+ The whole process took I would say about 9 to 10 months and I think Instagram is the largest
+
+469
+00:51:59,840 --> 00:52:06,800
+ production deployment for Python at the time. G gave a very good very thorough talk explaining
+
+470
+00:52:06,800 --> 00:52:12,480
+ why they did it. Two main things. Typing and async.io. How they did it. We cleaned out all the libraries
+
+471
+00:52:12,480 --> 00:52:18,000
+ that are not making the migration from Python 2 to 3. How you should do it. Unit test. What they
+
+472
+00:52:18,000 --> 00:52:23,520
+ had learned during the process. We had actually some good performance gains as well after our
+
+473
+00:52:23,520 --> 00:52:31,440
+ migration. It felt as vindication that at least there were large companies that took the time to
+
+474
+00:52:31,440 --> 00:52:37,120
+ do it right and to convert all their code to Python 3 and were able to do it successfully.
+
+475
+00:52:37,120 --> 00:52:43,200
+ It was definitely well received. We got a lot of people saying we really wanted to migrate as well
+
+476
+00:52:43,200 --> 00:52:49,280
+ but we weren't getting the kind of support that my team or my company was giving us and now I can
+
+477
+00:52:49,280 --> 00:52:54,800
+ bring this back to my management and that really gave people confidence in migrating to Python 3.
+
+478
+00:52:55,680 --> 00:53:01,600
+ It became like a look Instagram can do it. Why don't you do it? Instagram is getting benefits,
+
+479
+00:53:01,600 --> 00:53:06,240
+ new features, faster code. Why don't you also want that benefit?
+
+480
+00:53:06,240 --> 00:53:23,760
+ Projects undergo things like this and Python learned a lot from it and it actually did actually
+
+481
+00:53:23,760 --> 00:53:28,720
+ eventually end up with Python 3 being a pretty good spot again that it was safe to use. And
+
+482
+00:53:28,720 --> 00:53:33,040
+ it's safe to use this sounds weird but like what I felt like I can actually start new projects on
+
+483
+00:53:33,040 --> 00:53:39,600
+ Python 3 now because we're back to a stable situation where you're about as productive as I felt like
+
+484
+00:53:39,600 --> 00:53:45,600
+ I was with Python 2. I really like to talk. But it was basically time to deal with it.
+
+485
+00:53:45,600 --> 00:53:51,920
+ When Python 2.7 was declared that there wouldn't be any more security fixes it became a security
+
+486
+00:53:51,920 --> 00:53:58,400
+ concern that was sort of the final push. People who donated their work to do this migration in the
+
+487
+00:53:58,400 --> 00:54:04,080
+ wider Python world and community eventually got the world running on Python 3 but as I said like
+
+488
+00:54:04,080 --> 00:54:08,640
+ it was a decade-long process and I don't think anybody anticipated how much work it would need to
+
+489
+00:54:08,640 --> 00:54:15,440
+ move to Python 3. I think Python's probably too big to ever go through a transition like that today.
+
+490
+00:54:15,440 --> 00:54:23,600
+ The community was maybe a little too big but not too big. I even still get angry messages sometimes
+
+491
+00:54:23,600 --> 00:54:29,200
+ from people who are like my code needs Python 2.7 you need to provide it and I tell them no.
+
+492
+00:54:29,200 --> 00:54:37,760
+ I never wavered in my commitment to Python 3. It was a lesson learned for sure. For a long time
+
+493
+00:54:37,760 --> 00:54:44,160
+ I regularly joked that would be a Python 4 but the transition would be handled much better than the
+
+494
+00:54:44,160 --> 00:54:50,560
+ transition to Python 3. I felt I owed that to the community and now the the mantra has changed
+
+495
+00:54:50,560 --> 00:54:56,080
+ to there will never be even a Python 4. To be honest I don't know how many people in Python
+
+496
+00:54:56,080 --> 00:55:08,720
+ even know about the whole transition because that all ended in 2020 but this is behind us.
+
+497
+00:55:14,320 --> 00:55:28,640
+ Okay so now we get in the closet so there's the frisbee. It's the most unique merch I've ever seen
+
+498
+00:55:28,640 --> 00:55:38,400
+ related to Python. Now here's a significant t-shirt. It says Python is for girls. I received this
+
+499
+00:55:40,800 --> 00:55:48,000
+ anonymously in the mail at Google and to this day I don't know exactly what the intention of the
+
+500
+00:55:48,000 --> 00:55:53,600
+ standard was. They never revealed themselves at least not to me and I don't know if there was an
+
+501
+00:55:53,600 --> 00:55:59,440
+ intention even but I sort of realized at that point that there wasn't a whole lot
+
+502
+00:55:59,440 --> 00:56:07,840
+ of women in the Python community and the community also discovered that and fixed it for the
+
+503
+00:56:07,840 --> 00:56:14,400
+ Python conference.
+
+504
+00:56:14,400 --> 00:56:19,840
+ This idea of being a place where people from a wide range of backgrounds can learn how to
+
+505
+00:56:19,840 --> 00:56:26,080
+ program, benefit from programming, find community. There really was some snowballing adoption of
+
+506
+00:56:26,080 --> 00:56:34,560
+ these ideas across languages at the time. Jessica McKellar looks at the speakers of Python and says
+
+507
+00:56:34,560 --> 00:56:40,480
+ there's only 3% that are women. What can we do about this? She was co-organizer of the biggest
+
+508
+00:56:40,480 --> 00:56:45,840
+ Python meetup in the world in Boston. She knew what she was talking about. It's not rocket science.
+
+509
+00:56:45,840 --> 00:56:50,240
+ It's like ask people if they're interested in speaking and we're just providing like a little
+
+510
+00:56:50,240 --> 00:57:02,320
+ bit of support drove a huge shift in the volume and demographics of the talks that were submitted.
+
+511
+00:57:02,320 --> 00:57:08,560
+ And then three years later like 45% of the speakers are women. I forget what the number was but I
+
+512
+00:57:08,560 --> 00:57:15,440
+ think it was almost even with male speakers. PyCon. I had an old tweet about this so I just
+
+513
+00:57:15,440 --> 00:57:20,480
+ pulled this up. It says hello from your PyCon diversity chair. So the percentage of PyCon talks
+
+514
+00:57:20,480 --> 00:57:33,600
+ by women. 2011 it was 1%, 2012 it was 7%, 2013, 15%, 2014 and 2015, 33% and 2016, 40%. Problems have
+
+515
+00:57:33,600 --> 00:57:39,760
+ solutions. That was a very inspiring story to me also. Something that was less inspiring to me was
+
+516
+00:57:39,760 --> 00:57:46,800
+ that at the language summit there wasn't a single woman in the room and I don't believe we have a
+
+517
+00:57:46,800 --> 00:57:56,560
+ single female committer to core Python. There wasn't ever ill intent but unfortunately we fell
+
+518
+00:57:56,560 --> 00:58:02,880
+ into the trap of not doing enough diversity reach out to try to get more people to come in.
+
+519
+00:58:02,880 --> 00:58:09,040
+ To be honest it was a lot of white men. So Guido wanted to change that. I want at least two female
+
+520
+00:58:09,040 --> 00:58:16,640
+ core Python devs in the next year and I will try to train them myself if that's what it takes.
+
+521
+00:58:17,440 --> 00:58:25,840
+ So come talk to me. I believe one of the first people who took up that call was Marietta.
+
+522
+00:58:25,840 --> 00:58:43,200
+ Even though I've always been passionate about technology and programming I also felt it wasn't
+
+523
+00:58:43,760 --> 00:58:51,040
+ a welcoming environment for women. My schoolmates who took computer science are mostly men.
+
+524
+00:58:51,040 --> 00:58:57,680
+ Most of the professors were men and at work most of my co-workers were men and I just didn't really
+
+525
+00:58:57,680 --> 00:59:04,320
+ have examples or role models of women being successful in tech industry.
+
+526
+00:59:06,800 --> 00:59:13,600
+ One of my co-workers went to Python. He saw that at that conference there is this community called
+
+527
+00:59:13,600 --> 00:59:21,280
+ "Buy Ladies" and I felt like I want to meet them.
+
+528
+00:59:33,040 --> 00:59:41,680
+ So in 2015 that's when I decided I want to go to Python. At this conference I get to see a lot of
+
+529
+00:59:41,680 --> 00:59:49,680
+ women speaking and presenting. At my previous tech conference all speakers were men, all the
+
+530
+00:59:49,680 --> 00:59:57,760
+ keynote speakers were men so this was really different. One of the keynote speakers at that same
+
+531
+00:59:57,760 --> 01:00:04,640
+ conference was Quito van Rassen. Hello everybody. Glad to see you all. I want to meet and see
+
+532
+01:00:04,640 --> 01:00:09,760
+ the creator of Python programming language and I will try to train them myself if that's what it
+
+533
+01:00:09,760 --> 01:00:17,360
+ takes. I heard this pitch however at that time I just didn't think that it's something I could do.
+
+534
+01:00:17,360 --> 01:00:23,440
+ I wasn't even contributing to the Python community. I didn't contribute to open source at all.
+
+535
+01:00:24,560 --> 01:00:29,440
+ I just thought I'm sure they will find women magazine.
+
+536
+01:00:29,440 --> 01:00:40,880
+ The year after I went back to Python US and Quito van Rassen gave another keynote.
+
+537
+01:00:40,880 --> 01:00:46,320
+ We still don't have two female core developers. I think at that time that's something really
+
+538
+01:00:46,320 --> 01:00:52,880
+ clicked on me like I realized that there's something within me that says if nobody's doing it I will
+
+539
+01:00:52,880 --> 01:01:02,880
+ do it. I wrote to Quito van Rassen and I asked him for help. Somehow I felt really scared. I just
+
+540
+01:01:02,880 --> 01:01:11,680
+ didn't feel like I deserve mentorship from Quito van Rassen so I was really hesitated to send this
+
+541
+01:01:11,680 --> 01:01:18,720
+ email to him but in the end I realized that I want to try. I felt like this was a great opportunity
+
+542
+01:01:18,720 --> 01:01:32,480
+ for me. I pressed the send button. I got a reply. He was very friendly. He started sharing resources
+
+543
+01:01:32,480 --> 01:01:39,040
+ about how to get started contributing to Python. He offered to do video chats. It's been really
+
+544
+01:01:39,040 --> 01:01:45,760
+ helpful to have his moral support. We had a pretty deep mentorship relationship for a few years.
+
+545
+01:01:46,720 --> 01:01:51,920
+ Mary learned the process from Quito and continued to contribute more and more. Very much around
+
+546
+01:01:51,920 --> 01:01:57,440
+ tooling. She really found her niche in terms of trying to help make her develop a process easier.
+
+547
+01:01:57,440 --> 01:02:06,080
+ It was scary at first. I just didn't feel comfortable sharing my questions in public. I didn't want
+
+548
+01:02:06,080 --> 01:02:13,280
+ people to know that I don't know how to do certain things. I didn't want people to see that I'm
+
+549
+01:02:13,280 --> 01:02:21,680
+ actually not that good. But this is how it works in open source and the community has always been
+
+550
+01:02:21,680 --> 01:02:31,520
+ kind and helped me with my questions without saying that you're stupid. I never felt like I
+
+551
+01:02:31,520 --> 01:02:44,400
+ was being judged. I think it does start with Guido. The fact that Guido was very active in bringing
+
+552
+01:02:44,400 --> 01:02:51,040
+ more voices into Python absolutely made Python better and stronger. Just the way the whole community
+
+553
+01:02:51,040 --> 01:03:00,240
+ works and what we stand for thanks to Guido's leadership is where I want to be. And I think
+
+554
+01:03:00,240 --> 01:03:06,720
+ that's true for a lot of people.
+
+555
+01:03:06,720 --> 01:03:18,240
+ About six, seven months after I started reaching out to Guido, I was recommended to become a Python
+
+556
+01:03:18,240 --> 01:03:27,600
+ Core Developer. It really wasn't until four months ago that for the first time ever, there's a woman.
+
+557
+01:03:27,600 --> 01:03:37,760
+ There's a woman who became a Python Core Developer and earned that commit privilege.
+
+558
+01:03:37,760 --> 01:03:42,400
+ The first woman ever to join our team and is continuing to be there and participate and
+
+559
+01:03:42,400 --> 01:03:46,720
+ try to help us and always a very good advocate to try to improve our diversity.
+
+560
+01:03:49,120 --> 01:03:56,400
+ Now that I've seen the camera, I can't even think of it. My life really changed after that.
+
+561
+01:03:56,400 --> 01:04:01,520
+ A lot of opportunities opened up just because I'm a Python Core Developer.
+
+562
+01:04:01,520 --> 01:04:12,480
+ Mariana went on to give her own set of talks about how important mentorship is.
+
+563
+01:04:13,200 --> 01:04:23,440
+ When you don't have role models who you can relate to, you start believing that you cannot do it.
+
+564
+01:04:23,440 --> 01:04:34,560
+ Hi everybody. My name is Mariana. I'm a Pi Lady. I run Pi Lady's Vancouver. I also
+
+565
+01:04:34,560 --> 01:04:39,760
+ helped with the Pi Lady's con. Ten years ago I was also in this room in the Pi Lady's luncheon at
+
+566
+01:04:39,760 --> 01:04:48,480
+ Python US 2015. It was a life changing event for me. It was at that event that I felt for the first
+
+567
+01:04:48,480 --> 01:04:57,680
+ time in my life as a developer. I felt like I belong in tech because I see 100 women in the room
+
+568
+01:04:57,680 --> 01:05:06,800
+ with me. I just want other women to have role models. I hope I can help inspire them
+
+569
+01:05:07,680 --> 01:05:14,640
+ and help them. These opportunities belong to you too. You're all the reason I do this because I
+
+570
+01:05:14,640 --> 01:05:20,800
+ know there's still a lot to do and I know together we can help each other and support each other.
+
+571
+01:05:20,800 --> 01:05:26,080
+ Okay, I think that's it. Thank you so much everybody.
+
+572
+01:05:29,040 --> 01:05:39,280
+ I have been so consistently impressed by the Python community's ability to have respectful
+
+573
+01:05:39,280 --> 01:05:48,880
+ and real reflection and dialogue about how to steward itself and how to move it forward in a way
+
+574
+01:05:48,880 --> 01:05:54,880
+ that I find so inspiring and a vision of what is possible in other communities and I mean that
+
+575
+01:05:54,880 --> 01:06:03,200
+ really sincerely.
+
+576
+01:06:03,200 --> 01:06:13,600
+ There were an ever growing number of sort of scientific disciplines where all the code was
+
+577
+01:06:13,600 --> 01:06:21,200
+ written in Python or a lot of it was prototyped in Python at least and then the next step was
+
+578
+01:06:21,200 --> 01:06:27,760
+ she learning packages which started with TensorFlow and was later followed by PyTorch.
+
+579
+01:06:27,760 --> 01:06:35,280
+ For a long time Python was seen sort of as a scripting language that you would just do small
+
+580
+01:06:35,280 --> 01:06:41,440
+ things that you need to automate and not production ready code and so it wasn't given a ton of
+
+581
+01:06:41,440 --> 01:06:48,240
+ attention and then now AIML has sort of changed things where it is now a business driver.
+
+582
+01:06:48,240 --> 01:06:57,280
+ It appeals to people who are not professional programmers but need software to do a task.
+
+583
+01:06:57,280 --> 01:07:03,200
+ There are some other languages like R you can do some interesting stuff in but Python is really
+
+584
+01:07:03,200 --> 01:07:10,560
+ it for AIML these days. Python has probably like centuries of engineering time that has gone into
+
+585
+01:07:10,560 --> 01:07:15,920
+ code in the ecosystem specifically on those topics so if you're using Python you're able to instantly
+
+586
+01:07:15,920 --> 01:07:22,720
+ tap into those libraries. meta has PyTorch which has a amazing Python API in front of people
+
+587
+01:07:22,720 --> 01:07:30,000
+ can interact with there's also SciPy, NumPy, Numba, Pandas, there's a whole suite of really
+
+588
+01:07:30,000 --> 01:07:36,000
+ extensive tools. Trying to build a language in a language ecosystem that is amenable to all of
+
+589
+01:07:36,000 --> 01:07:41,600
+ that is non-trivial. That actually took real design real thought and real ecosystem collective
+
+590
+01:07:41,600 --> 01:07:48,960
+ innovation over the course of decades. The back end of those tools are usually C or Fortran or
+
+591
+01:07:48,960 --> 01:07:56,000
+ some other native language that's much faster but would be difficult for someone with an AI
+
+592
+01:07:56,000 --> 01:08:05,520
+ background to program in and it continues to be used for all that by all the scientists developing
+
+593
+01:08:05,520 --> 01:08:10,720
+ models and people training the models people using the models and that brings yet another
+
+594
+01:08:10,720 --> 01:08:23,120
+ increment of growth to the Python community. Python is a fantastic language even if you're
+
+595
+01:08:23,120 --> 01:08:29,040
+ not a scientist. I just don't think of the reason to the level of dramatic usage without the science
+
+596
+01:08:29,040 --> 01:08:33,920
+ first data science machine learning story we had a massive impact in the world. You know I think
+
+597
+01:08:33,920 --> 01:08:40,400
+ one testament to the future of Python is if you prompt any of the LLMs to do code generation today
+
+598
+01:08:40,400 --> 01:08:45,360
+ if it's front-end it's going to be JavaScript. If it's backend data analysis it's going to be Python.
+
+599
+01:08:45,360 --> 01:08:52,480
+ That's the future and Python is a part of that future. Lucky me that I chose that language and
+
+600
+01:08:52,480 --> 01:09:02,480
+ not a different one. Hey Jago. Hello, how are you? I hope you don't mind being filmed.
+
+601
+01:09:04,320 --> 01:09:10,160
+ Okay. He is following me. She's shooting some b-roll for the documentary I think.
+
+602
+01:09:10,160 --> 01:09:19,520
+ I first used Python in 1997 or something like that. Wow that's really early days.
+
+603
+01:09:19,520 --> 01:09:26,320
+ So it's got 30 frames of animation. Oh wow. I told everyone that he would hate getting the DSA
+
+604
+01:09:26,320 --> 01:09:31,760
+ but they did it anyway. Yeah sorry, the DSA? Distinguished Service Award. I labeled him in the
+
+605
+01:09:31,760 --> 01:09:34,960
+ annual report as like a leader in the Python community once and he made me take it out.
+
+606
+01:09:34,960 --> 01:09:41,280
+ You can see that but nevertheless he was on the steering council for five years
+
+607
+01:09:41,280 --> 01:09:47,600
+ and he wasn't leader. I got a job from a Python conference back in 2017. I grew up in India,
+
+608
+01:09:47,600 --> 01:09:51,840
+ I moved to Germany, changed my life. So I think my Python changed a lot of things for me and I
+
+609
+01:09:51,840 --> 01:09:58,640
+ just wanted to like say nice to you for making this language. It's very sweet. Yeah. Do you mind if I
+
+610
+01:09:58,640 --> 01:10:04,400
+ take a picture or that you don't like it? I'm so sorry I really don't like it and especially
+
+611
+01:10:04,400 --> 01:10:10,160
+ not in busy places. Okay, no problem. I get it. Okay. Find me in a dark alley and I'll do it.
+
+612
+01:10:10,160 --> 01:10:20,400
+ Okay. I get it. I always kind of looked at myself as the bass player of Python which is great.
+
+613
+01:10:20,400 --> 01:10:25,760
+ You know you can do a lot, you can have fun and the spotlight is not on you and I love that.
+
+614
+01:10:25,760 --> 01:10:31,440
+ I can't imagine having that kind of spotlight on you, you know, for so many years.
+
+615
+01:10:31,440 --> 01:10:37,120
+ I heard a story from an Apple BP event sharing that Steve Jobs had turned down their higher
+
+616
+01:10:37,120 --> 01:10:42,880
+ widow because he said he has his own following and we don't want to have that kind of distraction.
+
+617
+01:10:42,880 --> 01:10:54,160
+ Python has always been a language that changed. We've never been one of those languages that says
+
+618
+01:10:54,160 --> 01:10:59,600
+ if you write code against this version of Python it will run forever with any new version of the
+
+619
+01:10:59,600 --> 01:11:08,640
+ language. We just simply have never been those people. A PEP is an acronym for Python enhancement
+
+620
+01:11:08,640 --> 01:11:14,960
+ proposal. That's a document that's written by someone who wants to make a significant change
+
+621
+01:11:14,960 --> 01:11:19,760
+ to Python. Basically you're trying to convince people that this is a good idea. It would be sent
+
+622
+01:11:19,760 --> 01:11:26,080
+ for discussion for a mailing list and then eventually Guido as the BDFL, the benevolent dictator for
+
+623
+01:11:26,080 --> 01:11:36,960
+ life, would decide whether your change was going in or not. But people always have worried that
+
+624
+01:11:36,960 --> 01:11:42,480
+ the next change is going to be the one that changes the feel of the language. It won't fit
+
+625
+01:11:42,480 --> 01:11:48,000
+ my brain anymore where it won't be accessible anymore. I've actually seen people storm out of
+
+626
+01:11:48,000 --> 01:11:53,840
+ rooms saying you're ruining this language. Some people take it very, very personally and seriously.
+
+627
+01:11:53,840 --> 01:12:01,200
+ And the Wallace operator was no different. Yeah, so PEP, PEP, PEP 572. I don't know who coined the
+
+628
+01:12:01,200 --> 01:12:06,000
+ term the Wallace operator but if you kind of turn your head it looks like a little walrus.
+
+629
+01:12:06,000 --> 01:12:13,360
+ It was a new feature that was proposed but it was also a syntax change. The
+
+630
+01:12:13,360 --> 01:12:19,360
+ Wallace operator lets you do assignments meaning put values into variables in places that you
+
+631
+01:12:19,360 --> 01:12:24,880
+ previously could not. That was probably the most contentious language change oddly enough
+
+632
+01:12:24,880 --> 01:12:30,880
+ because it's kind of a minor thing but it we're so much passionate feeling about whether that
+
+633
+01:12:30,880 --> 01:12:36,880
+ should be added or not that it created kind of a bit of a ruckus. When I first saw the Wallace
+
+634
+01:12:36,880 --> 01:12:42,720
+ operator I didn't like it. They kind of felt a little un-pythonic to me but then I started to
+
+635
+01:12:42,720 --> 01:12:48,000
+ play with it. There was a particular use case that I came up with in my own code that I was like oh
+
+636
+01:12:48,000 --> 01:12:53,920
+ you know what this is actually pretty cool and so then I was like well it's something that I won't
+
+637
+01:12:53,920 --> 01:12:59,600
+ use very often but when I need it it's really great to have and I turned you know 180 degrees
+
+638
+01:12:59,600 --> 01:13:08,160
+ and became a fan of it but it was very disruptive. Language features and especially syntax can be
+
+639
+01:13:08,160 --> 01:13:14,240
+ a double-edged sword so one person's succinct elegant code can be another person's unreadable
+
+640
+01:13:14,240 --> 01:13:22,560
+ puzzle or a fosticated mess. There were very strongly voiced predictions about how bad it would
+
+641
+01:13:22,560 --> 01:13:28,400
+ be for Python and then just because Python was so much more popular at the time there are so many
+
+642
+01:13:28,400 --> 01:13:34,160
+ places where people talk about Python. I mean Twitter you know at the time this is all happening
+
+643
+01:13:34,160 --> 01:13:39,200
+ in public right and everyone can kind of with low effort draw their head into the ring and not
+
+644
+01:13:39,200 --> 01:13:47,200
+ everyone is going to restrain themselves when they're doing it. I started being more and more
+
+645
+01:13:47,200 --> 01:13:56,080
+ confused that PEP 572 was actually the right thing to do. I was the BDFL and I accepted the PEP
+
+646
+01:13:58,800 --> 01:14:11,440
+ and the next morning I woke up and I felt miserable because of all the attacks that had happened before.
+
+647
+01:14:11,440 --> 01:14:23,680
+ I sat down at my computer, wrote a short email and hit send where I announced that I resigned
+
+648
+01:14:23,680 --> 01:14:33,920
+ as BDFL and that had an incredible impact. Nobody had expected I would resign and certainly not
+
+649
+01:14:33,920 --> 01:14:46,160
+ that I would rage quit over this issue which essentially it was.
+
+650
+01:14:46,160 --> 01:15:03,200
+ Transfer of power and now that PEP 572 is done I don't ever want to have to fight so hard for
+
+651
+01:15:03,200 --> 01:15:09,920
+ PEP and find that so many people despise my decisions. I would like to remove myself entirely
+
+652
+01:15:09,920 --> 01:15:16,080
+ from the decision process then basically giving myself a permanent vacation from being BDFL
+
+653
+01:15:16,080 --> 01:15:22,640
+ and you all will be on your own. I am not going to appoint a successor so what are you all going
+
+654
+01:15:22,640 --> 01:15:29,920
+ to do? Create a democracy, anarchy, a dictatorship, a federation. I'll still be here but I'm trying
+
+655
+01:15:29,920 --> 01:15:35,280
+ to let you all figure something out for yourselves I'm tired and I need a very long break.
+
+656
+01:15:35,280 --> 01:15:43,840
+ That was it. I haven't read that. I thought that was pretty well written.
+
+657
+01:15:43,840 --> 01:15:51,600
+ I like to say Mike dropped his way out you know just like I'm out I'm done you guys figure it out
+
+658
+01:15:51,600 --> 01:15:59,520
+ so it was a complete and total shock to me yeah. I just felt really sad about it. I wish he would
+
+659
+01:15:59,520 --> 01:16:07,760
+ have retired under better circumstances. I felt I needed to take a step back to sort of
+
+660
+01:16:07,760 --> 01:16:14,800
+ recover myself. I think a lot of people really felt for Guido you know that he could be pushed
+
+661
+01:16:14,800 --> 01:16:27,040
+ to that point like maybe we let him down to allow the vitriol over this
+
+662
+01:16:27,040 --> 01:16:32,720
+ change to Python to push you know somebody that we cared about to that point.
+
+663
+01:16:32,720 --> 01:16:41,840
+ We all perceive that it was like a a momentous occasion or like a significant change that you
+
+664
+01:16:41,840 --> 01:16:47,040
+ would put a mark in your timeline in the history book and in the history of Python right because
+
+665
+01:16:47,040 --> 01:16:53,280
+ had been run on the BDFL model for its its entire existence so there was a little bit of uncertainty
+
+666
+01:16:53,280 --> 01:16:58,080
+ like can this work at all without getting subquito. It kind of apparent saying it's time for you to
+
+667
+01:16:58,080 --> 01:17:02,000
+ grow up and figure it out on your own. I'm not going to solve this problem for you.
+
+668
+01:17:02,000 --> 01:17:10,880
+ The first order of business was deciding on how to decide and it turns out some people
+
+669
+01:17:10,880 --> 01:17:15,440
+ have very strong opinions on voting systems. The programmers love arguing about voting methods.
+
+670
+01:17:15,440 --> 01:17:22,000
+ I remember thinking this isn't going to work. A lot of strong voices it's really difficult when
+
+671
+01:17:22,000 --> 01:17:28,640
+ you have hundreds of core developers and thousands of people online and millions of people in the
+
+672
+01:17:28,640 --> 01:17:36,160
+ community and probably billions of dollars of software that run on Python. You can't think about
+
+673
+01:17:36,160 --> 01:17:42,240
+ that because it definitely gets overwhelming. I will fully admit it was stressful. I had to go
+
+674
+01:17:42,240 --> 01:17:46,800
+ to ear nose and throat specialist because I actually was starting to choke on my own throat from
+
+675
+01:17:46,800 --> 01:17:52,960
+ the stress. It was not fun because if we couldn't decide on how we were going to decide the project
+
+676
+01:17:52,960 --> 01:17:59,440
+ was done. We really approached it like the nerdy engineers we are. In Python classic fashion we
+
+677
+01:17:59,440 --> 01:18:03,680
+ wrote a bunch of paps. We didn't want to rush it because we knew we were going to have to live
+
+678
+01:18:03,680 --> 01:18:10,800
+ with this potentially forever. But we also realized the world was watching and did not like the idea
+
+679
+01:18:10,800 --> 01:18:14,160
+ of not knowing whether the signatures are going to be run around any year or not because we couldn't
+
+680
+01:18:14,160 --> 01:18:20,000
+ stop bickering among ourselves about how to run ourselves. People sponsored different kinds of
+
+681
+01:18:20,000 --> 01:18:23,520
+ models. I think there was one which was like let's pick another BDFL because that's what we feel
+
+682
+01:18:23,520 --> 01:18:29,120
+ comfortable with and then there was various kinds of committees and councils and we ended up settling
+
+683
+01:18:29,120 --> 01:18:34,480
+ on the five person steering committee. Good morning, PyCon. Thanks so much for joining us.
+
+684
+01:18:34,480 --> 01:18:40,720
+ So welcome to our panel with Python steering council. Because there's five people you don't
+
+685
+01:18:40,720 --> 01:18:46,480
+ have the same problem like all the stress and responsibility of making these decisions following
+
+686
+01:18:46,480 --> 01:18:52,880
+ on one person. I actually felt that it made sense for me to be one that first steering council
+
+687
+01:18:52,880 --> 01:18:59,040
+ given that there was no longer feeling so burned out or attacked to provide some amount of continuity
+
+688
+01:18:59,040 --> 01:19:03,920
+ you know how this goes when your kid goes off to college some of you may have experience with that
+
+689
+01:19:03,920 --> 01:19:12,000
+ you're no longer directly involved in their lives maybe but you never stop worrying and that's how
+
+690
+01:19:12,000 --> 01:19:23,280
+ I feel about Python at the moment and that's why I nominated myself for the steering committee and
+
+691
+01:19:23,280 --> 01:19:30,720
+ here I am. There were elections for the second year's steering council and first I nominated myself
+
+692
+01:19:30,720 --> 01:19:36,400
+ and then withdrew because there were enough other strong candidates that didn't need me and I was
+
+693
+01:19:36,400 --> 01:19:55,680
+ happy to sort of let go of it. The legitimacy that came from the replacement springing up
+
+694
+01:19:55,680 --> 01:20:04,480
+ from the community is essential to it being accepted. It came from us so it's accepted by us.
+
+695
+01:20:05,120 --> 01:20:10,960
+ It works. I think it works for us now. There may be a time in the future where it doesn't work or
+
+696
+01:20:10,960 --> 01:20:17,360
+ pieces of it don't work. You have to be willing to evolve. Change is the one universal constant
+
+697
+01:20:17,360 --> 01:20:31,600
+ of the universe and so things will always change and you have to be ready and willing to adapt to change.
+
+698
+01:20:35,440 --> 01:20:43,840
+ It started out as a hobby project definitely. I think I probably wanted to prove something to
+
+699
+01:20:43,840 --> 01:20:51,520
+ myself more than anything. It exceeded my wildest expectations and it actually continues to do so.
+
+700
+01:20:51,520 --> 01:21:01,280
+ I constantly hear from people whose lives were completely changed by Python and it has created
+
+701
+01:21:01,280 --> 01:21:10,080
+ this incredible community which was also a complete sort of bonus over everything else I had
+
+702
+01:21:10,080 --> 01:21:18,560
+ anticipated. This community that has like a massive conference every year and smaller conferences
+
+703
+01:21:18,560 --> 01:21:27,200
+ in every continent I think except Antarctica. There was one of the Python conferences where
+
+704
+01:21:27,200 --> 01:21:32,880
+ there were a few thousand people in the audience. I remember just looking around and going
+
+705
+01:21:32,880 --> 01:21:42,720
+ this is mind-blowing. That's the point at which I knew we had achieved something important. Something
+
+706
+01:21:42,720 --> 01:21:51,520
+ that made a difference in people's lives and in the world. Python turned out to be much more
+
+707
+01:21:51,520 --> 01:21:58,400
+ successful than perhaps any of us thought except any Guido in his team. I think they always believed
+
+708
+01:21:58,400 --> 01:22:03,680
+ that this was the future and of course it's now one of the most popular if not the most popular
+
+709
+01:22:03,680 --> 01:22:08,720
+ programming language in the world. He spent two weeks in Christmas in like 1989 writing a programming
+
+710
+01:22:08,720 --> 01:22:12,800
+ language because he thought it would be fun like who would have imagined that that would be such
+
+711
+01:22:12,800 --> 01:22:19,920
+ a life altering and also world altering thing to have done. I think it's been great for the world.
+
+712
+01:22:19,920 --> 01:22:25,680
+ I think it's made people feel like they can get into programming when they never thought they could.
+
+713
+01:22:25,680 --> 01:22:31,360
+ I think it made programming accessible to people. It's literally part of kindergarten through grade
+
+714
+01:22:31,360 --> 01:22:38,800
+ 12 education around the world and is on Mars thanks to being used as a scripting language
+
+715
+01:22:38,800 --> 01:22:43,680
+ to process the parachute with the perseverance rover landing. Like it's hard to think of anything
+
+716
+01:22:43,680 --> 01:22:48,320
+ that hasn't been touched by some Python code somewhere. It's mind-boggling. It's an important
+
+717
+01:22:48,320 --> 01:22:55,840
+ language. It's a popular language. It's a vibrant and relevant language. Today as much as it was
+
+718
+01:22:55,840 --> 01:23:00,560
+ in the past and I believe as much as it will be in the future. Programmers 30 years from now
+
+719
+01:23:00,560 --> 01:23:05,840
+ will be like oh yeah you know I'm still using Python. Just like today people are still using
+
+720
+01:23:05,840 --> 01:23:11,280
+ Fortran and C and C++ and those are old languages you know two in the scheme of things.
+
+721
+01:23:12,160 --> 01:23:22,160
+ Skinless, another old language. So yeah.
+
+722
+01:23:40,320 --> 01:23:45,840
+ Now I keep thinking of like weird jokes. There's this library in Python called pickles because
+
+723
+01:23:45,840 --> 01:23:52,000
+ pickle is a funny word I guess. The documentation used to have a footnote about how you should
+
+724
+01:23:52,000 --> 01:23:59,760
+ imagine Guido and Jim sniffing pickles.
+

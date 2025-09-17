@@ -1,0 +1,2896 @@
+1
+00:00:00,000 --> 00:00:04,400
+Pensiez-vous que Python allait devenir populaire depuis le début, ou ...
+
+2
+00:00:04,400 --> 00:00:05,200
+[Rires]
+
+3
+00:00:05,200 --> 00:00:14,720
+[MUSIQUE]
+
+4
+00:00:14,720 --> 00:00:21,280
+Python a contribué à rendre la pensée critique un peu plus accessible par plus de personnes.
+
+5
+00:00:21,280 --> 00:00:25,600
+Vous pourriez passer une à deux heures à apprendre les fondamentaux de programmation,
+
+6
+00:00:25,600 --> 00:00:29,560
+Et puis vous pouvez écrire comme 10 à 20 lignes de code qui font quelque chose d'intéressant.
+
+7
+00:00:29,560 --> 00:00:33,320
+La langue, la communauté, l'écosystème, le marché,
+
+8
+00:00:33,320 --> 00:00:37,320
+Le tout a eu un tel impact sur l'humanité.
+
+9
+00:00:37,320 --> 00:00:42,200
+Aujourd'hui, je pense qu'il est prudent de dire que presque partout où il y a un ordinateur, il y a probablement du python.
+
+10
+00:00:42,200 --> 00:00:45,280
+C'est littéralement sur Mars.
+
+11
+00:00:45,280 --> 00:00:49,360
+L'impact de l'IA, je pense que nous voyons toujours ce que ça va être.
+
+12
+00:00:49,360 --> 00:00:52,120
+Python est incroyablement important pour cela.
+
+13
+00:00:52,120 --> 00:00:56,480
+Pour bien comprendre comment Python est devenu si grand, nous devons remonter le temps.
+
+14
+00:00:56,480 --> 00:00:59,760
+[MUSIQUE]
+
+15
+00:00:59,760 --> 00:01:02,640
+Peut-être pas si loin.
+
+16
+00:01:02,640 --> 00:01:08,720
+Tout a commencé à Amsterdam dans les années 80 pendant mon séjour à CWI, un centre de recherche néerlandais.
+
+17
+00:01:08,720 --> 00:01:11,360
+[MUSIQUE]
+
+18
+00:01:11,360 --> 00:01:17,560
+Le CWI avait été à l'origine d'un grand développement du langage de programmation majeur,
+
+19
+00:01:17,560 --> 00:01:20,800
+Algos 60 et Algos 68, par exemple.
+
+20
+00:01:20,800 --> 00:01:29,200
+Et Lombair Miertens avait essayé d'enseigner la programmation aux artistes et découvert des choses sur la programmation
+
+21
+00:01:29,200 --> 00:01:32,240
+C'est facile si vous êtes un scientifique ou un geek.
+
+22
+00:01:32,240 --> 00:01:39,600
+Mais pour quelqu'un comme un artiste, ces choses n'étaient pas évidentes parce que vous deviez savoir quelque chose sur l'ordinateur.
+
+23
+00:01:39,600 --> 00:01:44,320
+Le cours de la frustration était le faible niveau des langues disponibles.
+
+24
+00:01:44,320 --> 00:01:48,800
+Les ordinateurs étaient extrêmement chers et comparés à cela,
+
+25
+00:01:48,800 --> 00:01:51,600
+Un programmeur était vraiment, vraiment bon marché.
+
+26
+00:01:51,600 --> 00:01:57,440
+Et ainsi les langages de programmation ont été conçus avec cette relation économique à l'esprit.
+
+27
+00:01:57,440 --> 00:02:01,120
+Peu importait s'il a fallu beaucoup de temps pour programmer,
+
+28
+00:02:01,120 --> 00:02:06,800
+Tant que cela ne demandait pas trop d'ordinateur, car c'est là que le coût était.
+
+29
+00:02:06,800 --> 00:02:09,440
+Nous nous sommes regardés et avons dit: ne pouvons-nous pas faire un meilleur travail?
+
+30
+00:02:09,440 --> 00:02:15,600
+Ne pouvons-nous pas concevoir une langue facile à apprendre, facile à enseigner, mais aussi facile à utiliser?
+
+31
+00:02:15,600 --> 00:02:22,240
+Afin que les débutants puissent comprendre comment programmer sans avoir à entrer dans tous ces détails matériels désordonnés?
+
+32
+00:02:22,240 --> 00:02:25,040
+Et c'est ainsi que le projet ABC est né.
+
+33
+00:02:25,040 --> 00:02:31,200
+L'un des membres de cette équipe était Rido Van Rossen.
+
+34
+00:02:31,200 --> 00:02:44,880
+J'ai été embauché pour travailler sur ABC, pour lequel il y avait un petit prototype.
+
+35
+00:02:45,600 --> 00:02:50,960
+Mais chaque partie du prototype a dû être élargie pour travailler pleinement selon la spécification.
+
+36
+00:02:50,960 --> 00:02:57,920
+En 1985, nous avons fait une libération d'ABC.
+
+37
+00:02:57,920 --> 00:03:04,480
+Et puis nous avons touché le problème, comment faire savoir au monde qu'il y avait ABC.
+
+38
+00:03:04,480 --> 00:03:10,960
+Nous n'avions pas une bonne façon d'atteindre notre public prévu.
+
+39
+00:03:10,960 --> 00:03:17,520
+Internet n'existait pas. La plupart des gens n'avaient jamais entendu parler d'un ordinateur ni même vu un.
+
+40
+00:03:17,520 --> 00:03:22,640
+Si quelqu'un en voulait une copie, il devait nous envoyer une lettre et nous leur enverrions un disque disquette.
+
+41
+00:03:22,640 --> 00:03:30,880
+Alors j'ai peur qu'ABC atteigne très peu de gens et à un moment donné les réalisateurs pour raison que je
+
+42
+00:03:30,880 --> 00:03:39,840
+Je ne comprends pas tué ce projet. J'avais bien passé trois ans et demi de dur labeur à ce sujet
+
+43
+00:03:39,840 --> 00:03:45,600
+Cette langue et la mise en œuvre pour le rendre aussi bonne que possible. C'était donc décevant.
+
+44
+00:03:45,600 --> 00:03:56,480
+Rido a été transféré dans un autre projet sur un système d'exploitation distribué, le système AMOEBA.
+
+45
+00:03:58,880 --> 00:04:05,680
+Un de mes emplois dans ce projet en tant que programmeur, pas le chercheur, était d'écrire ou d'aider à écrire
+
+46
+00:04:05,680 --> 00:04:14,000
+un grand nombre d'applications utilisateur. Et je ne pensais pas vraiment que pour beaucoup de ces services publics,
+
+47
+00:04:14,000 --> 00:04:24,640
+C était une très bonne langue. Et j'ai pensé, eh bien, oh mec, si nous pouvions juste programmer ABC au lieu de C,
+
+48
+00:04:24,640 --> 00:04:29,840
+Chacun de ces services publics serait comme une demi-page de code et je pourrais écrire toute la suite de
+
+49
+00:04:29,840 --> 00:04:35,120
+services publics dans quelques semaines au lieu des années où il semblait que cela allait nous emmener.
+
+50
+00:04:35,120 --> 00:04:45,120
+Sauf qu'ABC était si haut et abstrait, ce n'était pas une bonne langue pour parler aux serveurs et
+
+51
+00:04:45,120 --> 00:04:53,200
+Les systèmes de fichiers et les processus et c'est en quelque sorte tout le système d'exploitation a été abstrait
+
+52
+00:04:53,200 --> 00:04:59,120
+de ABC. Alors j'ai pensé, eh bien, il devrait vraiment y avoir une langue qui fait du genre à combler l'écart
+
+53
+00:04:59,120 --> 00:05:06,640
+entre C et Shell. Et nous avons regardé Pearl et nous ne pensions pas que c'était bon comme une programmation
+
+54
+00:05:06,640 --> 00:05:14,880
+langue. C'était à peu près aussi mauvais que basique, bien que de différentes manières. Alors Python était aussi dans une partie
+
+55
+00:05:14,880 --> 00:05:22,160
+Construit comme alternative à Pearl. C'est là que j'ai décidé, eh bien, je vais voir si je peux faire
+
+56
+00:05:22,160 --> 00:05:23,760
+mon propre langage de programmation.
+
+57
+00:05:23,760 --> 00:05:34,800
+Des vacances de Noël, je crois, il a décidé de passer son temps à concevoir et à construire un nouveau
+
+58
+00:05:34,800 --> 00:05:39,840
+Langage de programmation pour le système d'exploitation en fonction des principes qu'il avait appris pendant que
+
+59
+00:05:39,840 --> 00:05:47,440
+sur le projet ABC. J'étais logique de commencer par ABC comme exemple. Le plus important
+
+60
+00:05:47,440 --> 00:05:55,360
+Caractéristique que Python empruntée à ABC est en fait l'utilisation de l'indentation pour le regroupement des instructions.
+
+61
+00:05:55,360 --> 00:06:01,360
+Mais il y avait aussi logique que j'aie en quelque sorte laissé tomber les choses d'ABC que je n'ai pas particulièrement
+
+62
+00:06:01,360 --> 00:06:04,080
+comme. C'est ainsi que nous nous sommes retrouvés avec Python.
+
+63
+00:06:10,160 --> 00:06:19,200
+D'accord. J'étais enfin assez confiant que l'interprète était suffisamment complet pour que je montrais
+
+64
+00:06:19,200 --> 00:06:26,160
+il au bois. Il m'a montré une langue qu'il avait développée furtivement, qu'il appelle Python,
+
+65
+00:06:26,160 --> 00:06:33,600
+Nommé d'après Monty Python. J'ai dit, regardez ce que j'ai fait. Il était clair pour moi que cela avait une certaine ressemblance
+
+66
+00:06:33,600 --> 00:06:40,640
+à ABC. L'invite de ligne de commande est même la même. Alors le bois m'a regardé taper quelques choses.
+
+67
+00:06:40,640 --> 00:06:46,720
+Et il était excité à ce sujet et il pensait apparemment que je serais également excité. À certains
+
+68
+00:06:46,720 --> 00:06:51,520
+Le point qu'il en avait vu assez et il a dit, puis-je essayer quelque chose? Et il tape une très courte ligne de
+
+69
+00:06:51,520 --> 00:07:00,880
+Code et il plante l'interprète. Et il savait que ce serait le cas. Le point m'a échappé. Je n'ai pas
+
+70
+00:07:00,880 --> 00:07:07,360
+Sachez pourquoi il pensait que c'était mieux que ABC et pourquoi il avait fait tout ce projet.
+
+71
+00:07:07,360 --> 00:07:21,600
+Je suis retourné et le lendemain, j'ai eu une solution pour ça. Mais ce fut une expérience assez écrasante pour être honnête.
+
+72
+00:07:28,400 --> 00:07:33,040
+Ce devait être au moins demi-an plus tard que je me suis familiarisé avec Python.
+
+73
+00:07:33,040 --> 00:07:40,000
+C'est donc le bureau où Guido et moi avons été enfermés quand il a créé Python.
+
+74
+00:07:40,000 --> 00:07:44,720
+Il y avait deux utilisateurs importants. Short était l'un d'eux et l'autre était Jack Johnson.
+
+75
+00:07:44,720 --> 00:07:54,560
+Guido était assis là-bas et j'étais assis là-bas. Si vous souhaitez prototyper un programme,
+
+76
+00:07:54,560 --> 00:08:01,360
+Vous écrivez en quelque sorte les contours du programme mais cela ne fonctionne pas réellement. Quand tu fais ça dans
+
+77
+00:08:01,360 --> 00:08:08,480
+Python ça marche réellement. C'est lisible, c'est très facile à programmer et l'indentation est totalement
+
+78
+00:08:08,480 --> 00:08:15,040
+naturel en ce qui me concerne de toute façon. Short et Jack étaient les plus actifs dans l'utilisation de Python.
+
+79
+00:08:15,040 --> 00:08:20,320
+Vous trouvez des bugs, vous trouvez des choses que vous souhaitez étendre. Et puis en me parlant parce que
+
+80
+00:08:20,320 --> 00:08:27,360
+Tout ce qu'ils avaient à faire était de dire Hey Guido. C'était la première véritable programmation de systèmes interactifs
+
+81
+00:08:27,360 --> 00:08:31,520
+Langue pour que vous puissiez simplement vous asseoir et l'écrire et l'exécuter immédiatement sans aucune compilation.
+
+82
+00:08:31,520 --> 00:08:36,000
+C'était donc beaucoup plus amusant à utiliser que les anciens langages de programmation mais plus lents.
+
+83
+00:08:36,000 --> 00:08:44,560
+Je pense que c'était surtout l'idée de Jack à la fin pendant que nous y travaillions tous pour faire une open source
+
+84
+00:08:44,560 --> 00:08:52,080
+libérer. CDBI a permis à Guido de distribuer Python au monde tant que son avis de droit d'auteur est
+
+85
+00:08:52,080 --> 00:08:58,080
+là. Ils se seraient retenus s'ils avaient su que ce serait un succès incroyable
+
+86
+00:08:58,080 --> 00:09:03,840
+ce qui est bien qu'ils ne savaient pas non plus que personne ne le savait parce qu'ils s'étaient retenus
+
+87
+00:09:03,840 --> 00:09:12,160
+Je ne suis jamais devenu un succès incroyable. Ensuite, nous avons dû réellement faire physiquement la libération qui
+
+88
+00:09:12,160 --> 00:09:17,280
+Il s'est avéré être une douleur incroyable parce que si Usenet était la seule chose que nous devions la libérer.
+
+89
+00:09:17,280 --> 00:09:30,240
+Usenet était un réseau de vous pourriez dire des babillards. Les gens écriraient des messages qu'ils feraient
+
+90
+00:09:30,240 --> 00:09:36,000
+Soyez distribué sur le monde, puis il y avait les groupes pour toutes les différentes langues informatiques.
+
+91
+00:09:38,320 --> 00:09:45,440
+Usenet avait une limite très stricte sur la taille d'un seul poteau. Mettez d'abord votre arbre source
+
+92
+00:09:45,440 --> 00:09:52,560
+dans une bouteille de goudron. Puis compressez-le. Ensuite, vous devez faire une autre étape où vous tournez les données binaires
+
+93
+00:09:52,560 --> 00:10:00,320
+en codage ASCII. Aujourd'hui, j'ai cet énorme fichier avec Gobbledygook mais c'est au moins
+
+94
+00:10:00,320 --> 00:10:05,520
+GobbledyGook imprimable. Ensuite, vous appliquez un autre outil qui le coupe en morceaux.
+
+95
+00:10:07,280 --> 00:10:14,240
+Ensuite, il y a un script où si vous avez téléchargé les 21 parties, vous pouvez annuler toutes ces opérations
+
+96
+00:10:14,240 --> 00:10:21,040
+en marche arrière. C'est ce que les gens supportent donc nous avons fait tout le travail de notre côté et beaucoup de
+
+97
+00:10:21,040 --> 00:10:26,640
+Les gens ont fait tout le travail de leur côté pour déballer cela parce que j'avais apparemment écrit un très bon
+
+98
+00:10:26,640 --> 00:10:28,080
+Teaser sur ce que c'était.
+
+99
+00:10:35,840 --> 00:10:42,560
+Très rapidement, j'ai commencé à recevoir des commentaires par e-mail ou Usenet de personnes qui ont fait quelque chose
+
+100
+00:10:42,560 --> 00:10:47,680
+excitant avec ça ou qui avait trouvé un bug et cela ne cessait de venir.
+
+101
+00:10:47,680 --> 00:10:57,680
+Nous avons travaillé au Johnson Space Center, donc notre intérêt était de mettre en place des simulations de vol et des outils
+
+102
+00:10:57,680 --> 00:11:01,920
+pour les ingénieurs de conception qui seraient utilisés pour un programme de navette à l'époque.
+
+103
+00:11:04,640 --> 00:11:11,200
+Je me souviens avoir besoin d'un langage de script pour contrôler un projet de bibliothèque C ++ que nous étions
+
+104
+00:11:11,200 --> 00:11:19,280
+Travailler à l'époque. Pas trop longtemps dans cette recherche. J'ai trouvé la distribution Python de Guido à
+
+105
+00:11:19,280 --> 00:11:31,360
+CWI. J'ai pu ftp cela, le déballer, le compiler et l'exécuter en 10 minutes environ.
+
+106
+00:11:32,640 --> 00:11:36,720
+Ce fut ma première expérience impressionnante avec Python.
+
+107
+00:11:36,720 --> 00:11:42,560
+Il y a 20 ans, un ordinateur qui coûte un million de dollars et rempli une pièce entière avait moins
+
+108
+00:11:42,560 --> 00:11:49,760
+capacité qu'un ordinateur de bureau de 11 livres aujourd'hui. Avec les coûts baissés et les capacités augmentent
+
+109
+00:11:49,760 --> 00:11:53,040
+L'ordinateur est entré dans nos vies rapidement et discrètement.
+
+110
+00:11:53,040 --> 00:11:58,720
+Il y avait beaucoup de choses qui ont changé de manière majeure qui a rendu l'informatique particulièrement excitante à
+
+111
+00:11:58,720 --> 00:12:03,200
+être à ce moment-là. Des ordinateurs sortaient soudainement de la salle des machines et
+
+112
+00:12:03,200 --> 00:12:07,120
+atterrir sur votre bureau, puis bien sûr, le Web s'est produit, puis tout a explosé.
+
+113
+00:12:07,120 --> 00:12:13,680
+Une fois Internet en Europe, il était beaucoup plus facile pour les logiciels d'être distribués.
+
+114
+00:12:13,680 --> 00:12:21,200
+Python décollait très lentement. Ensuite, il y avait une communauté de python croissante qui était très favorable
+
+115
+00:12:21,200 --> 00:12:24,000
+Comme une grande famille, vous pourriez presque dire.
+
+116
+00:12:29,600 --> 00:12:36,320
+Une partie de celle-ci est que je ne suis pas du tout que je n'ai pas de pression sur mon corps.
+
+117
+00:12:36,320 --> 00:12:45,760
+Je travaillais à développer une sorte de base de données d'équipement distribuée et un collègue au laboratoire
+
+118
+00:12:45,760 --> 00:12:51,280
+Michael McClay savait que je cherchais un ce qu'on appelait une langue de script qui était
+
+119
+00:12:51,280 --> 00:12:56,880
+également sophistiqué qui vous permettrait de construire des choses substantielles et de ne pas s'enliser
+
+120
+00:12:56,880 --> 00:13:03,600
+les bords en lambeaux. Les langages de script ont été conçus pour collez les choses ensemble pour se connecter
+
+121
+00:13:03,600 --> 00:13:09,520
+Des choses qui fonctionnent déjà qui existaient déjà. Immédiatement en essayant, j'étais juste étonné et
+
+122
+00:13:09,520 --> 00:13:17,840
+Je pensais que cela ne peut pas être aussi bon que ça et c'était. Mike était intéressé à ramener Guido
+
+123
+00:13:17,840 --> 00:13:24,800
+Et Guido était intéressé à venir. 99% des personnes avec lesquelles j'ai contacté étaient dans le
+
+124
+00:13:24,800 --> 00:13:32,640
+États-Unis. Alors Guido a fini par venir, puis Mike et Guido et moi voulions organiser un atelier
+
+125
+00:13:32,640 --> 00:13:38,160
+Ainsi, les gens qui étaient intéressés par Python pouvaient se rassembler et parler de ce sur quoi ils travaillaient
+
+126
+00:13:38,160 --> 00:13:44,320
+Et ce qu'ils ressentaient était nécessaire. C'est le t-shirt de la première conférence et donc ceci
+
+127
+00:13:44,320 --> 00:13:54,480
+Ouais, c'était juste une sorte d'écriture fluide et au dos, cela a donné la date de la conférence.
+
+128
+00:13:54,480 --> 00:14:01,600
+Spume, Spum, Spoum, Spoum. C'est une chanson tellement fantastique. Cet atelier est vraiment pour moi dans le
+
+129
+00:14:01,600 --> 00:14:08,160
+Début de la communauté Python novembre 1994. Kathersburg, Maryland dans ce gouvernement sans fenêtre
+
+130
+00:14:08,160 --> 00:14:14,800
+immeuble de bureaux à NIST. Ce fut une grande expérience. C'était environ deux jours. Nous avions 20 personnes. Je suis toujours
+
+131
+00:14:14,800 --> 00:14:20,320
+Ayez le t-shirt de cet atelier. Il y avait juste une sorte de cette sensation de hey il y a quelque chose
+
+132
+00:14:20,320 --> 00:14:25,840
+événement. Ce sera amusant de passer du temps avec les gens avec qui je discute en ligne. À réellement
+
+133
+00:14:25,840 --> 00:14:30,960
+Voir Guido en personne et prendre des décisions et nous savions que si vous l'avez impressionné par le
+
+134
+00:14:30,960 --> 00:14:35,120
+fonctionnalité et c'était une chose facile à installer, il l'ajouterait à la langue
+
+135
+00:14:35,120 --> 00:14:39,200
+Nous pouvons au moins l'essayer sous forme bêta. C'était comme toute une salle de gens qui savaient ce que vous
+
+136
+00:14:39,200 --> 00:14:46,720
+Parlaient parce qu'ils avaient tous étudié Python profondément ou presque tous. L'une des personnes était
+
+137
+00:14:46,720 --> 00:15:01,760
+Barry Varsovie. Vers 1994, j'ai rejoint une entreprise CNRI, Corporation for National Research Initiatives,
+
+138
+00:15:01,760 --> 00:15:07,920
+Et nous construisions ces agents logiciels. Petits programmes qui peuvent passer à différents
+
+139
+00:15:07,920 --> 00:15:12,880
+Les ordinateurs sur un réseau et ils se picklent et se déplacent vers un autre endroit et se reconstituent
+
+140
+00:15:12,880 --> 00:15:19,520
+eux-mêmes et faites un peu plus de travail. Un de mes amis de Nist m'a envoyé un e-mail et a dit que nous avons
+
+141
+00:15:19,520 --> 00:15:23,440
+Ce gars venant des Pays-Bas et il va parler de sa langue. Est-ce que tu veux
+
+142
+00:15:23,440 --> 00:15:30,000
+venir? Et donc nous sommes allés à l'atelier et nous sommes tout simplement tombés amoureux de bien sûr Python
+
+143
+00:15:30,000 --> 00:15:37,760
+et bien sûr Guido. Même alors, il y avait le sentiment qu'il y avait là-bas. Qu'il y avait
+
+144
+00:15:37,760 --> 00:15:43,120
+Quelque chose qui allait arriver qu'il y avait du potentiel. Je me souviens être revenu à CNRI et
+
+145
+00:15:43,120 --> 00:15:48,880
+Dire oh c'est génial, nous allons utiliser Python à coup sûr dans notre projet. Et l'un de nos collègues
+
+146
+00:15:48,880 --> 00:15:53,600
+Chez CNRI a bien dit que pensez-vous? Pourquoi n'engagez-nous pas simplement Guido?
+
+147
+00:16:04,400 --> 00:16:09,440
+Le CNRI a été créé pour promouvoir des informations pour la recherche en faveur structurée,
+
+148
+00:16:09,440 --> 00:16:16,880
+aider à construire des projets pilotes, prendre les résultats et les mettre en public
+
+149
+00:16:16,880 --> 00:16:22,640
+puis tirez parti. Une partie de la mission de CNRI était de cultiver des choses basées sur Internet. C'est pourquoi
+
+150
+00:16:22,640 --> 00:16:28,320
+Notre nom Corporation for National Research Initiatives y a fait entrer les initiatives.
+
+151
+00:16:32,640 --> 00:16:39,920
+Nous avions besoin d'une langue qui serait plus facile pour les gens
+
+152
+00:16:39,920 --> 00:16:45,600
+D'autres langues traditionnelles qui étaient à l'époque. J'ai traversé une photo qui était un
+
+153
+00:16:45,600 --> 00:16:55,040
+Party à CNRI il y a des années. C'était probablement je pense en 1996 et c'est une Renaissance Guido.
+
+154
+00:16:55,040 --> 00:17:00,720
+Oui, je disais Guido. Beaucoup de gens disent Guido mais j'ai dit Guido et je suis sûr que je ne le prononce pas.
+
+155
+00:17:02,240 --> 00:17:07,680
+Oh, c'était une personne très élégante et c'était un gars très fort. Et présenté à lui et c'est juste
+
+156
+00:17:07,680 --> 00:17:13,600
+semblait que c'était un bon ajustement et j'ai donc fait l'offre d'emploi. Pour moi c'était fantastique qu'il n'y ait pas
+
+157
+00:17:13,600 --> 00:17:18,480
+doute à ce sujet. L'une des choses sur lesquelles il insiste si vous voulez le faire travailler pour vous
+
+158
+00:17:18,480 --> 00:17:24,800
+Il a une certaine fraction de son temps, de préférence autant que la mi-temps sinon plus, pour travailler sur le
+
+159
+00:17:24,800 --> 00:17:30,720
+langue elle-même. Le fait qu'ils puissent travailler à plein temps sur Python car il s'est avéré que le
+
+160
+00:17:30,720 --> 00:17:39,520
+Le projet Nobots était presque plus une excuse pour m'embaucher que moi. J'ai un peu l'impression
+
+161
+00:17:39,520 --> 00:17:45,120
+Notre travail sur Python était un peu subversif. Tu sais que nous avons eu tendance à passer beaucoup plus de temps sur Python
+
+162
+00:17:45,120 --> 00:17:51,600
+que nous aurions peut-être dû. Je suis allé au CNRI et depuis que j'étais une personne des systèmes, j'étais responsable
+
+163
+00:17:51,600 --> 00:17:57,440
+pour la configuration de python.org. Nous aurions dû aussi saisir python.com même si nous n'avons pas pensé à
+
+164
+00:17:57,440 --> 00:18:03,760
+Python en tant qu'entreprise commerciale parce que quelqu'un d'autre l'a obtenu et l'a utilisé pour héberger un porno stupide
+
+165
+00:18:03,760 --> 00:18:16,080
+site. Pendant des années, nous avons dû avertir les gens d'aller sur python.org.com. C'était vraiment la maison parfaite pour laquelle je pense
+
+166
+00:18:16,080 --> 00:18:21,440
+Faire tout ce développement de Python précoce et développer une grande partie de l'infrastructure autour de Python.
+
+167
+00:18:21,440 --> 00:18:27,200
+Nous avons eu une réunion discutant de la création d'une sorte de groupe d'utilisateurs ou d'organisation de logiciels. Nous sommes le
+
+168
+00:18:27,200 --> 00:18:32,320
+L'activité du logiciel Python a été proposée. Nous avons besoin d'un peu de gouvernance, un peu de
+
+169
+00:18:32,320 --> 00:18:37,520
+Organisation, mais nous n'en voulons pas trop parce que je ne pense pas que nous aimions vraiment la bureaucratie.
+
+170
+00:18:37,520 --> 00:18:42,480
+Et puis la question s'est posée sur ce que nous devrions appeler Gredo dans le cadre de cela. Je pense que c'était
+
+171
+00:18:42,480 --> 00:18:49,680
+Moi qui m'a suggéré que Gredo soit appelé le dictateur bienveillant puis Barry a suggéré
+
+172
+00:18:49,680 --> 00:18:57,200
+dictateur bienveillant à vie. Et cela est devenu un mème Internet ou en fait un mème logiciel
+
+173
+00:18:57,200 --> 00:19:01,760
+Le dictateur bienveillant à vie était que vous pouvez le trouver sur Wikipedia.
+
+174
+00:19:01,760 --> 00:19:10,960
+En fin de compte, vous savez que Gredo était l'inventeur de la langue et le décideur final de oui c'est
+
+175
+00:19:10,960 --> 00:19:16,720
+Je vais y arriver ou cela ne va pas y arriver. Je pense que j'ai développé mon propre style pendant
+
+176
+00:19:16,720 --> 00:19:25,920
+ces premières années. Toutes les idées sont les bienvenues, mais je choisirai les idées que je crois avoir raison d'ajouter
+
+177
+00:19:25,920 --> 00:19:35,280
+à la langue. Il y a des dizaines et des dizaines d'aspects de Python aujourd'hui où quelqu'un avait une vision
+
+178
+00:19:36,080 --> 00:19:41,760
+Car si vous ajoutez ceci à Python, regardez toutes ces choses incroyables que je peux faire.
+
+179
+00:19:41,760 --> 00:19:52,480
+Je suis l'une des nombreuses personnes qui sont venues à Python qui est un programmeur mais en tant que scientifique.
+
+180
+00:19:52,480 --> 00:19:57,280
+Python n'était pas la première langue que j'ai utilisée pour la science. Je faisais le traitement des données satellites
+
+181
+00:19:57,280 --> 00:20:00,800
+Et j'ai utilisé Pearl pour le faire et puis un an plus tard, je reviendrais et j'essaierais de comprendre quoi
+
+182
+00:20:00,800 --> 00:20:06,960
+J'ai fait, je n'en avais aucune idée. Python a eu l'expérience inverse. J'ai commencé à utiliser Python en 1997.
+
+183
+00:20:06,960 --> 00:20:11,520
+Je viens de l'utiliser pour faire des scripts, faire du traitement des données avec des données d'imagerie symétriques
+
+184
+00:20:11,520 --> 00:20:17,040
+Et j'étais comme bon, c'est bien c'est plutôt cool. Un an plus tard, alors 1998 Je suis revenu pour regarder
+
+185
+00:20:17,040 --> 00:20:21,760
+Le code que j'avais écrit et je pouvais le lire, j'ai compris ce que j'ai fait et c'était un peu pour moi le
+
+186
+00:20:21,760 --> 00:20:27,280
+Des données convaincantes qui disaient oh, j'ai besoin de creuser sur cette langue. Et il y en avait vraiment quelques-uns
+
+187
+00:20:27,280 --> 00:20:31,920
+Des personnes clés à l'époque qui ont été publiées ici en parlant de comment utiliser Python pour la science.
+
+188
+00:20:31,920 --> 00:20:37,920
+Peu sauf quelques-uns. Conrad Hinson était l'un d'eux dont je me souviens David Asher et Jim Huenin.
+
+189
+00:20:37,920 --> 00:20:45,760
+Il y a eu un certain nombre d'étapes dans le cycle de vie de Python quand il est venu d'un noyau
+
+190
+00:20:45,760 --> 00:20:51,760
+Capacité linguistique à une plate-forme avec un certain nombre de modules et packages spécialisés différents
+
+191
+00:20:51,760 --> 00:20:59,040
+l'a rendu très utile pour certaines communautés d'utilisateurs. Le premier était probablement la communauté numérique
+
+192
+00:20:59,040 --> 00:21:03,520
+Les gens de la science et de l'ingénierie qui voulaient des opérations de matrice haute performance soient effectuées.
+
+193
+00:21:03,520 --> 00:21:08,800
+Même si Guido n'était pas un scientifique lui-même n'était pas nécessairement profondément préoccupé par le
+
+194
+00:21:08,800 --> 00:21:13,440
+Les mêmes choses dont nous étions préoccupés en tant que scientifiques, il était ouvert aux suggestions.
+
+195
+00:21:13,440 --> 00:21:19,920
+Je pense que l'une des choses que les gens n'apprécient pas autant la langue python maintenant maintenant
+
+196
+00:21:19,920 --> 00:21:27,440
+qu'il est si populaire et grand public, c'est à quel point il était important que Guido soit ouvert aux nouvelles idées et ouverte
+
+197
+00:21:27,440 --> 00:21:34,880
+aux besoins des personnes qui ne sont pas des programmeurs traditionnels. Je pense qu'il avait un aux yeux très clairs
+
+198
+00:21:34,880 --> 00:21:42,720
+Une concentration silencieuse sur la compréhension de certaines choses sur l'avenir qu'il a construite dans la langue. Il
+
+199
+00:21:42,720 --> 00:21:47,840
+était uniquement adapté à son environnement. L'une des raisons pour lesquelles j'utilise Python et je pense que beaucoup de gens
+
+200
+00:21:47,840 --> 00:21:52,720
+utiliser python à la fois est qu'au début des années 2000, le monde était presque divisé en
+
+201
+00:21:52,720 --> 00:21:57,920
+Voici un écosystème open source ou vous pouvez aller utiliser Java qui est en fait une chose payante.
+
+202
+00:21:57,920 --> 00:22:02,000
+J'utilisais Matlab. Je n'ai vraiment pas aimé le fait que lorsque j'ai écrit du code et que je voulais partager
+
+203
+00:22:02,000 --> 00:22:06,480
+Ce code avec d'autres, je disais essentiellement aux gens de devoir acheter une licence pour un logiciel
+
+204
+00:22:06,480 --> 00:22:10,160
+Package avant qu'ils ne puissent même regarder mon code ou utiliser mon code. Ce sont les jours où vous devez
+
+205
+00:22:10,160 --> 00:22:17,200
+Achetez les outils du développeur ou dépensez quelques centaines de dollars pour obtenir Visual Studio 6.0, puis Python et
+
+206
+00:22:17,200 --> 00:22:22,160
+Ensuite, toutes ces bibliothèques étaient open source et pourraient ensuite être utilisées dans un projet commercial.
+
+207
+00:22:22,160 --> 00:22:28,000
+J'étais en quelque sorte plus tôt convaincu par les membres de la communauté que Python est open source
+
+208
+00:22:28,000 --> 00:22:34,560
+Et la façon dont c'était l'open source était très importante pour que les gens se sentent à l'aise
+
+209
+00:22:34,560 --> 00:22:46,960
+Utiliser Python pour faire de grandes choses qu'ils pourraient alors vendre.
+
+210
+00:22:46,960 --> 00:22:58,560
+En '98, Blender a été publié sur Internet. Le logiciel était gratuit et puis vous pouviez acheter
+
+211
+00:22:58,560 --> 00:23:05,840
+Certaines choses autour de lui. Nous avons été limités à utiliser l'Open Source afin que vous n'ayez pas beaucoup d'options.
+
+212
+00:23:05,840 --> 00:23:12,160
+Nous faisions un appel sur notre site Web comme quelle est la langue de script le plus populaire que nous
+
+213
+00:23:12,160 --> 00:23:19,520
+devrait ajouter «lander»? Eh bien, c'était vraiment grand et Python était à venir et il y en avait d'autres
+
+214
+00:23:19,520 --> 00:23:27,200
+Et c'était intéressant de voir que tout le monde nous conseillait d'utiliser Perl comme langage de script
+
+215
+00:23:27,200 --> 00:23:34,880
+Mais ils ont seulement annoncé à quel point Perl est génial et les gens qui sont venus du Python
+
+216
+00:23:34,880 --> 00:23:40,800
+Contexte, qui a bien dit que je pense que Python est un mauvais choix, ils sont venus avec une opinion équilibrée
+
+217
+00:23:40,800 --> 00:23:46,240
+Et ils ont dit que bien Perl vous donnera ceci et ceci et Python vous donneront d'autres choses
+
+218
+00:23:46,240 --> 00:23:52,240
+Et en demandant tout cela, je vous recommanderais de faire Python et seulement pour cette région
+
+219
+00:23:52,240 --> 00:23:57,920
+J'aurais dû le choisir par eux. C'est parce que les gens sont plus gentils.
+
+220
+00:23:57,920 --> 00:24:09,280
+C'était honnêtement juste beaucoup de passionnés. C'était beaucoup de gens qui ont juste apprécié la langue,
+
+221
+00:24:09,280 --> 00:24:12,720
+J'ai apprécié les personnes impliquées dans la langue et ce serait juste
+
+222
+00:24:12,720 --> 00:24:16,880
+Généralement suffisamment motivé pour que les gens souhaitent aider. En fin de compte, il y a un sentiment de plaisir
+
+223
+00:24:17,680 --> 00:24:22,240
+Cela apparaît et Guido a codé cela au nom de la langue
+
+224
+00:24:22,240 --> 00:24:27,520
+Influencé par Monty Python. Cela crée un sentiment de communauté pour avoir vos petites blagues.
+
+225
+00:24:27,520 --> 00:24:36,240
+Tim Peters est un premier exemple de célèbre et se mélangeant à la fois comme les Aztèques de Python
+
+226
+00:24:36,240 --> 00:24:43,120
+et l'humour. Tim Peters était cette créature mythique dans le monde de Python et personne ne l'avait rencontré.
+
+227
+00:24:44,960 --> 00:24:50,480
+Il était là dans l'éther comme sage pour nous donner des conseils sur ce qu'il fallait faire avec le traitement numérique.
+
+228
+00:24:50,480 --> 00:24:58,320
+Steve Majeski m'a envoyé un e-mail m'a parlé de Python. J'ai donc commencé une correspondance par e-mail avec
+
+229
+00:24:58,320 --> 00:25:02,960
+Guido sur la langue et sur la conception et j'ai obtenu une partie du code de pré-libération et joué
+
+230
+00:25:02,960 --> 00:25:10,640
+avec lui et lui a parlé des décisions de conception et l'a beaucoup aimé. Tim Peters était un python
+
+231
+00:25:10,640 --> 00:25:19,040
+contributeur et membre de la communauté et mentor à moi depuis très tôt. Tim était une chambre de Guido.
+
+232
+00:25:19,040 --> 00:25:24,800
+Il avait une façon vraiment unique de dire que je pense que Guido va aimer ça ou je ne pense pas que Guido soit
+
+233
+00:25:24,800 --> 00:25:30,000
+va aimer ça. Il y a un poème appelé The Zen of Python qui est partiellement humoristique,
+
+234
+00:25:30,000 --> 00:25:38,000
+Poème partiellement sérieux sur l'esthétique de Python. Je regarde en fait l'USENET
+
+235
+00:25:38,000 --> 00:25:46,560
+Post où Tim a publié sa première version du zen de Python. Bien qu'il l'ait appelé la voie de Python
+
+236
+00:25:46,560 --> 00:25:55,120
+Et c'était en réponse à une discussion où les gens se plaignaient de ne pas comprendre
+
+237
+00:25:55,120 --> 00:26:00,880
+Quelle était la philosophie de Python. Ils ne pouvaient pas me comprendre et Tim m'avait compris et il l'a dit
+
+238
+00:26:00,880 --> 00:26:10,480
+Fondamentalement dans la poésie. Voici la façon de Python de Tim Peters de 1999. Beautiful est meilleur que
+
+239
+00:26:10,480 --> 00:26:18,000
+laid. L'explicite est mieux qu'implicite. Simple est mieux que complexe. Le complexe est meilleur que
+
+240
+00:26:18,000 --> 00:26:24,720
+compliqué. J'adore cette distinction. L'appartement est meilleur que imbriqué. Carse est meilleur que dense.
+
+241
+00:26:24,720 --> 00:26:31,520
+La lisibilité compte et nous dirons que cela compte pour beaucoup. Les cas spéciaux ne sont pas assez spéciaux pour se casser
+
+242
+00:26:31,520 --> 00:26:38,320
+les règles. Bien que l'aspect pratique bat la pureté, les erreurs ne devraient jamais passer silencieusement à moins que
+
+243
+00:26:38,320 --> 00:26:46,320
+silencieux. Face à l'ambiguïté, refusez la tentation de deviner. Je n'ai pas suivi cela dans un très
+
+244
+00:26:46,320 --> 00:26:54,160
+Morceau clé de Numpy et c'est toujours un gâchis. Il devrait y en avoir un et de préférence un seul évident
+
+245
+00:26:54,160 --> 00:27:00,960
+façon de le faire. C'est une référence directe à la devise de Pearl. Soit dit en passant, il y a plus d'une façon de le faire.
+
+246
+00:27:00,960 --> 00:27:06,560
+Bien que cela ne soit pas évident au début à moins que vous ne soyez néerlandais. C'était mieux que jamais. Bien que
+
+247
+00:27:06,560 --> 00:27:11,920
+Jamais n'est souvent meilleur qu'en ce moment. Si la mise en œuvre est difficile à expliquer, c'est une mauvaise idée.
+
+248
+00:27:11,920 --> 00:27:18,080
+C'est très bon. Voici la mise en œuvre. C'est facile à expliquer. C'est peut-être une bonne idée.
+
+249
+00:27:18,080 --> 00:27:26,560
+Les espaces de noms sont une excellente idée. Faisons plus de ceux-ci. C'est tellement Tim. Importe normalement
+
+250
+00:27:26,560 --> 00:27:33,360
+Cette impression et importent une bibliothèque utile qui est une affaire très sérieuse. Avoir une importation ceci
+
+251
+00:27:33,360 --> 00:27:40,640
+C'était juste une blague était un peu de légèreté que nous aimons ajouter. C'est d'un petit amateur
+
+252
+00:27:40,640 --> 00:27:45,520
+Communauté, non? Parce que si vous êtes un géant d'entreprise, en faisant un langage de programmation comme quelqu'un
+
+253
+00:27:45,520 --> 00:27:49,280
+Vous allez probablement vous dire que vous ne pouvez pas mettre un poème idiot dans votre langage de programmation. Mais
+
+254
+00:27:49,280 --> 00:27:54,720
+Python est juste fabriqué par des chiens sur Internet afin qu'ils puissent mettre des poèmes dans leur logiciel.
+
+255
+00:27:54,720 --> 00:28:02,160
+Les différentes façons de gagner de l'argent sur Internet commencent à peine à émerger.
+
+256
+00:28:02,160 --> 00:28:06,720
+Les entrepreneurs mettent leur foi dans un nouveau médium pour offrir le gros gain.
+
+257
+00:28:06,720 --> 00:28:12,720
+C'est la bulle à points. Tout cet argent pompant dans les logiciels et les trucs Internet de la Silicon Valley.
+
+258
+00:28:12,720 --> 00:28:20,880
+Début 2000, j'ai décidé de quitter C&RI et avec quelques collègues, une startup de niveau jointe nommé
+
+259
+00:28:20,880 --> 00:28:26,880
+Beopen. Tandis que C & Ri, je pense, c'était une maison incroyable pour Python au début,
+
+260
+00:28:26,880 --> 00:28:31,120
+Et tout change et tout évolue et pense: "Eh bien, si nous voulons frapper
+
+261
+00:28:31,120 --> 00:28:37,600
+Sortie par nous-mêmes, c'est probablement le bon moment pour le faire. "Cela n'a pas fonctionné. Je dirais à l'intérieur
+
+262
+00:28:37,600 --> 00:28:44,000
+Peut-être un an ou quelque chose comme ça. Beopen était complètement incompétent. Nous avons passé l'été dans le bonheur
+
+263
+00:28:44,000 --> 00:28:51,520
+L'ignorance travaillant à plein temps sur Python. Nous avons construit et sorti Python 2 et dans les cinq mois,
+
+264
+00:28:51,520 --> 00:28:58,560
+C'était fini. Nous avons été payés nos salaires toutes les deux semaines, puis soudainement fin octobre, nous ne l'étions pas.
+
+265
+00:28:58,560 --> 00:29:07,280
+Ce fut un moment où la merde aurait pu frapper le ventilateur. Si tous les gars de Python se sont séparés
+
+266
+00:29:07,280 --> 00:29:13,760
+façons, Python n'était pas assez grand pour survivre à l'époque. C'est à ce moment que j'avais une entreprise,
+
+267
+00:29:13,760 --> 00:29:18,080
+Créations numériques, qui sont devenues plus tard de la dope. Qui est un serveur d'applications, un serveur de base de données,
+
+268
+00:29:18,080 --> 00:29:24,560
+Serveur d'index, serveur Web, etc. Application de qualité commerciale à très grande échelle écrite en Python.
+
+269
+00:29:24,560 --> 00:29:31,120
+Et si Python mourait, vous savez qui d'autre mourrait? Nous mourrions. Toute la plate-forme a été construite sur Python,
+
+270
+00:29:31,120 --> 00:29:38,000
+C'étaient donc des experts Python. Nous devons aller et nous assurer que Python est sécurisé pour l'avenir
+
+271
+00:29:38,000 --> 00:29:46,880
+Et que l'équipe reste ensemble. Nous avons donc négocié un accord avec eux pour rejoindre mon entreprise.
+
+272
+00:29:46,880 --> 00:29:52,800
+Ce fut un sauvetage incroyablement chanceux. Nous avions l'impression que nous leur faisions vraiment confiance et nous avons cru en ce
+
+273
+00:29:52,800 --> 00:29:58,720
+Ils faisaient et ce qu'ils voulaient faire avec Python et pour Python. C'est un endroit où je suis
+
+274
+00:29:58,720 --> 00:30:04,000
+fier de. Avec le recul, c'était un point vraiment critique dans la vie de Python. Je pense que si nous avions choisi
+
+275
+00:30:04,000 --> 00:30:10,880
+Faux ou essayé de dire: "Oh, nous allons juste nous séparer de nous-mêmes", tu ne sais jamais, mais je ne suis pas
+
+276
+00:30:10,880 --> 00:30:16,080
+Si bien sûr que Python aurait survécu à cette jonction dans sa vie. Ouais.
+
+277
+00:30:28,880 --> 00:30:33,840
+[Musique]
+
+278
+00:30:33,840 --> 00:30:41,440
+Python a continué de grandir et la communauté a gardé l'auto-organisation. L'un des, je pense, sous-jacent
+
+279
+00:30:41,440 --> 00:30:50,640
+Les thèmes de Python, si vous le prenez dans sa totalité, est ce sens des mouvements de base. Des choses
+
+280
+00:30:50,640 --> 00:30:57,680
+grandir de bas en haut et évoluer au point où tout le monde se rend compte: "Oh, nous avons besoin d'un
+
+281
+00:30:57,680 --> 00:31:04,160
+un peu plus de structure. "Oh, la Python Software Foundation. À mon avis, la PSF, ce putain
+
+282
+00:31:04,160 --> 00:31:11,600
+La chose a été un succès dès le premier jour. Qui est sorti de l'une des préoccupations que nous avions eues avec être ouverts,
+
+283
+00:31:11,600 --> 00:31:20,400
+en fait. Alors C et moi avions écrit une licence pour Python et mis son nom dessus. Et être ouvert avait
+
+284
+00:31:20,400 --> 00:31:27,120
+copié une version de cette licence et mettez le nom d'Open dessus. Il y avait une préoccupation qu'à certains
+
+285
+00:31:27,120 --> 00:31:33,760
+Le point, je pourrais accidentellement finir par travailler pour une entreprise qui a commencé à saisir la propriété de Python.
+
+286
+00:31:33,760 --> 00:31:41,840
+Nous avons réalisé que nous avons vraiment besoin d'une organisation qui sera indépendante, ne sera pas redevable de
+
+287
+00:31:41,840 --> 00:31:51,520
+Toute entreprise et leurs caprices et leurs avocats, et garderont vraiment les utilisateurs de Python comme leur premier et
+
+288
+00:31:51,520 --> 00:32:02,800
+Le premier client pour parler à l'esprit. Et puis la magie s'est produite quand nous sommes montés à Python,
+
+289
+00:32:02,800 --> 00:32:07,200
+Ce qui est peut-être le troisième tabouret du miracle de Python.
+
+290
+00:32:17,760 --> 00:32:23,520
+Quelle a été votre point de vue de Python U.S. cette année? On a l'impression que les gens sont encore
+
+291
+00:32:23,520 --> 00:32:28,960
+Prêt à faire des choses difficiles, à travailler sur les choses ensemble, vous savez. Les tabourets ont la passion
+
+292
+00:32:28,960 --> 00:32:35,040
+pour être honnête. Alors qu'est-ce que c'était pour toi? Pour moi, très certainement comme rencontrer des gens. Je n'ai pas rencontré
+
+293
+00:32:35,040 --> 00:32:40,080
+dans un moment. C'est super. Ouais, je prends trop de temps avec eux. Tu essaies de marcher
+
+294
+00:32:40,080 --> 00:32:45,920
+de l'autre côté. Il y a comme 10 personnes que vous voulez voir entre les deux. Comme, "Arrête, je veux parler
+
+295
+00:32:45,920 --> 00:32:52,880
+à propos de toi. "Oh, je sais. Pablo et Yuri ont présenté comme des bananes. Et puis Lukas a posé la question,
+
+296
+00:32:52,880 --> 00:32:57,840
+"Tout comme une banane." Et puis Guido est également venu comme une banane. Merci pour ce que vous faites
+
+297
+00:32:57,840 --> 00:33:09,280
+pour le PSR. Veuillez ne pas démissionner. Continuez à le faire pour toujours. Levez la main si vous avez fait
+
+298
+00:33:09,280 --> 00:33:19,920
+Réagir pour cela. Levez la main si vous souhaitez revenir. Allez revenir à mon téléphone. D'accord,
+
+299
+00:33:19,920 --> 00:33:29,520
+bien. Pour mémoire, 100%. J'ai supplié ma mère de m'emmener à Pycon et j'ai rencontré tous mes héros en ligne.
+
+300
+00:33:29,520 --> 00:33:34,880
+Il était ce dictateur bienveillant lointain pour une vie à qui j'avais parlé sur Internet,
+
+301
+00:33:34,880 --> 00:33:41,520
+Mais ici, il était en personne. Et donc j'étais ravi de pouvoir enfin le rencontrer. Alors je pense que tout le monde
+
+302
+00:33:41,520 --> 00:33:48,320
+savait qu'il était un enfant de 15 ans à l'autre bout de ce terminal. Quand Pycon a été détenu
+
+303
+00:33:48,320 --> 00:33:55,040
+À Montréal, l'organisateur m'a demandé si je serais prêt à donner une adresse d'ouverture à la conférence.
+
+304
+00:33:55,040 --> 00:34:01,520
+Eh bien, je suis un orateur un peu rapide et j'ai eu du temps libre. Et je l'utilise juste comme une opportunité
+
+305
+00:34:01,520 --> 00:34:05,840
+pour dire merci. J'aime y penser comme je suis venu pour la langue, mais je suis resté pour la communauté.
+
+306
+00:34:05,840 --> 00:34:10,880
+Je tiens donc à vous remercier personnellement d'avoir fait de cet endroit si merveilleux et un tel
+
+307
+00:34:10,880 --> 00:34:16,400
+Merveilleux groupe de personnes à côtoyer. Alors merci. Heureusement, ça s'est bien passé parce que les gens
+
+308
+00:34:16,400 --> 00:34:23,680
+cité. Je pense que cela parle en quelque sorte à l'éthique centrale de Python. Nous essayons de développer cet outil qui
+
+309
+00:34:23,680 --> 00:34:30,640
+Les gens peuvent utiliser pour leurs besoins pour faire leur travail. Mais la communauté est la vraie force de
+
+310
+00:34:30,640 --> 00:34:33,600
+Python. Ce n'est pas seulement la langue. Ce sont les gens.
+
+311
+00:34:33,600 --> 00:34:44,480
+Il grandissait régulièrement chaque année. Il recevait de plus en plus de téléchargements, de plus en plus
+
+312
+00:34:44,480 --> 00:34:52,160
+les gens qui en utilisent. C'est devenu un langage plus sophistiqué qui était adapté à ce nouveau
+
+313
+00:34:52,160 --> 00:34:59,280
+Paradigme de programmation émergent où le Web lui-même est la plate-forme. Il m'a dit un intéressant
+
+314
+00:34:59,280 --> 00:35:06,320
+Numéro qui m'a fait réaliser que la communauté des utilisateurs de Python était déjà beaucoup plus grande que je ne l'avais estimé
+
+315
+00:35:06,320 --> 00:35:14,080
+Parce qu'il a dit Guido, vous ne connaissez pas les numéros de vente des livres Python. Mais je suis Tim O'Reilly.
+
+316
+00:35:14,080 --> 00:35:20,720
+Je publie les deux plus importants et je connais les chiffres de vente et ils sont fantastiques.
+
+317
+00:35:20,720 --> 00:35:27,600
+Je ne sais pas s'il avait autant d'enthousiasme dans sa voix alors, mais il partageait ce nouveau pour moi
+
+318
+00:35:27,600 --> 00:35:36,080
+Fait important qui m'a fait réaliser, oh mon Dieu, Python a tendance à obtenir des pointes quand certains
+
+319
+00:35:36,080 --> 00:35:41,840
+Spécialités, je suppose que vous pourriez dire, ramasser la langue et décider que c'est une chose qui
+
+320
+00:35:41,840 --> 00:35:48,720
+Ils veulent utiliser dans leur région. Tout le monde voulait faire des choses avec le World Wide Web et Python
+
+321
+00:35:48,720 --> 00:35:55,680
+est devenu une plate-forme vraiment puissante pour faire non seulement des pages Web, mais des serveurs Web et
+
+322
+00:35:55,680 --> 00:36:00,000
+Services et soudain, nous avons eu une augmentation des personnes venant du monde du Web.
+
+323
+00:36:00,000 --> 00:36:12,160
+Je pense que Dropbox a été l'une de leurs premières sociétés à commencer à construire à Python et à atteindre des millions de
+
+324
+00:36:12,160 --> 00:36:18,160
+utilisateurs. Mon nom est Drew et je vous montrerai une visite rapide de Dropbox qui est une nouvelle façon de stocker
+
+325
+00:36:18,160 --> 00:36:23,200
+et partager des fichiers en ligne. Python avait été largement considéré comme un langage de script que vous exécutez sur le
+
+326
+00:36:23,200 --> 00:36:28,240
+arrière ou peut-être dans un cadre académique ou dans un cadre scientifique, mais pas vraiment pour
+
+327
+00:36:28,240 --> 00:36:33,120
+Logiciel de bureau de production que vous expédiez à des millions de personnes. Mais je viens de commencer à écrire
+
+328
+00:36:33,120 --> 00:36:37,440
+Python et espérant qu'aucun des barrages routiers ne me ferait complètement exploser. Vous pouvez développer
+
+329
+00:36:37,440 --> 00:36:42,320
+programmes beaucoup plus rapidement dans Python parce que c'est une langue de niveau supérieur et c'est très propre,
+
+330
+00:36:42,320 --> 00:36:48,160
+un langage facile et nous pourrions donc être beaucoup plus compétitifs que les autres entreprises qui écrivaient
+
+331
+00:36:48,160 --> 00:36:54,240
+avec Java ou C ++ ou Perl. Même à l'époque, nous étions en concurrence avec les Googles et les microsofts
+
+332
+00:36:54,240 --> 00:36:59,440
+du monde et vous savez que nos chances ne semblaient pas très bonnes, nous avions donc besoin de toute l'aide que nous pouvons obtenir.
+
+333
+00:36:59,440 --> 00:37:05,760
+Google avait cette grande équipe comme une centaine de programmeurs C ++ essayant de faire un site d'hébergement vidéo
+
+334
+00:37:05,760 --> 00:37:10,000
+Et ils ne pourraient jamais suivre cette petite chose là-bas appelée YouTube et ils ne le feraient pas
+
+335
+00:37:10,000 --> 00:37:16,000
+Regardez, il n'y avait que quelques personnes qui écrivaient Python. Python a fini par être un multiplicateur de grosse force
+
+336
+00:37:16,000 --> 00:37:22,080
+Sur nos efforts et aucun autre langage que nous considérons avait quelque chose de proche de ce type de capacité.
+
+337
+00:37:22,080 --> 00:37:33,040
+Le fait que la science des données est soudainement devenue une chose que vous avez dû faire combinée avec le fait
+
+338
+00:37:33,040 --> 00:37:41,600
+Ce Python était en quelque sorte bien positionné pour faire des trucs de science des données signifiait une énorme quantité de nouveaux
+
+339
+00:37:41,600 --> 00:37:56,240
+Les utilisateurs de Python ont coulé. Ce qui commençait à se produire dans le délai de 2009-2010 que nous voyions
+
+340
+00:37:56,240 --> 00:38:02,400
+De plus en plus de nos offres de conseil liées à l'utilisation de Python ne remplacent pas vraiment Matlab
+
+341
+00:38:02,400 --> 00:38:09,040
+ou les choses de type d'ingénierie, mais en utilisant Python pour effectuer le traitement des données. Nous n'avons pas appelé les données
+
+342
+00:38:09,040 --> 00:38:12,560
+Science à l'époque, mais c'était ce genre de travail, c'était la modélisation des choses d'analyse prédictive
+
+343
+00:38:12,560 --> 00:38:17,600
+comme ça. C'est l'époque de Hadoop le temps du Big Data au moment de l'étincelle et des gens faisaient
+
+344
+00:38:17,600 --> 00:38:23,360
+Java à grande échelle. Nous commencions à faire beaucoup plus de travail de consultation dans le secteur financier et nous serions
+
+345
+00:38:23,360 --> 00:38:27,760
+Entrez dans ces grandes entreprises très bien capitalisées et ils utilisaient Python pour faire des affaires
+
+346
+00:38:27,760 --> 00:38:32,720
+informatique. J'ai réalisé bien si c'est un groupe de recherche ici en faisant de la recherche scientifique et
+
+347
+00:38:32,720 --> 00:38:38,480
+Ils n'ont pas d'argent et ils utilisent une chose open source, je l'obtiens, mais si vous avez raison JP Morgan qui
+
+348
+00:38:38,480 --> 00:38:43,440
+a beaucoup d'argent et ils ramassent et utilisent ces outils scientifiques et ils l'adorent
+
+349
+00:38:43,440 --> 00:38:48,960
+réalisé que nous n'avions pas seulement une alternative gratuite bon marché, nous avions en fait quelque chose qui était
+
+350
+00:38:48,960 --> 00:38:54,080
+innovant et cela faisait quelque chose d'assistance unique. Peter et moi avons fini par partir et pensé
+
+351
+00:38:54,080 --> 00:39:02,080
+et démarrer une autre entreprise. Nous avons commencé comme l'analyse du continuum en fait et sa vision devait évoluer
+
+352
+00:39:02,080 --> 00:39:08,880
+Numpy et pandas à de grands ensembles de données et aux grands grappes. Nous avons rapidement rencontré un simple problème très
+
+353
+00:39:08,880 --> 00:39:13,760
+rapidement mais un problème très ennuyeux. Les gens ne pouvaient même pas installer le logiciel nécessaire pour s'exécuter
+
+354
+00:39:13,760 --> 00:39:20,320
+Tous ces trucs Python. La chose à propos du Python Scientific and Data Stack est que tous ces éléments
+
+355
+00:39:20,320 --> 00:39:24,320
+Différentes bibliothèques sont très différentes des bibliothèques de développement Web car ces données
+
+356
+00:39:24,320 --> 00:39:29,120
+Les bibliothèques sont souvent soutenues par une très grande quantité de C ++ complexe, FORTRAN, d'autres types de logiciels
+
+357
+00:39:29,120 --> 00:39:35,520
+modules et construire correctement de ceux-ci font du travail. Pour les construire correctement sur chaque opération
+
+358
+00:39:35,520 --> 00:39:40,720
+Le système prend encore plus de travail, puis pour les construire afin qu'ils puissent réellement être connectés ensemble
+
+359
+00:39:40,720 --> 00:39:45,920
+Cela vous oblige à faire rationaliser tout ce système de construction. Et donc la toute première chose que nous avons faite
+
+360
+00:39:45,920 --> 00:39:50,000
+C'était comme faire une distribution de Python pour faciliter l'installation de l'installation. Beaucoup de données
+
+361
+00:39:50,000 --> 00:39:54,400
+Science Python People Ils n'ont même pas utilisé le python normal qu'ils utilisent cette distribution Anaconda Python.
+
+362
+00:39:54,400 --> 00:39:58,320
+Une sorte de blague stupide que j'ai trouvé à un moment donné, j'étais essentiellement Python pour les mégadonnées
+
+363
+00:39:58,320 --> 00:40:05,280
+C'est donc un gros serpent alors Anaconda. Après quelques années, nous avons continué à des conférences et à aller à
+
+364
+00:40:05,280 --> 00:40:10,240
+Les lieux et les gens ne savaient pas qui nous étions, mais l'instant que nous avons mentionné que nous faisons Anaconda
+
+365
+00:40:10,240 --> 00:40:14,480
+Ils diraient oh ouais bien sûr j'aime Anaconda ça utilise tout le temps, donc après ça s'est produit
+
+366
+00:40:14,480 --> 00:40:19,680
+Comme une millième de fois, nous avons dit d'accord, peut-être que nous devrions renommer la société Anaconda. L'ingénierie des données est devenue
+
+367
+00:40:19,680 --> 00:40:27,760
+Une discipline où Python était incroyablement enraciné. C'était Python et R et au fil du temps les données de Python
+
+368
+00:40:27,760 --> 00:40:32,640
+La bibliothèque d'analyse est prise dans le complot de la bibliothèque a commencé à rattraper ce que r avait et ensuite
+
+369
+00:40:32,640 --> 00:40:39,120
+Les gens ont réalisé bien avec Python, je peux travailler et terminer avec mes données contre R très bon
+
+370
+00:40:39,120 --> 00:40:44,240
+Analyse des données mais pas en quelque sorte avec l'étape de collecte des données et divers autres étapes.
+
+371
+00:40:44,240 --> 00:40:47,840
+Je me souviens être allé à une conférence Python à un moment donné, j'étais comme s'il y en avait tellement
+
+372
+00:40:47,840 --> 00:40:52,880
+Les gens de Science aiment ici où tous les développeurs Web Ce sont tous des pipelines de données de données et des trucs.
+
+373
+00:40:52,880 --> 00:40:56,400
+Je ne veux pas être modeste à ce sujet parce que c'était un effort collectif pour toute la communauté
+
+374
+00:40:56,400 --> 00:41:01,520
+Mais je pense que ce que nous avons fait chez Anaconda non seulement en faisant le programme d'installation du logiciel qui en a fait un
+
+375
+00:41:01,520 --> 00:41:05,920
+cliquez pour que les gens soient simplement courir mais aussi pour faire passer les conférences et construire cette communauté et
+
+376
+00:41:05,920 --> 00:41:12,880
+tout était vraiment critique. Ce sont des contributions incroyablement importantes. Je pense que nous
+
+377
+00:41:12,880 --> 00:41:15,760
+Rendu Python super populaire, je pense que nous l'avons fait.
+
+378
+00:41:24,400 --> 00:41:29,360
+Eh bien, je me souviens avoir entendu un de mes amis que Guido Van Rossum travaillait chez Google
+
+379
+00:41:29,360 --> 00:41:37,520
+Et que quand j'y ai pensé, je suis comme attendre ouais guido je suppose que je travaille dans une entreprise normale et
+
+380
+00:41:37,520 --> 00:41:42,880
+Je ne me souviens pas des circonstances exactes, mais je pense que j'ai eu une introduction à lui ou à moi
+
+381
+00:41:42,880 --> 00:41:49,200
+Je pense peut-être que je viens de lui avoir envoyé un e-mail disant hé grand fan de votre travail et c'est comme un courrier des fans
+
+382
+00:41:49,200 --> 00:41:55,680
+Fondamentalement et il a répondu et nous avons déjeuné, je veux dire qu'il est un de mes héros et il était totalement sympathique
+
+383
+00:41:55,680 --> 00:42:02,960
+et accessible et à ce discours a été révélé que Dropbox a été entièrement écrit en Python tous les deux
+
+384
+00:42:02,960 --> 00:42:07,920
+Le client et le serveur et c'était excitant. Il était intéressé par ce que nous faisions avec Python
+
+385
+00:42:07,920 --> 00:42:13,760
+Et je pense que nous étendons la langue et le temps d'exécution de manière intéressante. Il m'a approché
+
+386
+00:42:13,760 --> 00:42:20,720
+Encore une fois et a dit que nous aimerions vraiment que vous travailliez pour nous et puis à ma surprise et nous ravis
+
+387
+00:42:20,720 --> 00:42:26,960
+a fini par rejoindre l'équipe Dropbox, ce qui était super excitant pour nous tous. J'y suis resté pendant sept
+
+388
+00:42:26,960 --> 00:42:33,440
+Des années, nous avons fait des choses plus importantes pour Python que je ne l'ai fait pendant sept ans chez Google, je pense.
+
+389
+00:42:33,440 --> 00:42:38,400
+Je pense qu'il a eu un grand impact sur le reste de l'équipe que vous connaissez, voici quelqu'un qui est l'un des
+
+390
+00:42:38,400 --> 00:42:44,880
+Icônes de l'informatique mais vous ne le sauriez jamais juste à partir de son, vous savez comment il insigne au bureau
+
+391
+00:42:44,880 --> 00:42:51,680
+Chaque jour et je pense que j'ai donné un très bon exemple en termes d'être super humble et curieux et
+
+392
+00:42:51,680 --> 00:42:58,000
+Friendly vous savez qu'il est difficile pour moi de penser à quelqu'un qui a eu plus d'impact avec un ego inférieur.
+
+393
+00:43:00,240 --> 00:43:09,120
+Commençons par la première plaque d'immatriculation Python. Désolé c'était ma voiture où je vivais en Virginie
+
+394
+00:43:09,120 --> 00:43:15,120
+Et il y avait une boîte sur l'application Désolé juste où je suis allé l'autre aussi.
+
+395
+00:43:15,120 --> 00:43:23,360
+Voulez-vous une plaque d'immatriculation personnalisée? J'ai donc réussi à obtenir Python en Virginie et en Californie Python
+
+396
+00:43:23,360 --> 00:43:31,120
+a été longtemps pris comme quelqu'un dans la Silicon Valley a probablement une plaque d'immatriculation Python quelque part
+
+397
+00:43:31,120 --> 00:43:36,960
+Donc, le mieux que je pouvais obtenir était Py3K, ce que je pensais être assez mignon de toute façon.
+
+398
+00:43:36,960 --> 00:43:46,960
+Il est devenu de plus en plus populaire et les gens ont commencé à penser à des défauts dans la langue.
+
+399
+00:43:46,960 --> 00:43:51,840
+Il y avait beaucoup d'idées flottant autour des changements de la communauté de développement de base que vous pouviez
+
+400
+00:43:51,840 --> 00:43:55,920
+faire à la langue que les gens pensaient être des améliorations majeures. Le seul problème avec eux
+
+401
+00:43:55,920 --> 00:44:01,680
+était qu'ils casseraient le vieux code Python qui existait actuellement. Une partie de cela s'est probablement enfui
+
+402
+00:44:01,680 --> 00:44:14,400
+de nous un peu avec le recul. Nous avons sorti Python 3.0 en décembre 2007. Je me souviens parce que
+
+403
+00:44:14,400 --> 00:44:20,560
+J'étais en fait entré sous Guido à l'époque. Nous donnions aux gens environ cinq ans je pense
+
+404
+00:44:20,560 --> 00:44:25,520
+Pour faire la transition et tout le monde pensait que c'était tout à fait généreux extraordinairement généreux
+
+405
+00:44:25,520 --> 00:44:30,720
+être totalement sur Python 3 dans quelques années seulement. C'est le meilleur pour la langue à long terme que nous allons
+
+406
+00:44:30,720 --> 00:44:34,080
+faire ces changements la communauté est toujours avec nous, nous pensons qu'ils viendront
+
+407
+00:44:34,080 --> 00:44:38,880
+ce voyage aussi. Nous étions très naïfs à ce sujet et ils nous ont fait savoir.
+
+408
+00:44:38,880 --> 00:44:47,520
+La communauté a dit que cela ne valait pas la peine. Tuez-le, ne le faites pas, ça ne fonctionnera pas.
+
+409
+00:44:48,720 --> 00:44:52,480
+Cela comprenait des personnes très notables dans la communauté.
+
+410
+00:44:52,480 --> 00:45:14,160
+Salut, je m'appelle Armin. Vous connaissez peut-être certaines des bibliothèques Python que j'ai écrites
+
+411
+00:45:14,160 --> 00:45:20,080
+Et vous pourriez même en utiliser certains. La transition Python 2 à Python 3. Au départ, c'est arrivé
+
+412
+00:45:20,080 --> 00:45:24,080
+Très progressivement sur plusieurs années. Il y avait la version que tout le monde a utilisé et il y avait une sorte de
+
+413
+00:45:24,080 --> 00:45:28,160
+La version qui a décidé de construire que personne n'a utilisé. Les gens ne voulaient pas faire l'effort
+
+414
+00:45:28,160 --> 00:45:34,480
+Parce que leur code a fonctionné, vous savez pourquoi le réécrire. Il est très difficile de mélanger Python 2 et 3.
+
+415
+00:45:37,920 --> 00:45:44,560
+Bien sûr. Je n'ai donc pas bougé et beaucoup de gens n'ont pas bougé. Il pensait qu'il y avait une probabilité que
+
+416
+00:45:44,560 --> 00:45:51,360
+Il n'ira nulle part. Cela ressemblait beaucoup plus à une décision descendante qu'à n'importe quelle chose du
+
+417
+00:45:51,360 --> 00:45:58,720
+passé et cette décision de haut en bas, je pense que pour certaines personnes avait l'impression de ne pas inclure le vrai
+
+418
+00:45:58,720 --> 00:46:06,480
+Douleurs de personnes qui avaient une longue queue d'utilisation. Je pense que j'ai gravement sous-estimé comment
+
+419
+00:46:06,480 --> 00:46:15,520
+Python réussi était déjà. Combien de personnes avaient écrit autant de code dans Python 2 que ce serait
+
+420
+00:46:15,520 --> 00:46:21,840
+Difficile pour eux de mettre l'effort pour le traduire dans Python 3. J'ai pensé que le plus controversé
+
+421
+00:46:21,840 --> 00:46:27,760
+La chose était de loin que nous voulions changer la façon dont Unicode était géré. Une façon de dire ces choses
+
+422
+00:46:27,760 --> 00:46:32,800
+sont des cordes et sont des consommables humains. Ce sont des mots que les gens veulent lire et écrire et ceux-ci
+
+423
+00:46:32,800 --> 00:46:36,320
+Les choses sont des octets. Ce sont des choses que les ordinateurs veulent lire et écrire.
+
+424
+00:46:36,320 --> 00:46:44,640
+Nous avons essentiellement fait toutes les chaînes Unicode et nous vous avons fait utiliser un nouveau préfixe B pour les octets.
+
+425
+00:46:44,640 --> 00:46:50,000
+Et c'était incroyablement dérangeant. J'implémenais une bibliothèque WSTI à l'époque
+
+426
+00:46:50,000 --> 00:46:53,680
+Et l'une des choses que vous faites lorsque vous implémentez WSTI, c'est que vous devez analyser
+
+427
+00:46:53,680 --> 00:46:59,440
+Données HTTP. Vous devez analyser les données des cookies et là, c'était toujours un mélange d'octets et Unicode
+
+428
+00:46:59,440 --> 00:47:04,400
+Et c'était très facile de travailler avec Python 2 et c'était incroyablement ennuyeux de travailler sur Python 3 à
+
+429
+00:47:04,400 --> 00:47:11,920
+le moins initialement. Il n'y avait vraiment pas de moyen de convertir votre code Python 2 en Python 3. Les outils
+
+430
+00:47:11,920 --> 00:47:17,840
+n'existait pas. J'ai commencé à écrire un article de blog à ce sujet. Pourquoi je pense que d'une manière que Python 3 fonctionne
+
+431
+00:47:17,840 --> 00:47:35,600
+En ce moment, je ne vois tout simplement pas le mouvement. Il était un membre de la communauté apprécié et à l'époque j'étais
+
+432
+00:47:35,600 --> 00:47:43,680
+en fait assez surpris qu'il attaquait si vicieusement Python 3. J'étais probablement encore plus
+
+433
+00:47:43,680 --> 00:47:48,720
+négatif sur lui que approprié, mais Python est une si bonne course et j'y mette tellement d'énergie.
+
+434
+00:47:48,720 --> 00:47:54,560
+Je faisais partie de la création de cadres Web et de toutes ces bibliothèques. Je me sentais comme pourquoi sommes-nous
+
+435
+00:47:54,560 --> 00:48:01,440
+Ruiner tout cela avec cette décision qui n'avait même pas autant d'avantages? Je n'avais pas apprécié
+
+436
+00:48:01,440 --> 00:48:08,160
+Combien de personnes avaient déjà d'énormes bases de code ou étaient en route pour construire
+
+437
+00:48:08,160 --> 00:48:14,800
+Énormes bases de code. Le retour sur place était que je devais lancer le projet dans Dropbox.
+
+438
+00:48:14,800 --> 00:48:22,880
+Nous avions une route assez longue pour migrer plusieurs millions de lignes de code Python 2. Cinq millions de lignes
+
+439
+00:48:22,880 --> 00:48:29,280
+de code dans le seul serveur et un autre million pour le client. C'est un très grand tas de code
+
+440
+00:48:29,280 --> 00:48:38,720
+pour nous transformer et nous avons donc dû inventer des façons de le faire en morceaux.
+
+441
+00:48:56,000 --> 00:49:02,480
+Un drôle d'autocollant que j'ai trouvé dans ma poche. Il y a un outil Bill appelé Basil. C'est une sorte de gelé
+
+442
+00:49:02,480 --> 00:49:10,640
+Version de Python 2. Alors, ici, l'autocollant dit: "Après la rééducation, ennemi du peuple Python
+
+443
+00:49:10,640 --> 00:49:16,160
+dénoncé leur cours bourgeois, des notions formalistes renoncées comme Turing Exhaustics
+
+444
+00:49:16,160 --> 00:49:24,560
+et a commencé une nouvelle vie en tant que star citoyenne Mark. "Ceci est particulièrement un exemple de l'humour de Benjamin Peterson.
+
+445
+00:49:26,800 --> 00:49:33,120
+J'ai eu la fortune du malheur en fonction de la façon dont vous le voyez être la version Python 2.7
+
+446
+00:49:33,120 --> 00:49:41,280
+Gestionnaire pendant une décennie entière. Nous avons dû ajuster nos plans pour Python 3 et pour Python 2 pour que
+
+447
+00:49:41,280 --> 00:49:47,760
+Il y avait une série plus longue de sorties où ils étaient tous deux de nouvelles versions Python 2 et New Python 3
+
+448
+00:49:47,760 --> 00:49:53,120
+versions. Ce qui a fini par se produire, c'est que la communauté était comme le maintien de 2 et 3 et que
+
+449
+00:49:53,120 --> 00:49:58,400
+a créé beaucoup de fardeau et cela se produit donc pendant la croissance de Numpy. Nous l'avons fait fonctionner
+
+450
+00:49:58,400 --> 00:50:05,040
+Pour Python 2, puis je pense que Python 3, 1 je pense ou 3, 2, nous l'avons également fait fonctionner là-bas mais nous avons vu non
+
+451
+00:50:05,040 --> 00:50:17,680
+adoption. Nous savions que cela allait prendre beaucoup de temps. Nous savions que ça allait être douloureux mais là
+
+452
+00:50:17,680 --> 00:50:22,720
+est léger au bout du tunnel. La communauté a contribué des trucs comme Lib 2 à 3 et d'autres
+
+453
+00:50:23,120 --> 00:50:29,200
+Les outils de migration sont sortis. Benjamin Peterson a écrit 6 qui a vraiment aidé cette transition. Le
+
+454
+00:50:29,200 --> 00:50:35,120
+La langue elle-même est devenue un peu plus compatible en arrière. J'ai finalement plaidé pour ramener
+
+455
+00:50:35,120 --> 00:50:39,680
+le préfixe U sur les chaînes et cela a en fait facilité la rédaction de bases de code unifié pour
+
+456
+00:50:39,680 --> 00:50:44,160
+cibler Python 2 et Python 3. Il y avait un moment où nous avons rendu un très fort
+
+457
+00:50:44,880 --> 00:50:54,560
+déclaration. Il n'y aura jamais de Python 2.8 et Python 3 est l'avenir. Python 3 juste
+
+458
+00:50:54,560 --> 00:51:02,000
+est une meilleure langue et elle s'améliore avec le temps. Python 2 en revanche est une amende
+
+459
+00:51:02,000 --> 00:51:08,720
+langue et cela restera exactement ce que c'est. Pendant longtemps, il y a eu beaucoup de mesures
+
+460
+00:51:08,720 --> 00:51:13,200
+De la quantité d'usage de Python 2, à quel point l'utilisation de Python 3 est là. Je pense que c'était quand Python
+
+461
+00:51:13,200 --> 00:51:19,440
+était à Portland. C'était à peu près quand nous avons commencé à voir comme 50/50. Une fois que 3,4 est sorti, c'est en fait
+
+462
+00:51:19,440 --> 00:51:24,000
+Ajout de certaines fonctionnalités qui étaient intéressantes à des gens comme oh je veux cette capacité papier.
+
+463
+00:51:24,000 --> 00:51:31,760
+Donc pour moi, Python 3.4 était vraiment Python 3.0, puis 3,5 était encore plus important. C'était celui
+
+464
+00:51:31,760 --> 00:51:37,360
+Cela a été largement adopté par Python 3 et au moment où Python 3.5 est sorti, alors c'était clair
+
+465
+00:51:37,360 --> 00:51:41,920
+Ce Python 3 fonctionnerait. Et puis vous avez commencé à faire sortir les entreprises et à donner des conférences comme
+
+466
+00:51:41,920 --> 00:51:44,960
+Le discours d'Instagram qui, je crois, est également important, c'était un gros problème.
+
+467
+00:51:44,960 --> 00:51:53,840
+Oui, vous l'avez bien entendu. Instagram fonctionne complètement sur Python 3 depuis quelques mois.
+
+468
+00:51:53,840 --> 00:51:59,840
+L'ensemble du processus a pris, je dirais environ 9 à 10 mois et je pense qu'Instagram est le plus grand
+
+469
+00:51:59,840 --> 00:52:06,800
+Déploiement de la production pour Python à l'époque. G a donné une très bonne conversation très approfondie expliquant
+
+470
+00:52:06,800 --> 00:52:12,480
+Pourquoi ils l'ont fait. Deux choses principales. Taping et async.io. Comment ils l'ont fait. Nous avons nettoyé toutes les bibliothèques
+
+471
+00:52:12,480 --> 00:52:18,000
+qui ne font pas la migration de Python 2 à 3. Comment vous devez le faire. Test unitaire. Ce qu'ils
+
+472
+00:52:18,000 --> 00:52:23,520
+avait appris pendant le processus. Nous avons également eu de bons gains de performance après notre
+
+473
+00:52:23,520 --> 00:52:31,440
+migration. C'était comme une justification qu'au moins il y avait de grandes entreprises qui prenaient le temps de
+
+474
+00:52:31,440 --> 00:52:37,120
+Faites-le bien et convertissez tout leur code en Python 3 et a pu le faire avec succès.
+
+475
+00:52:37,120 --> 00:52:43,200
+Il a été définitivement bien reçu. Nous avons eu beaucoup de gens en disant que nous voulions vraiment migrer aussi
+
+476
+00:52:43,200 --> 00:52:49,280
+Mais nous n'obtenions pas le genre de soutien que mon équipe ou mon entreprise nous donnait et maintenant je peux
+
+477
+00:52:49,280 --> 00:52:54,800
+Ramenez cela à ma direction et cela a vraiment donné aux gens la confiance dans la migration vers Python 3.
+
+478
+00:52:55,680 --> 00:53:01,600
+C'est devenu comme un regard Instagram peut le faire. Pourquoi ne le faites-vous pas? Instagram obtient des avantages,
+
+479
+00:53:01,600 --> 00:53:06,240
+Nouvelles fonctionnalités, code plus rapide. Pourquoi ne voulez-vous pas aussi cet avantage?
+
+480
+00:53:06,240 --> 00:53:23,760
+Les projets subissent des choses comme ça et Python en a beaucoup appris et il l'a fait en fait
+
+481
+00:53:23,760 --> 00:53:28,720
+Finalement, se retrouver avec Python 3 étant à nouveau un très bon endroit qu'il était sûr à utiliser. Et
+
+482
+00:53:28,720 --> 00:53:33,040
+Il est sûr d'utiliser cela semble bizarre mais comme ce que j'avais l'impression de pouvoir commencer de nouveaux projets sur
+
+483
+00:53:33,040 --> 00:53:39,600
+Python 3 maintenant parce que nous sommes de retour à une situation stable où vous êtes à peu près aussi productif que je me sentais
+
+484
+00:53:39,600 --> 00:53:45,600
+J'étais avec Python 2. J'aime vraiment parler. Mais il était essentiellement temps d'y faire face.
+
+485
+00:53:45,600 --> 00:53:51,920
+Lorsque Python 2.7 a été déclaré qu'il n'y aurait plus de correctifs de sécurité, c'est devenu une sécurité
+
+486
+00:53:51,920 --> 00:53:58,400
+Ce qui était en quelque sorte la poussée finale. Les personnes qui ont fait don de leur travail pour faire cette migration dans le
+
+487
+00:53:58,400 --> 00:54:04,080
+Le monde et la communauté Python plus larges ont finalement fait fonctionner le monde sur Python 3 mais comme je l'ai dit comme
+
+488
+00:54:04,080 --> 00:54:08,640
+Ce fut un processus d'une décennie et je ne pense pas que quiconque prévoyait combien de travail il aurait besoin de
+
+489
+00:54:08,640 --> 00:54:15,440
+Déplacez-vous à Python 3. Je pense que Python est probablement trop grand pour que ce soit par une transition comme ça aujourd'hui.
+
+490
+00:54:15,440 --> 00:54:23,600
+La communauté était peut-être un peu trop grande mais pas trop grande. Je reçois même encore des messages en colère parfois
+
+491
+00:54:23,600 --> 00:54:29,200
+Des gens qui sont comme mon code ont besoin de Python 2.7, vous devez le fournir et je leur dis non.
+
+492
+00:54:29,200 --> 00:54:37,760
+Je n'ai jamais hésité dans mon engagement envers Python 3. C'était une leçon apprise à coup sûr. Pendant longtemps
+
+493
+00:54:37,760 --> 00:54:44,160
+J'ai régulièrement plaisanté
+
+494
+00:54:44,160 --> 00:54:50,560
+transition vers Python 3. Je sentais que je devais cela à la communauté et maintenant le mantra a changé
+
+495
+00:54:50,560 --> 00:54:56,080
+à il n'y aura même jamais un Python 4. Pour être honnête, je ne sais pas combien de personnes à Python
+
+496
+00:54:56,080 --> 00:55:08,720
+Même connaître toute la transition parce que tout cela s'est terminé en 2020, mais c'est derrière nous.
+
+497
+00:55:14,320 --> 00:55:28,640
+D'accord, maintenant nous entrons dans le placard donc il y a le frisbee. C'est le merch le plus unique que j'aie jamais vu
+
+498
+00:55:28,640 --> 00:55:38,400
+lié à Python. Maintenant, voici un t-shirt important. Il dit que Python est pour les filles. J'ai reçu ça
+
+499
+00:55:40,800 --> 00:55:48,000
+de manière anonyme dans le courrier de Google et à ce jour je ne sais pas exactement quelle est l'intention du
+
+500
+00:55:48,000 --> 00:55:53,600
+La norme était. Ils ne se sont jamais révélés du moins pas à moi et je ne sais pas s'il y avait un
+
+501
+00:55:53,600 --> 00:55:59,440
+Intention même mais j'ai en quelque sorte réalisé à ce moment-là qu'il n'y avait pas beaucoup
+
+502
+00:55:59,440 --> 00:56:07,840
+des femmes dans la communauté Python et la communauté l'ont également découvert et l'a corrigé pour le
+
+503
+00:56:07,840 --> 00:56:14,400
+Conférence Python.
+
+504
+00:56:14,400 --> 00:56:19,840
+Cette idée d'être un endroit où les gens d'un large éventail de horizons peuvent apprendre à
+
+505
+00:56:19,840 --> 00:56:26,080
+Programme, bénéficiez de la programmation, recherchez la communauté. Il y avait vraiment une adoption de boule de neige de
+
+506
+00:56:26,080 --> 00:56:34,560
+Ces idées à travers les langues à l'époque. Jessica McKellar regarde les haut-parleurs de Python et dit
+
+507
+00:56:34,560 --> 00:56:40,480
+Il n'y a que 3% qui sont des femmes. Que pouvons-nous faire à ce sujet? Elle était co-organisatrice du plus grand
+
+508
+00:56:40,480 --> 00:56:45,840
+Python Meetup dans le monde à Boston. Elle savait de quoi elle parlait. Ce n'est pas de la science des fusées.
+
+509
+00:56:45,840 --> 00:56:50,240
+C'est comme demander aux gens s'ils intéressent à parler et que nous fournissons juste un peu
+
+510
+00:56:50,240 --> 00:57:02,320
+Un peu de soutien a entraîné un énorme changement dans le volume et la démographie des pourparlers qui ont été soumis.
+
+511
+00:57:02,320 --> 00:57:08,560
+Et puis trois ans plus tard, comme 45% des conférenciers sont des femmes. J'oublie quel était le nombre mais je
+
+512
+00:57:08,560 --> 00:57:15,440
+Je pense que c'était presque même avec des locuteurs masculins. Pycon. J'avais un vieux tweet à ce sujet alors je
+
+513
+00:57:15,440 --> 00:57:20,480
+tiré ça. Il dit bonjour de votre chaise de diversité Pycon. Donc le pourcentage de pourparlers PyCon
+
+514
+00:57:20,480 --> 00:57:33,600
+par les femmes. 2011 C'était 1%, 2012 c'était 7%, 2013, 15%, 2014 et 2015, 33% et 2016, 40%. Les problèmes ont
+
+515
+00:57:33,600 --> 00:57:39,760
+solutions. C'était aussi une histoire très inspirante pour moi. Quelque chose qui était moins inspirant pour moi était
+
+516
+00:57:39,760 --> 00:57:46,800
+qu'au sommet de la langue, il n'y avait pas une femme célibataire dans la pièce et je ne crois pas que nous ayons un
+
+517
+00:57:46,800 --> 00:57:56,560
+commiss femme célibataire envers Core Python. Il n'y avait jamais de mauvaise intention mais malheureusement nous sommes tombés
+
+518
+00:57:56,560 --> 00:58:02,880
+Dans le piège de ne pas faire assez de diversité, tendez la main pour essayer de faire entrer plus de gens.
+
+519
+00:58:02,880 --> 00:58:09,040
+Pour être honnête, c'était beaucoup d'hommes blancs. Donc, Guido voulait changer cela. Je veux au moins deux femmes
+
+520
+00:58:09,040 --> 00:58:16,640
+Core Python Devs au cours de la prochaine année et j'essaierai de les former moi-même si c'est ce qu'il faut.
+
+521
+00:58:17,440 --> 00:58:25,840
+Alors venez me parler. Je crois que l'une des premières personnes qui ont passé cet appel étaient Mariatta.
+
+522
+00:58:25,840 --> 00:58:43,200
+Même si j'ai toujours été passionné par la technologie et la programmation, j'ai aussi senti que ce n'était pas
+
+523
+00:58:43,760 --> 00:58:51,040
+un environnement accueillant pour les femmes. Mes camarades de classe qui ont pris l'informatique sont principalement des hommes.
+
+524
+00:58:51,040 --> 00:58:57,680
+La plupart des professeurs étaient des hommes et au travail, la plupart de mes collègues étaient des hommes et je ne le faisais pas vraiment
+
+525
+00:58:57,680 --> 00:59:04,320
+ont des exemples ou des modèles de modèles de femmes qui réussissent dans l'industrie technologique.
+
+526
+00:59:06,800 --> 00:59:13,600
+Un de mes collègues est allé à Python. Il a vu que lors de cette conférence, il y a cette communauté appelée
+
+527
+00:59:13,600 --> 00:59:21,280
+"Achetez des dames" et je me sentais comme si je voulais les rencontrer.
+
+528
+00:59:33,040 --> 00:59:41,680
+Donc, en 2015, c'est à ce moment-là que j'ai décidé que je voulais aller à Python. Lors de cette conférence, je peux voir beaucoup de
+
+529
+00:59:41,680 --> 00:59:49,680
+femmes parlant et présentant. Lors de ma précédente conférence technologique, tous les conférenciers étaient des hommes, tous les
+
+530
+00:59:49,680 --> 00:59:57,760
+Les conférenciers principaux étaient des hommes, donc c'était vraiment différent. L'un des conférenciers principaux à la même chose
+
+531
+00:59:57,760 --> 01:00:04,640
+La conférence a été Guido VAN RASSEN. Bonjour tout le monde. Heureux de vous voir tous. Je veux rencontrer et voir
+
+532
+01:00:04,640 --> 01:00:09,760
+le créateur du langage de programmation Python et j'essaierai de les former moi-même si c'est ce que c'est
+
+533
+01:00:09,760 --> 01:00:17,360
+Prend. J'ai entendu ce terrain cependant à ce moment-là, je ne pensais pas que c'était quelque chose que je pouvais faire.
+
+534
+01:00:17,360 --> 01:00:23,440
+Je ne contribuais même pas à la communauté Python. Je n'ai pas du tout contribué à l'open source.
+
+535
+01:00:24,560 --> 01:00:29,440
+Je pensais juste que je suis sûr qu'ils trouveront le magazine Women.
+
+536
+01:00:29,440 --> 01:00:40,880
+L'année après mon retour à Python Us et Guido Van Rassen a donné un autre discours.
+
+537
+01:00:40,880 --> 01:00:46,320
+Nous n'avons toujours pas deux développeurs de base féminins. Je pense qu'à ce moment-là, c'est quelque chose vraiment
+
+538
+01:00:46,320 --> 01:00:52,880
+cliqué sur moi comme si je me suis rendu compte qu'il y avait quelque chose en moi qui dit que si personne ne le fait, je le ferai
+
+539
+01:00:52,880 --> 01:01:02,880
+fais-le. J'ai écrit à Guido Van Rassen et je lui ai demandé de l'aide. D'une manière ou d'une autre, je me sentais vraiment effrayée. Je viens
+
+540
+01:01:02,880 --> 01:01:11,680
+Je n'avais pas l'impression que je méritais le mentorat de Guido van Rassen, donc j'ai vraiment hésité à envoyer ceci
+
+541
+01:01:11,680 --> 01:01:18,720
+Envoyez-lui un courriel, mais à la fin, j'ai réalisé que je voulais essayer. J'avais l'impression que c'était une excellente opportunité
+
+542
+01:01:18,720 --> 01:01:32,480
+pour moi. J'ai appuyé sur le bouton Envoyer. J'ai une réponse. Il était très sympathique. Il a commencé à partager des ressources
+
+543
+01:01:32,480 --> 01:01:39,040
+sur la façon de commencer à contribuer à Python. Il a proposé de faire des chats vidéo. Ça a été vraiment
+
+544
+01:01:39,040 --> 01:01:45,760
+utile d'avoir son soutien moral. Nous avons eu une relation de mentorat assez profonde pendant quelques années.
+
+545
+01:01:46,720 --> 01:01:51,920
+Mary a appris le processus de Guido et a continué à contribuer de plus en plus. Beaucoup autour
+
+546
+01:01:51,920 --> 01:01:57,440
+outillage. Elle a vraiment trouvé sa niche en termes d'essayer de la rendre plus facile à développer un processus.
+
+547
+01:01:57,440 --> 01:02:06,080
+C'était effrayant au début. Je ne me sentais tout simplement pas à l'aise de partager mes questions en public. Je ne voulais pas
+
+548
+01:02:06,080 --> 01:02:13,280
+Les gens savent que je ne sais pas comment faire certaines choses. Je ne voulais pas que les gens voient que je suis
+
+549
+01:02:13,280 --> 01:02:21,680
+en fait pas si bon. Mais c'est ainsi que cela fonctionne en open source et la communauté a toujours été
+
+550
+01:02:21,680 --> 01:02:31,520
+gentil et m'a aidé avec mes questions sans dire que vous êtes stupide. Je ne me suis jamais senti comme je
+
+551
+01:02:31,520 --> 01:02:44,400
+était jugé. Je pense que cela commence par Guido. Le fait que Guido était très actif pour apporter
+
+552
+01:02:44,400 --> 01:02:51,040
+Plus de voix dans Python ont absolument rendu Python meilleur et plus fort. Juste la façon dont toute la communauté
+
+553
+01:02:51,040 --> 01:03:00,240
+Les œuvres et ce que nous défendons grâce au leadership de Guido est l'endroit où je veux être. Et je pense
+
+554
+01:03:00,240 --> 01:03:06,720
+C'est vrai pour beaucoup de gens.
+
+555
+01:03:06,720 --> 01:03:18,240
+Environ six, sept mois après avoir commencé à tendre la main à Guido, on m'a recommandé de devenir un python
+
+556
+01:03:18,240 --> 01:03:27,600
+Développeur principal. Il n'y a vraiment pas quatre mois que pour la première fois, il y a une femme.
+
+557
+01:03:27,600 --> 01:03:37,760
+Il y a une femme qui est devenue un développeur Python Core et a gagné ce privilège.
+
+558
+01:03:37,760 --> 01:03:42,400
+La première femme à rejoindre notre équipe et continue d'être là et de participer et
+
+559
+01:03:42,400 --> 01:03:46,720
+Essayez de nous aider et toujours un très bon défenseur pour essayer d'améliorer notre diversité.
+
+560
+01:03:49,120 --> 01:03:56,400
+Maintenant que j'ai vu la caméra, je ne peux même pas y penser. Ma vie a vraiment changé après ça.
+
+561
+01:03:56,400 --> 01:04:01,520
+Beaucoup d'opportunités se sont ouvertes juste parce que je suis un développeur Python Core.
+
+562
+01:04:01,520 --> 01:04:12,480
+Mariatta a ensuite donné son propre ensemble de discussions sur l'importance du mentorat.
+
+563
+01:04:13,200 --> 01:04:23,440
+Lorsque vous n'avez pas de modèles auxquels vous pouvez vous rapporter, vous commencez à croire que vous ne pouvez pas le faire.
+
+564
+01:04:23,440 --> 01:04:34,560
+Salut tout le monde. Je m'appelle Mariatta. Je suis une dame pi. Je dirige Pi Lady's Vancouver. Je aussi
+
+565
+01:04:34,560 --> 01:04:39,760
+aidé avec la con. Il y a dix ans, j'étais également dans cette pièce dans le déjeuner de Pi Lady à
+
+566
+01:04:39,760 --> 01:04:48,480
+Python US 2015. Ce fut un événement qui a changé la vie pour moi. C'est lors de cet événement que j'ai ressenti pour le premier
+
+567
+01:04:48,480 --> 01:04:57,680
+temps dans ma vie en tant que développeur. J'avais l'impression d'appartenir à la technologie parce que je vois 100 femmes dans la pièce
+
+568
+01:04:57,680 --> 01:05:06,800
+avec moi. Je veux juste que d'autres femmes aient des modèles. J'espère que je peux aider à les inspirer
+
+569
+01:05:07,680 --> 01:05:14,640
+et aidez-les. Ces opportunités vous appartiennent également. Tu es toutes la raison pour laquelle je fais ça parce que je
+
+570
+01:05:14,640 --> 01:05:20,800
+Sachez qu'il y a encore beaucoup à faire et je sais ensemble que nous pouvons nous aider et nous soutenir mutuellement.
+
+571
+01:05:20,800 --> 01:05:26,080
+D'accord, je pense que c'est tout. Merci beaucoup à tous.
+
+572
+01:05:29,040 --> 01:05:39,280
+J'ai été si toujours impressionné par la capacité de la communauté Python à avoir
+
+573
+01:05:39,280 --> 01:05:48,880
+et une vraie réflexion et un dialogue sur la façon de s'intensifier et comment le faire avancer d'une manière
+
+574
+01:05:48,880 --> 01:05:54,880
+que je trouve si inspirant et une vision de ce qui est possible dans d'autres communautés et je veux dire que
+
+575
+01:05:54,880 --> 01:06:03,200
+Vraiment sincèrement.
+
+576
+01:06:03,200 --> 01:06:13,600
+Il y avait un nombre toujours croissant de disciplines scientifiques où tout le code était
+
+577
+01:06:13,600 --> 01:06:21,200
+Écrit en python ou beaucoup de celui-ci a été prototypé à Python au moins et ensuite l'étape suivante était
+
+578
+01:06:21,200 --> 01:06:27,760
+Elle apprend des forfaits qui ont commencé avec Tensorflow et ont été suivis plus tard par Pytorch.
+
+579
+01:06:27,760 --> 01:06:35,280
+Pendant longtemps, Python a été vu en quelque sorte comme un langage de script que vous feriez juste petit
+
+580
+01:06:35,280 --> 01:06:41,440
+Des choses dont vous avez besoin pour automatiser et non le code prêt à la production et il n'a donc pas été donné une tonne de
+
+581
+01:06:41,440 --> 01:06:48,240
+l'attention et puis maintenant Aiml a en quelque sorte changé les choses où il est maintenant un moteur d'entreprise.
+
+582
+01:06:48,240 --> 01:06:57,280
+Il fait appel aux personnes qui ne sont pas des programmeurs professionnels mais qui ont besoin d'un logiciel pour effectuer une tâche.
+
+583
+01:06:57,280 --> 01:07:03,200
+Il y a d'autres langues comme R Vous pouvez faire des trucs intéressants, mais Python est vraiment
+
+584
+01:07:03,200 --> 01:07:10,560
+pour AIML ces jours-ci. Python a probablement des siècles de temps d'ingénierie qui est entré
+
+585
+01:07:10,560 --> 01:07:15,920
+Code dans l'écosystème spécifiquement sur ces sujets, donc si vous utilisez Python, vous pouvez instantanément
+
+586
+01:07:15,920 --> 01:07:22,720
+Appuyez sur ces bibliothèques. Meta a un pytorch qui a une API Python incroyable devant les gens
+
+587
+01:07:22,720 --> 01:07:30,000
+peut interagir avec il y a aussi Scipy, Numpy, Numba, Pandas, il y a toute une suite de vraiment
+
+588
+01:07:30,000 --> 01:07:36,000
+outils étendus. Essayer de construire une langue dans un écosystème de langue qui se prête à tous
+
+589
+01:07:36,000 --> 01:07:41,600
+c'est non trivial. Cela a en fait pris une vraie conception réelle pensée et véritable collectif d'écosystème
+
+590
+01:07:41,600 --> 01:07:48,960
+Innovation au cours des décennies. L'arrière de ces outils est généralement C ou FORTRAN ou
+
+591
+01:07:48,960 --> 01:07:56,000
+Une autre langue maternelle qui est beaucoup plus rapide mais qui serait difficile pour quelqu'un avec une IA
+
+592
+01:07:56,000 --> 01:08:05,520
+Contexte pour programmer et il continue d'être utilisé pour tout cela par tous les scientifiques qui se développent
+
+593
+01:08:05,520 --> 01:08:10,720
+modèles et personnes qui forment les modèles qui utilisent les modèles et cela en apporte un autre
+
+594
+01:08:10,720 --> 01:08:23,120
+incrément de la croissance à la communauté Python. Python est une langue fantastique même si vous êtes
+
+595
+01:08:23,120 --> 01:08:29,040
+pas un scientifique. Je ne pense tout simplement pas à la raison au niveau de l'utilisation dramatique sans la science
+
+596
+01:08:29,040 --> 01:08:33,920
+Première histoire d'apprentissage de la machine en science des données Nous avons eu un impact massif dans le monde. Tu sais que je pense
+
+597
+01:08:33,920 --> 01:08:40,400
+Un témoignage de l'avenir de Python est de savoir si vous invitez l'un des LLMS à faire la génération de code aujourd'hui
+
+598
+01:08:40,400 --> 01:08:45,360
+Si c'est frontal, ce sera JavaScript. S'il s'agit d'analyse des données backend, ce sera Python.
+
+599
+01:08:45,360 --> 01:08:52,480
+C'est l'avenir et Python fait partie de cet avenir. Chanceux que j'ai choisi cette langue et
+
+600
+01:08:52,480 --> 01:09:02,480
+Pas un autre. Hey Jago. Bonjour comment allez-vous? J'espère que cela ne vous dérange pas d'être filmé.
+
+601
+01:09:04,320 --> 01:09:10,160
+D'accord. Il me suit. Elle tourne du B-roll pour le documentaire, je pense.
+
+602
+01:09:10,160 --> 01:09:19,520
+J'ai utilisé Python pour la première fois en 1997 ou quelque chose comme ça. Wow, c'est très tôt.
+
+603
+01:09:19,520 --> 01:09:26,320
+Il y a donc 30 images d'animation. Oh wow. J'ai dit à tout le monde qu'il détesterait obtenir la DSA
+
+604
+01:09:26,320 --> 01:09:31,760
+Mais ils l'ont fait quand même. Ouais désolé, la DSA? Prix ​​de service distingué. Je l'ai étiqueté dans le
+
+605
+01:09:31,760 --> 01:09:34,960
+Rapport annuel comme un leader dans la communauté Python une fois et il m'a fait sortir.
+
+606
+01:09:34,960 --> 01:09:41,280
+Vous pouvez le voir, mais néanmoins il fait partie du Conseil de pilotage pendant cinq ans
+
+607
+01:09:41,280 --> 01:09:47,600
+Et il n'était pas leader. J'ai obtenu un emploi d'une conférence Python en 2017. J'ai grandi en Inde,
+
+608
+01:09:47,600 --> 01:09:51,840
+J'ai déménagé en Allemagne, j'ai changé ma vie. Alors je pense que mon python a changé beaucoup de choses pour moi et moi
+
+609
+01:09:51,840 --> 01:09:58,640
+Je voulais juste aimer vous dire gentil pour avoir fait cette langue. C'est très doux. Ouais. Ça vous dérange si je
+
+610
+01:09:58,640 --> 01:10:04,400
+Prenez une photo ou que vous ne l'aimez pas? Je suis vraiment désolé que je n'aime vraiment pas ça et surtout
+
+611
+01:10:04,400 --> 01:10:10,160
+Pas dans des endroits animés. D'accord pas de problème. Je comprends. D'accord. Trouvez-moi dans une ruelle sombre et je le ferai.
+
+612
+01:10:10,160 --> 01:10:20,400
+D'accord. Je comprends. Je me considérais toujours comme le bassiste de Python qui est génial.
+
+613
+01:10:20,400 --> 01:10:25,760
+Vous savez que vous pouvez faire beaucoup, vous pouvez vous amuser et les projecteurs ne sont pas sur vous et j'adore ça.
+
+614
+01:10:25,760 --> 01:10:31,440
+Je ne peux pas imaginer avoir ce genre de projecteur sur vous, vous savez, pendant tant d'années.
+
+615
+01:10:31,440 --> 01:10:37,120
+J'ai entendu une histoire d'un événement Apple BP partageant que Steve Jobs avait refusé leur plus haut
+
+616
+01:10:37,120 --> 01:10:42,880
+veuve parce qu'il a dit qu'il avait ses propres suivants et que nous ne voulons pas avoir ce genre de distraction.
+
+617
+01:10:42,880 --> 01:10:54,160
+Python a toujours été une langue qui a changé. Nous n'avons jamais été une de ces langues qui dit
+
+618
+01:10:54,160 --> 01:10:59,600
+Si vous écrivez du code contre cette version de Python, il s'exécutera pour toujours avec toute nouvelle version du
+
+619
+01:10:59,600 --> 01:11:08,640
+langue. Nous n'avons tout simplement jamais été ces gens. Un PEP est un acronyme pour Python Enhancement
+
+620
+01:11:08,640 --> 01:11:14,960
+proposition. C'est un document écrit par quelqu'un qui veut faire un changement significatif
+
+621
+01:11:14,960 --> 01:11:19,760
+à Python. Fondamentalement, vous essayez de convaincre les gens que c'est une bonne idée. Il serait envoyé
+
+622
+01:11:19,760 --> 01:11:26,080
+pour la discussion pour une liste de diffusion, puis finalement guido en tant que BDFL, le dictateur bienveillant pour
+
+623
+01:11:26,080 --> 01:11:36,960
+La vie déciderait si votre changement allait ou non. Mais les gens ont toujours craint que
+
+624
+01:11:36,960 --> 01:11:42,480
+Le prochain changement sera celui qui change la sensation de la langue. Ça ne conviendra pas
+
+625
+01:11:42,480 --> 01:11:48,000
+Mon cerveau où il ne sera plus accessible. J'ai en fait vu des gens se débarrasser de
+
+626
+01:11:48,000 --> 01:11:53,840
+Des chambres disant que vous ruinez cette langue. Certaines personnes le prennent très, très personnellement et au sérieux.
+
+627
+01:11:53,840 --> 01:12:01,200
+Et l'opérateur Wallace n'était pas différent. Ouais, donc pep, pep, pep 572. Je ne sais pas qui a inventé le
+
+628
+01:12:01,200 --> 01:12:06,000
+Termez l'opérateur Wallace mais si vous tournez en quelque sorte la tête, cela ressemble à un peu de morse.
+
+629
+01:12:06,000 --> 01:12:13,360
+C'était une nouvelle fonctionnalité qui a été proposée, mais c'était aussi un changement de syntaxe. Le
+
+630
+01:12:13,360 --> 01:12:19,360
+L'opérateur de Wallace vous permet de faire des affectations signifiant mettre les valeurs dans des variables dans des endroits où vous
+
+631
+01:12:19,360 --> 01:12:24,880
+Auparavant ne pouvait pas. C'était probablement le changement de langue le plus controversé assez étrangement
+
+632
+01:12:24,880 --> 01:12:30,880
+Parce que c'est un peu une chose mineure mais c'est tellement passionné
+
+633
+01:12:30,880 --> 01:12:36,880
+doit être ajouté ou non qu'il a créé un peu un chahut. Quand j'ai vu le Wallace pour la première fois
+
+634
+01:12:36,880 --> 01:12:42,720
+Opérateur, je n'ai pas aimé. Ils se sentaient en quelque sorte un peu non-pythonique pour moi mais j'ai commencé à
+
+635
+01:12:42,720 --> 01:12:48,000
+Jouez avec. Il y avait un cas d'utilisation particulier que j'ai trouvé dans mon propre code que j'étais comme oh
+
+636
+01:12:48,000 --> 01:12:53,920
+Tu sais ce que c'est vraiment assez cool et donc je me disais bien, c'est quelque chose que je ne ferai pas
+
+637
+01:12:53,920 --> 01:12:59,600
+Utilisez très souvent mais quand j'en ai besoin, c'est vraiment génial à avoir et je suis devenu vous connaissez 180 degrés
+
+638
+01:12:59,600 --> 01:13:08,160
+et est devenu fan de celui-ci mais c'était très perturbateur. Les fonctionnalités linguistiques et en particulier la syntaxe peuvent être
+
+639
+01:13:08,160 --> 01:13:14,240
+Une épée à double tranchant afin que le code élégant succinct d'une personne puisse être illisible d'une autre personne
+
+640
+01:13:14,240 --> 01:13:22,560
+puzzle ou un désordre fostiqué. Il y avait des prédictions très fortement exprimées sur la gravité
+
+641
+01:13:22,560 --> 01:13:28,400
+être pour Python et puis juste parce que Python était tellement plus populaire à l'époque il y en a tellement
+
+642
+01:13:28,400 --> 01:13:34,160
+endroits où les gens parlent de Python. Je veux dire Twitter que vous savez à l'époque que tout se passe
+
+643
+01:13:34,160 --> 01:13:39,200
+En public à droite et tout le monde peut en quelque sorte avec un faible effort, attire la tête sur le ring et non
+
+644
+01:13:39,200 --> 01:13:47,200
+Tout le monde va se retenir quand ils le font. J'ai commencé à être de plus en plus
+
+645
+01:13:47,200 --> 01:13:56,080
+confus que le pep 572 était en fait la bonne chose à faire. J'étais le BDFL et j'ai accepté le pep
+
+646
+01:13:58,800 --> 01:14:11,440
+Et le lendemain matin, je me suis réveillé et je me suis senti misérable à cause de toutes les attaques qui s'étaient produites auparavant.
+
+647
+01:14:11,440 --> 01:14:23,680
+Je me suis assis sur mon ordinateur, j'ai écrit un court e-mail et j'ai appuyé sur Send où j'ai annoncé que j'avais démissionné
+
+648
+01:14:23,680 --> 01:14:33,920
+En tant que BDFL et cela a eu un impact incroyable. Personne ne s'attendait à ce que je démissionne et certainement pas
+
+649
+01:14:33,920 --> 01:14:46,160
+Que je rage arrêterais sur cette question, ce qui était essentiellement.
+
+650
+01:14:46,160 --> 01:15:03,200
+Transfert de puissance et maintenant que PEP 572 est terminé, je ne veux jamais avoir à me battre si dur pour
+
+651
+01:15:03,200 --> 01:15:09,920
+Pep et trouvent que tant de gens méprisent mes décisions. Je voudrais me retirer entièrement
+
+652
+01:15:09,920 --> 01:15:16,080
+du processus de décision alors me donnant essentiellement des vacances permanentes d'être BDFL
+
+653
+01:15:16,080 --> 01:15:22,640
+Et vous serez tous seul. Je ne vais pas nommer un successeur alors qu'est-ce que tu vas tous
+
+654
+01:15:22,640 --> 01:15:29,920
+faire? Créez une démocratie, l'anarchie, une dictature, une fédération. Je serai toujours là mais j'essaye
+
+655
+01:15:29,920 --> 01:15:35,280
+Pour vous laisser tous comprendre quelque chose par vous-même, je suis fatigué et j'ai besoin d'une très longue pause.
+
+656
+01:15:35,280 --> 01:15:43,840
+C'était ça. Je n'ai pas lu ça. Je pensais que c'était assez bien écrit.
+
+657
+01:15:43,840 --> 01:15:51,600
+J'aime dire que Mike a sorti son chemin, tu sais comme si je suis sorti, tu les gars
+
+658
+01:15:51,600 --> 01:15:59,520
+Ce fut donc un choc complet et total pour moi oui. Je me sentais vraiment triste à ce sujet. Je souhaite qu'il le ferait
+
+659
+01:15:59,520 --> 01:16:07,760
+ont pris sa retraite dans de meilleures circonstances. Je sentais que j'avais besoin de prendre un pas en quelque sorte à
+
+660
+01:16:07,760 --> 01:16:14,800
+me rétablir. Je pense que beaucoup de gens ont vraiment ressenti pour Guido, vous savez qu'il pourrait être poussé
+
+661
+01:16:14,800 --> 01:16:27,040
+À ce moment-là, comme nous l'avons peut-être laissé tomber pour permettre le vitriol à ce sujet
+
+662
+01:16:27,040 --> 01:16:32,720
+Changez en Python pour pousser vous connaissez quelqu'un que nous avons pris en compte à ce point.
+
+663
+01:16:32,720 --> 01:16:41,840
+Nous percevons tous que c'était comme une occasion capitale ou comme un changement significatif que vous
+
+664
+01:16:41,840 --> 01:16:47,040
+mettrait une marque dans votre chronologie dans le livre d'histoire et dans l'histoire de Python à droite parce que
+
+665
+01:16:47,040 --> 01:16:53,280
+avait été géré sur le modèle BDFL pour son existence entière, donc il y avait un peu d'incertitude
+
+666
+01:16:53,280 --> 01:16:58,080
+Comme cela peut-il fonctionner du tout sans obtenir un sous-quête. Il est un peu évident qu'il est temps pour toi
+
+667
+01:16:58,080 --> 01:17:02,000
+grandir et comprendre par vous-même. Je ne vais pas résoudre ce problème pour vous.
+
+668
+01:17:02,000 --> 01:17:10,880
+Le premier ordre des affaires était de décider comment décider et il s'avère que certaines personnes
+
+669
+01:17:10,880 --> 01:17:15,440
+ont des opinions très fortes sur les systèmes de vote. Les programmeurs aiment se disputer sur les méthodes de vote.
+
+670
+01:17:15,440 --> 01:17:22,000
+Je me souviens avoir pensé que cela ne fonctionnerait pas. Beaucoup de voix fortes, c'est vraiment difficile quand
+
+671
+01:17:22,000 --> 01:17:28,640
+Vous avez des centaines de développeurs principaux et des milliers de personnes en ligne et des millions de personnes dans le
+
+672
+01:17:28,640 --> 01:17:36,160
+Communauté et probablement des milliards de dollars de logiciels qui fonctionnent sur Python. Tu ne peux pas penser
+
+673
+01:17:36,160 --> 01:17:42,240
+Cela parce que cela devient définitivement écrasant. J'avoue pleinement que c'était stressant. Je devais y aller
+
+674
+01:17:42,240 --> 01:17:46,800
+au spécialiste du nez et de la gorge parce que je commençais à étouffer sur ma propre gorge de
+
+675
+01:17:46,800 --> 01:17:52,960
+le stress. Ce n'était pas amusant parce que si nous ne pouvions pas décider comment nous allions décider du projet
+
+676
+01:17:52,960 --> 01:17:59,440
+était fait. Nous l'avons vraiment abordé comme les ingénieurs ringards que nous sommes. À la mode classique Python, nous
+
+677
+01:17:59,440 --> 01:18:03,680
+a écrit un tas de paps. Nous ne voulions pas le précipiter parce que nous savions que nous allions devoir vivre
+
+678
+01:18:03,680 --> 01:18:10,800
+avec cela potentiellement pour toujours. Mais nous avons également réalisé que le monde regardait et n'aimait pas l'idée
+
+679
+01:18:10,800 --> 01:18:14,160
+de ne pas savoir si les signatures vont être exécutées chaque année ou non parce que nous ne pouvions pas
+
+680
+01:18:14,160 --> 01:18:20,000
+Arrêtez de se chamailler entre nous sur la façon de courir nous-mêmes. Les gens ont parrainé différents types de
+
+681
+01:18:20,000 --> 01:18:23,520
+modèles. Je pense qu'il y en avait un qui était comme, choisissons un autre BDFL parce que c'est ce que nous ressentons
+
+682
+01:18:23,520 --> 01:18:29,120
+à l'aise avec et puis il y avait différents types de comités et de conseils et nous avons fini par nous installer
+
+683
+01:18:29,120 --> 01:18:34,480
+sur le comité directeur de cinq personnes. Bonjour, Pycon. Merci beaucoup de nous avoir rejoints.
+
+684
+01:18:34,480 --> 01:18:40,720
+Alors bienvenue dans notre panel avec Python Steering Council. Parce qu'il y a cinq personnes que tu n'as pas
+
+685
+01:18:40,720 --> 01:18:46,480
+avoir le même problème que tout le stress et la responsabilité de prendre ces décisions après
+
+686
+01:18:46,480 --> 01:18:52,880
+sur une personne. Je sentais en fait que cela avait du sens pour moi d'être celui du premier conseil de pilotage
+
+687
+01:18:52,880 --> 01:18:59,040
+Étant donné qu'il n'y avait plus de sentiment aussi brûlé ou attaqué pour fournir une certaine continuité
+
+688
+01:18:59,040 --> 01:19:03,920
+Vous savez comment cela se passe lorsque votre enfant va à l'université
+
+689
+01:19:03,920 --> 01:19:12,000
+Vous n'êtes plus directement impliqué dans leur vie, mais vous n'arrêtez jamais de vous inquiéter et c'est comme ça
+
+690
+01:19:12,000 --> 01:19:23,280
+Je ressens pour Python pour le moment et c'est pourquoi je me suis nommé pour le comité directeur et
+
+691
+01:19:23,280 --> 01:19:30,720
+me voici. Il y a eu des élections pour le Conseil de pilotage de la deuxième année et je me suis d'abord nommé
+
+692
+01:19:30,720 --> 01:19:36,400
+Et puis s'est retiré parce qu'il y avait suffisamment d'autres candidats forts qui n'avaient pas besoin de moi et j'étais
+
+693
+01:19:36,400 --> 01:19:55,680
+Heureux de lâcher prise. La légitimité qui est venue du remplacement qui jaillit
+
+694
+01:19:55,680 --> 01:20:04,480
+de la communauté est essentiel à son acceptation. Il est venu de nous donc c'est accepté par nous.
+
+695
+01:20:05,120 --> 01:20:10,960
+Ça marche. Je pense que cela fonctionne pour nous maintenant. Il peut y avoir un temps dans le futur où il ne fonctionne pas ou
+
+696
+01:20:10,960 --> 01:20:17,360
+Des morceaux ne fonctionnent pas. Vous devez être prêt à évoluer. Le changement est la seule constante universelle
+
+697
+01:20:17,360 --> 01:20:31,600
+de l'univers et donc les choses vont toujours changer et vous devez être prêt et disposé à vous adapter au changement.
+
+698
+01:20:35,440 --> 01:20:43,840
+Cela a définitivement commencé comme un projet de passe-temps. Je pense que je voulais probablement prouver quelque chose à
+
+699
+01:20:43,840 --> 01:20:51,520
+moi-même plus que tout. Cela a dépassé mes attentes les plus folles et continue de le faire.
+
+700
+01:20:51,520 --> 01:21:01,280
+J'entends constamment de personnes dont la vie a été complètement changée par Python et elle a créé
+
+701
+01:21:01,280 --> 01:21:10,080
+Cette communauté incroyable qui était également une sorte de bonus complète sur tout ce que j'avais
+
+702
+01:21:10,080 --> 01:21:18,560
+anticipé. Cette communauté qui a une conférence massive chaque année et des conférences plus petites
+
+703
+01:21:18,560 --> 01:21:27,200
+Dans chaque continent, je pense, sauf l'Antarctique. Il y avait l'une des conférences Python où
+
+704
+01:21:27,200 --> 01:21:32,880
+Il y avait quelques milliers de personnes dans le public. Je me souviens avoir juste regardé autour et aller
+
+705
+01:21:32,880 --> 01:21:42,720
+C'est époustouflant. C'est le moment où je savais que nous avions réalisé quelque chose d'important. Quelque chose
+
+706
+01:21:42,720 --> 01:21:51,520
+Cela a fait une différence dans la vie des gens et dans le monde. Python s'est avéré être beaucoup plus
+
+707
+01:21:51,520 --> 01:21:58,400
+réussi que peut-être que nous le pensons, sauf tout Guido de son équipe. Je pense qu'ils ont toujours cru
+
+708
+01:21:58,400 --> 01:22:03,680
+que c'était l'avenir et bien sûr, c'est maintenant l'un des plus populaires sinon les plus populaires
+
+709
+01:22:03,680 --> 01:22:08,720
+Langage de programmation dans le monde. Il a passé deux semaines à Noël en 1989 à écrire une programmation
+
+710
+01:22:08,720 --> 01:22:12,800
+langue parce qu'il pensait que ce serait amusant comme qui aurait imaginé que ce serait tel
+
+711
+01:22:12,800 --> 01:22:19,920
+Une chose qui change la vie et aussi le monde qui allait avoir fait. Je pense que ça a été formidable pour le monde.
+
+712
+01:22:19,920 --> 01:22:25,680
+Je pense que les gens ont l'impression de pouvoir entrer dans la programmation quand ils n'ont jamais pensé qu'ils le pouvaient.
+
+713
+01:22:25,680 --> 01:22:31,360
+Je pense que cela a rendu la programmation accessible aux gens. Cela fait littéralement partie de la maternelle en grade
+
+714
+01:22:31,360 --> 01:22:38,800
+12 Éducation dans le monde et est sur Mars grâce à être utilisé comme langue de script
+
+715
+01:22:38,800 --> 01:22:43,680
+pour traiter le parachute avec le Perseverance Rover Landing. Comme si c'était difficile de penser à n'importe quoi
+
+716
+01:22:43,680 --> 01:22:48,320
+Cela n'a pas été touché par un code Python quelque part. C'est ahurissant. C'est un important
+
+717
+01:22:48,320 --> 01:22:55,840
+langue. C'est une langue populaire. C'est une langue dynamique et pertinente. Aujourd'hui autant que
+
+718
+01:22:55,840 --> 01:23:00,560
+Dans le passé et je crois autant que ce sera à l'avenir. Programmeurs dans 30 ans
+
+719
+01:23:00,560 --> 01:23:05,840
+Sera comme oh ouais tu sais que j'utilise toujours Python. Tout comme aujourd'hui, les gens utilisent toujours
+
+720
+01:23:05,840 --> 01:23:11,280
+Fortran et C et C ++ et ce sont de vieilles langues que vous connaissez deux dans le schéma des choses.
+
+721
+01:23:12,160 --> 01:23:22,160
+Sans peau, une autre vieille langue. Alors oui.
+
+722
+01:23:40,320 --> 01:23:45,840
+Maintenant, je continue de penser à des blagues étranges. Il y a cette bibliothèque à Python appelée cornichons parce que
+
+723
+01:23:45,840 --> 01:23:52,000
+Pickle est un mot drôle, je suppose. La documentation avait une note de bas de page sur la façon dont vous devriez
+
+724
+01:23:52,000 --> 01:23:59,760
+Imaginez que Guido et Jim reniflent les cornichons.
+
